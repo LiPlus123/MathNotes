@@ -4,6 +4,22 @@
 
 ## 构建
 
+安装好 git，在命令行中执行：
+```bash
+git clone --recursive https://github.com/leanprover-community/mathlib4.git
+```
+请确保有参数 `--recursive`，以便正确克隆包含子模块的仓库。如果没有加 `--recursive`，也可以在克隆后执行以下命令来获取子模块：
+```bash
+git submodule sync
+git submodule update --init --recursive
+```
+
+安装好 LaTeX，Lean4 和 Python 后，进入工程目录。在命令行中执行：
+```bash
+./build.bat
+```
+构建所有。
+
 ## 目录
 
 **数理逻辑**
