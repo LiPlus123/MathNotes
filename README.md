@@ -6,9 +6,9 @@
 
 安装好 git，在命令行中执行：
 ```bash
-git clone --recursive https://github.com/leanprover-community/mathlib4.git
+git clone --recursive https://github.com/LiPlus123/MathNotes.git
 ```
-请确保有参数 `--recursive`，以便正确克隆包含子模块的仓库。如果没有加 `--recursive`，也可以在克隆后执行以下命令来获取子模块：
+请确保有参数 `--recursive`，以便正确克隆依赖的 submodules。如果没有加 `--recursive`，也可以在克隆后执行以下命令来获取子模块：
 ```bash
 git submodule sync
 git submodule update --init --recursive
