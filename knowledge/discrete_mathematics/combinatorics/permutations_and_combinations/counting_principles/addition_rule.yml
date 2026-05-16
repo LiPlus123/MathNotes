@@ -1,0 +1,14 @@
+combinatorics.addition_rule:
+  name: 加法原则
+  type: definition
+  subsection: counting_principles
+  latex: |
+    设 $S_1,S_2,\cdots,S_n$ 是互不相交的有限集，从这些集合中选择一个元素的方式数有：
+    \begin{equation}
+        \Big| \bigcup_{i=1}^n S_i\Big| = \sum_{i=1}^n |S_i|
+        \label{eq:combinatorics.addition_rule}
+    \end{equation}
+  dependent_keypoints:
+  related_keypoints:
+  lean_done: false
+  latex_done: false

@@ -1,0 +1,4 @@
+combinatorics.addition_rule:
+  metadata: ./discrete_mathematics/combinatorics/permutations_and_combinations/counting_principles/addition_rule.yml
+combinatorics.multiplication_rule:
+  metadata: ./discrete_mathematics/combinatorics/permutations_and_combinations/counting_principles/multiplication_rule.yml

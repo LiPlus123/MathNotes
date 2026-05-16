@@ -2,8 +2,8 @@
 setlocal
 
 set "ROOT=%~dp0"
-set "LATEX_DIR=%ROOT%src\latex"
-set "LEAN_DIR=%ROOT%src\lean"
+set "LATEX_DIR=%ROOT%latex"
+set "LEAN_DIR=%ROOT%lean"
 set "LATEX_BUILD_DIR=%ROOT%build\.latex"
 set "LEAN_BUILD_DIR=%ROOT%build\.lake"
 

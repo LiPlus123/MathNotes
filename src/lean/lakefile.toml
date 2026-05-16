@@ -1,9 +1,0 @@
-name = "MathNotes"
-version = "0.1.0"
-buildDir = "../../build/.lake"
-packagesDir = "../../build/.lake/packages"
-defaultTargets = ["math_notes"]
-
-[[lean_exe]]
-name = "math_notes"
-root = "main"

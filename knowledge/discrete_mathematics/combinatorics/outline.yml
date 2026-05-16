@@ -1,0 +1,12 @@
+combinatorics:
+  name: 组合数学
+  sections:
+    - permutations_and_combinations:
+      name: 排列与组合
+      subsections:
+        - counting_principles:
+          name: 计数原理
+        - permutations:
+          name: 排列
+        - combinations:
+          name: 组合
