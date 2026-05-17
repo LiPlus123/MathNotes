@@ -1,0 +1,21 @@
+logic.significance_of_predicate_logic:
+  name: 谓词逻辑的意义
+  type: concept
+  part: mathematical_logic
+  chapter: logic
+  section: predicate_logic
+  subsection: internal_structure_of_atomic_propositions
+  sources:
+    - folder: textbooks/mathematical_logic/logic/逻辑学-第3版-中国人民大学哲学院逻辑学教研室编-中国人民大学哲学院-20260517124112/
+      pages: 110
+      parts: 第五章 谓词逻辑 / 第一节 原子命题的内部结构 / 一、谓词逻辑的意义
+      role: main
+  latex: |
+    谓词逻辑的任务是在命题逻辑和词项逻辑的基础上，进一步分析原子命题的内部结构，以更一般、更有效地处理自然语言中涉及对象、性质、关系与量化的推理。
+  dependent_keypoints:
+    - logic.propositional_inference
+  related_keypoints:
+    - logic.predicate_and_individual_term
+    - logic.quantified_inference
+  lean_done: false
+  latex_done: false

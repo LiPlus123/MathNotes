@@ -1,0 +1,20 @@
+logic.arity_of_predicate:
+  name: 谓词的元数
+  type: concept
+  part: mathematical_logic
+  chapter: logic
+  section: predicate_logic
+  subsection: internal_structure_of_atomic_propositions
+  sources:
+    - folder: textbooks/mathematical_logic/logic/逻辑学-第3版-中国人民大学哲学院逻辑学教研室编-中国人民大学哲学院-20260517124112/
+      pages: 111
+      parts: 第五章 谓词逻辑 / 第一节 原子命题的内部结构 / 二、谓词和个体词
+      role: main
+  latex: |
+    刻画一个客体性质的谓词称为一元谓词，刻画两个客体关系的谓词称为二元谓词，一般地刻画 n 个客体关系的谓词称为 n 元谓词。谓词的元数反映它要求多少个个体词作为位置参数。
+  dependent_keypoints:
+    - logic.predicate_and_individual_term
+  related_keypoints:
+    - logic.relation_as_property_of_property
+  lean_done: false
+  latex_done: false

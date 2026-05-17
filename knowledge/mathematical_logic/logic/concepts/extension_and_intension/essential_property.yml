@@ -1,0 +1,20 @@
+logic.essential_property:
+  name: 本质属性
+  type: concept
+  part: mathematical_logic
+  chapter: logic
+  section: concepts
+  subsection: extension_and_intension
+  sources:
+    - folder: textbooks/mathematical_logic/logic/逻辑学-第3版-中国人民大学哲学院逻辑学教研室编-中国人民大学哲学院-20260517124112/
+      pages: 9-11
+      parts: 第二章 概念 / 第一节 内涵和外延 / 一、反映对象本质属性的思维形式
+      role: main
+  latex: |
+    逻辑学意义上的本质属性，是某类对象的全体成员共同具有且仅为该类对象所具有、足以把该类对象与其他对象区分开的属性。
+  dependent_keypoints: []
+  related_keypoints:
+    - logic.concept
+    - logic.intension_of_concept
+  lean_done: false
+  latex_done: false

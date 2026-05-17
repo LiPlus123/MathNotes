@@ -1,0 +1,21 @@
+logic.hypothetical_proposition:
+  name: 假言命题
+  type: concept
+  part: mathematical_logic
+  chapter: logic
+  section: propositional_logic
+  subsection: compound_propositions
+  sources:
+    - folder: textbooks/mathematical_logic/logic/逻辑学-第3版-中国人民大学哲学院逻辑学教研室编-中国人民大学哲学院-20260517124112/
+      pages: 36-39
+      parts: 第三章 命题逻辑 / 第一节 复合命题 / 三、几种基本的复合命题 / （三）假言命题
+      role: main
+  latex: |
+    假言命题是断定事物情况之间条件关系的复合命题。按照所断定的条件关系不同，可分为充分条件假言命题、必要条件假言命题和充要条件假言命题。
+  dependent_keypoints:
+    - logic.truth_functional_compound_proposition
+  related_keypoints:
+    - logic.sufficient_necessary_and_biconditional_propositions
+    - logic.hypothetical_inference
+  lean_done: false
+  latex_done: false

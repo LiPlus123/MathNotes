@@ -1,0 +1,20 @@
+logic.errors_violating_sufficient_reason:
+  name: 违反充足理由律的逻辑错误
+  type: concept
+  part: mathematical_logic
+  chapter: logic
+  section: logical_laws
+  subsection: law_of_sufficient_reason
+  sources:
+    - folder: textbooks/mathematical_logic/logic/逻辑学-第3版-中国人民大学哲学院逻辑学教研室编-中国人民大学哲学院-20260517124112/
+      pages: 139-140
+      parts: 第六章 逻辑基本规律 / 第四节 充足理由律 / 二、充足理由律的要求和违反充足理由律的逻辑错误
+      role: main
+  latex: |
+    违反充足理由律的典型错误包括“无理由”“理由虚假”和“推不出来”。其中“推不出来”又可表现为形式上的推理无效，或非形式上的理由不相干、夸大相关程度等情形。
+  dependent_keypoints:
+    - logic.requirements_of_law_of_sufficient_reason
+  related_keypoints:
+    - logic.formal_validity_of_inference
+  lean_done: false
+  latex_done: false

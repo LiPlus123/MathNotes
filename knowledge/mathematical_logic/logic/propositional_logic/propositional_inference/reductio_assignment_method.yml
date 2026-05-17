@@ -1,0 +1,21 @@
+logic.reductio_assignment_method:
+  name: 归谬赋值法
+  type: concept
+  part: mathematical_logic
+  chapter: logic
+  section: propositional_logic
+  subsection: propositional_inference
+  sources:
+    - folder: textbooks/mathematical_logic/logic/逻辑学-第3版-中国人民大学哲学院逻辑学教研室编-中国人民大学哲学院-20260517124112/
+      pages: 58-59
+      parts: 第三章 命题逻辑 / 第二节 命题推理 / 三、一般命题推理及其判定 / （二）归谬赋值法
+      role: main
+  latex: |
+    归谬赋值法是假设待判定的蕴涵式前件真而后件假，并据此逐步给命题变项赋值；若赋值过程中必然出现同一变项既真又假的矛盾赋值，则原式是重言式，否则便存在反例赋值，原式不是重言式。
+  dependent_keypoints:
+    - logic.general_propositional_inference
+    - logic.truth_table_method
+  related_keypoints:
+    - logic.normal_form
+  lean_done: false
+  latex_done: false

@@ -1,0 +1,20 @@
+logic.elements_and_rules_of_division:
+  name: 划分的构成要素和规则
+  type: concept
+  part: mathematical_logic
+  chapter: logic
+  section: concepts
+  subsection: division_of_concepts
+  sources:
+    - folder: textbooks/mathematical_logic/logic/逻辑学-第3版-中国人民大学哲学院逻辑学教研室编-中国人民大学哲学院-20260517124112/
+      pages: 19-20
+      parts: 第二章 概念 / 第五节 概念的划分 / 一、划分的结构; 二、划分规则
+      role: main
+  latex: |
+    划分由母项、子项和划分标准构成。正确的划分要求各子项外延之和等于母项，一次划分依据同一标准，子项彼此不相容，并且各子项处于同一层次。
+  dependent_keypoints:
+    - logic.division_of_concept
+  related_keypoints:
+    - logic.incompatible_relation_between_concepts
+  lean_done: false
+  latex_done: false

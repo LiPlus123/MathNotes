@@ -1,0 +1,21 @@
+logic.object_language_and_metalanguage:
+  name: 对象语言与元语言
+  type: concept
+  part: mathematical_logic
+  chapter: logic
+  section: introduction
+  subsection: thought_language_and_logic
+  sources:
+    - folder: textbooks/mathematical_logic/logic/逻辑学-第3版-中国人民大学哲学院逻辑学教研室编-中国人民大学哲学院-20260517124112/
+      pages: 3-4
+      parts: 第二节 思维、语言和逻辑 / 一、思维、语言和逻辑
+      role: main
+  latex: |
+    对象语言是逻辑学直接加以分析的那种语言，元语言则是用来描述、解释和研究对象语言的语言；在具体研究中，两者可以是不同语言，也可以是同一种语言在不同层次上的使用。
+  dependent_keypoints:
+    - logic.relation_between_thought_language_and_logic
+  related_keypoints:
+    - logic.natural_language
+    - logic.symbolic_language
+  lean_done: false
+  latex_done: false

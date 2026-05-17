@@ -1,0 +1,20 @@
+logic.equivocation_and_shift_of_context:
+  name: 混淆概念、偷换论题与偷换语境
+  type: concept
+  part: mathematical_logic
+  chapter: logic
+  section: logical_laws
+  subsection: identity_law
+  sources:
+    - folder: textbooks/mathematical_logic/logic/逻辑学-第3版-中国人民大学哲学院逻辑学教研室编-中国人民大学哲学院-20260517124112/
+      pages: 128-129
+      parts: 第六章 逻辑基本规律 / 第一节 同一律 / 二、同一律的要求和违反同一律的逻辑错误
+      role: main
+  latex: |
+    违反同一律的典型逻辑错误包括：混淆或偷换概念、转移或偷换论题，以及混淆或偷换语境。它们共同表现为在同一思维过程中擅自改变所讨论的概念内涵、论证目标或语境条件。
+  dependent_keypoints:
+    - logic.requirements_of_identity_law
+  related_keypoints:
+    - logic.formal_validity_of_inference
+  lean_done: false
+  latex_done: false

@@ -1,0 +1,22 @@
+logic.relation_as_property_of_property:
+  name: 关系作为属性的属性
+  type: concept
+  part: mathematical_logic
+  chapter: logic
+  section: predicate_logic
+  subsection: properties_of_binary_relations
+  sources:
+    - folder: textbooks/mathematical_logic/logic/逻辑学-第3版-中国人民大学哲学院逻辑学教研室编-中国人民大学哲学院-20260517124112/
+      pages: 122
+      parts: 第五章 谓词逻辑 / 第四节 二元关系的若干性质 / 一、关系的性质:属性的属性
+      role: main
+  latex: |
+    对象的属性本身也可以作为思维对象，因此属性也有其自身的属性。二元关系的自返性、对称性和传递性，就是关系作为属性时所具有的属性。
+  dependent_keypoints:
+    - logic.arity_of_predicate
+  related_keypoints:
+    - logic.reflexivity_of_binary_relation
+    - logic.symmetry_of_binary_relation
+    - logic.transitivity_of_binary_relation
+  lean_done: false
+  latex_done: false

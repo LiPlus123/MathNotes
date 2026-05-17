@@ -1,0 +1,20 @@
+logic.contradictory_and_contrary_relations:
+  name: 概念之间的矛盾关系和对立关系
+  type: concept
+  part: mathematical_logic
+  chapter: logic
+  section: concepts
+  subsection: relations_of_concepts
+  sources:
+    - folder: textbooks/mathematical_logic/logic/逻辑学-第3版-中国人民大学哲学院逻辑学教研室编-中国人民大学哲学院-20260517124112/
+      pages: 14
+      parts: 第二章 概念 / 第三节 概念的关系 / 二、不相容关系
+      role: main
+  latex: |
+    在确定论域下，不相容概念若其外延之和恰好等于论域，则为矛盾关系；若其外延之和小于论域，则为对立关系。矛盾关系对应互补，对立关系则在论域中留有第三种可能。
+  dependent_keypoints:
+    - logic.incompatible_relation_between_concepts
+  related_keypoints:
+    - logic.identical_relation_between_concepts
+  lean_done: false
+  latex_done: false

@@ -1,0 +1,20 @@
+logic.stipulative_and_explanatory_word_definitions:
+  name: 规定的语词定义和说明的语词定义
+  type: concept
+  part: mathematical_logic
+  chapter: logic
+  section: concepts
+  subsection: definition_of_concepts
+  sources:
+    - folder: textbooks/mathematical_logic/logic/逻辑学-第3版-中国人民大学哲学院逻辑学教研室编-中国人民大学哲学院-20260517124112/
+      pages: 17-18
+      parts: 第二章 概念 / 第四节 概念的定义 / 四、语词定义
+      role: main
+  latex: |
+    语词定义可分为规定的语词定义和说明的语词定义。前者人为赋予或精确限定语词的用法，只有适宜与否之分；后者说明语词既有的意义，因而有真伪之分。
+  dependent_keypoints:
+    - logic.verbal_definition
+  related_keypoints:
+    - logic.definition_rule
+  lean_done: false
+  latex_done: false

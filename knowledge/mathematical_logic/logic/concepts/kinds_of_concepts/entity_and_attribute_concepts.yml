@@ -1,0 +1,21 @@
+logic.entity_and_attribute_concepts:
+  name: 实体概念和属性概念
+  type: concept
+  part: mathematical_logic
+  chapter: logic
+  section: concepts
+  subsection: kinds_of_concepts
+  sources:
+    - folder: textbooks/mathematical_logic/logic/逻辑学-第3版-中国人民大学哲学院逻辑学教研室编-中国人民大学哲学院-20260517124112/
+      pages: 12
+      parts: 第二章 概念 / 第二节 概念的种类 / 二、实体概念和属性概念
+      role: main
+  latex: |
+    按所反映对象的类别，概念可分为实体概念和属性概念：对象是实体时形成实体概念，对象是属性时形成属性概念；属性概念又可细分为性质概念和关系概念。
+  dependent_keypoints:
+    - logic.concept
+  related_keypoints:
+    - logic.universal_singular_and_empty_concepts
+    - logic.collective_and_non_collective_concepts
+  lean_done: false
+  latex_done: false

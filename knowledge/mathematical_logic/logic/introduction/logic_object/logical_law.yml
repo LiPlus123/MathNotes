@@ -1,0 +1,26 @@
+logic.logical_law:
+  name: 逻辑规律
+  type: concept
+  part: mathematical_logic
+  chapter: logic
+  section: introduction
+  subsection: logic_object
+  sources:
+    - folder: textbooks/mathematical_logic/logic/逻辑学-第3版-中国人民大学哲学院逻辑学教研室编-中国人民大学哲学院-20260517124112/
+      parts: 第一节 逻辑学的对象 / 二、思维形式的规律性
+      role: main
+    - url: https://zh.wikipedia.org/wiki/%E9%80%BB%E8%BE%91
+      parts: 概論; 形式邏輯
+      role: reference
+  latex: |
+    逻辑规律是这样一类思维形式：无论把什么具体内容代入其中，都表达真实的思想内容，因此它们能够作为判定演绎推理形式正确性的基础标准。
+  dependent_keypoints:
+    - logic.thought_form
+  related_keypoints:
+    - logic.logical_contradiction
+    - logic.logic_research_object
+    - logic.common_tautological_forms
+    - logic.law_of_noncontradiction
+    - logic.law_of_excluded_middle
+  lean_done: false
+  latex_done: false

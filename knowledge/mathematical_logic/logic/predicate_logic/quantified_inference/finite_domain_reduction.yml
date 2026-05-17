@@ -1,0 +1,21 @@
+logic.finite_domain_reduction:
+  name: 有穷个体域中的归约判定
+  type: concept
+  part: mathematical_logic
+  chapter: logic
+  section: predicate_logic
+  subsection: quantified_inference
+  sources:
+    - folder: textbooks/mathematical_logic/logic/逻辑学-第3版-中国人民大学哲学院逻辑学教研室编-中国人民大学哲学院-20260517124112/
+      pages: 121
+      parts: 第五章 谓词逻辑 / 第三节 量化推理
+      role: main
+  latex: |
+    在有穷个体域条件下，带量词的命题形式可以等值地归约为命题逻辑中的真值形式：全称式归约为有限合取式，存在式归约为有限析取式。因此，有穷个体域中的量化推理有效性是能行可判定的。
+  dependent_keypoints:
+    - logic.domain_of_discourse
+    - logic.decidability_of_quantified_inference
+  related_keypoints:
+    - logic.truth_table_method
+  lean_done: false
+  latex_done: false

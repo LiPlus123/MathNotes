@@ -1,0 +1,24 @@
+logic.traditional_and_modern_logic:
+  name: 传统逻辑与现代逻辑
+  type: concept
+  part: mathematical_logic
+  chapter: logic
+  section: introduction
+  subsection: thought_language_and_logic
+  sources:
+    - folder: textbooks/mathematical_logic/logic/逻辑学-第3版-中国人民大学哲学院逻辑学教研室编-中国人民大学哲学院-20260517124112/
+      pages: 5-6
+      parts: 第二节 思维、语言和逻辑 / 三、传统逻辑和现代逻辑
+      role: main
+    - path: https://zh.wikipedia.org/wiki/%E9%80%BB%E8%BE%91
+      parts: 分类; 形式邏輯; 非形式邏輯
+      role: reference
+  latex: |
+    传统逻辑和现代逻辑在研究正确思维这一总目标上具有连续性，但二者的主要差别在于工具语言和形式化程度：传统逻辑主要借助自然语言表述，现代逻辑则更多依赖符号语言和形式化方法。
+  dependent_keypoints:
+    - logic.symbolic_language
+  related_keypoints:
+    - logic.formal_system
+    - logic.natural_language
+  lean_done: false
+  latex_done: false

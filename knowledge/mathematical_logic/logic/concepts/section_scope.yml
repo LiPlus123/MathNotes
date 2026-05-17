@@ -1,0 +1,48 @@
+extension_and_intension:
+  description: 说明概念的本质属性表达方式，以及内涵与外延的基本对应关系。
+  sources:
+    - folder: textbooks/mathematical_logic/logic/逻辑学-第3版-中国人民大学哲学院逻辑学教研室编-中国人民大学哲学院-20260517124112/
+      pages: 9-11
+      parts: 第二章 概念 / 第一节 内涵和外延 / 一、反映对象本质属性的思维形式; 二、内涵和外延
+      role: main
+  notes_for_extraction: 只围绕“内涵”和“外延”的基础定义展开，不延伸到划分与概括方法。
+kinds_of_concepts:
+  description: 区分普遍、单独、空概念，以及实体、属性、集合与非集合概念。
+  sources:
+    - folder: textbooks/mathematical_logic/logic/逻辑学-第3版-中国人民大学哲学院逻辑学教研室编-中国人民大学哲学院-20260517124112/
+      pages: 11-12
+      parts: 第二章 概念 / 第二节 概念的种类 / 一、普遍概念、单独概念和空概念; 二、实体概念和属性概念; 三、集合概念和非集合概念
+      role: main
+  notes_for_extraction: 以概念分类标准为中心，不展开具体例证。
+relations_of_concepts:
+  description: 说明概念之间的相容与不相容关系，为后续概念划分和推理作铺垫。
+  sources:
+    - folder: textbooks/mathematical_logic/logic/逻辑学-第3版-中国人民大学哲学院逻辑学教研室编-中国人民大学哲学院-20260517124112/
+      pages: 13-14
+      parts: 第二章 概念 / 第三节 概念的关系 / 一、相容关系; 二、不相容关系
+      role: main
+  notes_for_extraction: 只保留关系分类和边界，不引入集合论或图示法。
+definition_of_concepts:
+  description: 说明概念陈述、定义结构、定义方法与定义规则，并区分语词定义。
+  sources:
+    - folder: textbooks/mathematical_logic/logic/逻辑学-第3版-中国人民大学哲学院逻辑学教研室编-中国人民大学哲学院-20260517124112/
+      pages: 15-18
+      parts: 第二章 概念 / 第四节 概念的定义 / 一、概念陈述及其恰当性; 二、定义的结构和方法; 三、定义的规则; 四、语词定义
+      role: main
+  notes_for_extraction: 以定义的合法性与结构要求为边界，不提前写入属加种差以外的扩展内容。
+division_of_concepts:
+  description: 说明概念划分的结构、规则及其与分解的区别。
+  sources:
+    - folder: textbooks/mathematical_logic/logic/逻辑学-第3版-中国人民大学哲学院逻辑学教研室编-中国人民大学哲学院-20260517124112/
+      pages: 19-20
+      parts: 第二章 概念 / 第五节 概念的划分 / 一、划分的结构; 二、划分规则; 三、划分和分解
+      role: main
+  notes_for_extraction: 关注划分规则与层级关系，避免混入分类学之外的命题内容。
+generalization_and_restriction:
+  description: 说明内涵与外延的反变关系，以及限制和概括两种操作。
+  sources:
+    - folder: textbooks/mathematical_logic/logic/逻辑学-第3版-中国人民大学哲学院逻辑学教研室编-中国人民大学哲学院-20260517124112/
+      pages: 20-21
+      parts: 第二章 概念 / 第六节 概括和限制 / 一、内涵与外延的反变关系; 二、限制; 三、概括
+      role: main
+  notes_for_extraction: 只描述从一般到特殊、从特殊到一般的概念操作，不展开推理定理。

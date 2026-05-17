@@ -1,0 +1,21 @@
+logic.reflexivity_of_binary_relation:
+  name: 二元关系的自返性
+  type: concept
+  part: mathematical_logic
+  chapter: logic
+  section: predicate_logic
+  subsection: properties_of_binary_relations
+  sources:
+    - folder: textbooks/mathematical_logic/logic/逻辑学-第3版-中国人民大学哲学院逻辑学教研室编-中国人民大学哲学院-20260517124112/
+      pages: 122-123
+      parts: 第五章 谓词逻辑 / 第四节 二元关系的若干性质 / 二、二元关系的若干性质 / （一）自返性
+      role: main
+  latex: |
+    就自返性而言，二元关系可分为三类：若任一对象都与自身具有该关系，则为自返关系；若任一对象都不与自身具有该关系，则为反自返关系；若有的对象与自身有该关系而有的对象没有，则为不定自返关系。
+  dependent_keypoints:
+    - logic.relation_as_property_of_property
+  related_keypoints:
+    - logic.symmetry_of_binary_relation
+    - logic.transitivity_of_binary_relation
+  lean_done: false
+  latex_done: false

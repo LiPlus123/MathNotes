@@ -1,0 +1,21 @@
+logic.quantifier:
+  name: 量词
+  type: concept
+  part: mathematical_logic
+  chapter: logic
+  section: predicate_logic
+  subsection: internal_structure_of_atomic_propositions
+  sources:
+    - folder: textbooks/mathematical_logic/logic/逻辑学-第3版-中国人民大学哲学院逻辑学教研室编-中国人民大学哲学院-20260517124112/
+      pages: 111-112
+      parts: 第五章 谓词逻辑 / 第一节 原子命题的内部结构 / 三、量词
+      role: main
+  latex: |
+    量词通过对个体变项进行量化，使包含个体变项的谓词表达式获得真假。全称量词断定所有对象都满足相关谓词，存在量词断定至少有一个对象满足相关谓词。
+  dependent_keypoints:
+    - logic.predicate_and_individual_term
+  related_keypoints:
+    - logic.domain_of_discourse
+    - logic.bound_and_free_individual_variables
+  lean_done: false
+  latex_done: false

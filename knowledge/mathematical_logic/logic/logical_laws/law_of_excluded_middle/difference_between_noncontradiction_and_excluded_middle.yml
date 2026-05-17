@@ -1,0 +1,21 @@
+logic.difference_between_noncontradiction_and_excluded_middle:
+  name: 矛盾律和排中律的区别
+  type: concept
+  part: mathematical_logic
+  chapter: logic
+  section: logical_laws
+  subsection: law_of_excluded_middle
+  sources:
+    - folder: textbooks/mathematical_logic/logic/逻辑学-第3版-中国人民大学哲学院逻辑学教研室编-中国人民大学哲学院-20260517124112/
+      pages: 138
+      parts: 第六章 逻辑基本规律 / 第三节 排中律 / 三、矛盾律和排中律的区别
+      role: main
+  latex: |
+    矛盾律和排中律的区别主要体现在三方面：适用范围不同，矛盾律适用于矛盾命题和反对命题，而排中律只适用于矛盾命题；逻辑要求不同，前者禁止同真，后者禁止同假；违反时所对应的错误类型也不同。
+  dependent_keypoints:
+    - logic.law_of_noncontradiction
+    - logic.law_of_excluded_middle
+  related_keypoints:
+    - logic.contradictory_and_contrary_propositions
+  lean_done: false
+  latex_done: false

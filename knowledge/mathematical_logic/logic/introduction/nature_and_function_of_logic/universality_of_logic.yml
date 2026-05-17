@@ -1,0 +1,20 @@
+logic.universality_of_logic:
+  name: 逻辑学的全人类性
+  type: concept
+  part: mathematical_logic
+  chapter: logic
+  section: introduction
+  subsection: nature_and_function_of_logic
+  sources:
+    - folder: textbooks/mathematical_logic/logic/逻辑学-第3版-中国人民大学哲学院逻辑学教研室编-中国人民大学哲学院-20260517124112/
+      pages: 7-8
+      parts: 第三节 逻辑学的性质和作用 / 一、逻辑学的性质
+      role: main
+  latex: |
+    逻辑学具有全人类性，因为不同民族和地区虽然使用不同语言并处于不同文化背景中，但在有效思维与正确推理上依赖的是可普遍适用的共同逻辑。
+  dependent_keypoints:
+    - logic.logic_research_object
+  related_keypoints:
+    - logic.foundational_character_of_logic
+  lean_done: false
+  latex_done: false

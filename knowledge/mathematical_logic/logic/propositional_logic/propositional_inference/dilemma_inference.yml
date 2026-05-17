@@ -1,0 +1,21 @@
+logic.dilemma_inference:
+  name: 二难推理
+  type: concept
+  part: mathematical_logic
+  chapter: logic
+  section: propositional_logic
+  subsection: propositional_inference
+  sources:
+    - folder: textbooks/mathematical_logic/logic/逻辑学-第3版-中国人民大学哲学院逻辑学教研室编-中国人民大学哲学院-20260517124112/
+      pages: 56
+      parts: 第三章 命题逻辑 / 第二节 命题推理 / 二、几种基本的命题推理 / （四）二难推理
+      role: main
+  latex: |
+    二难推理是由两个假言命题和一个二支选言命题作为前提构成的命题推理。其典型形式是：如果 p 则 r，如果 q 则 r，且 p 或 q，因此 r。
+  dependent_keypoints:
+    - logic.hypothetical_inference
+    - logic.disjunctive_inference
+  related_keypoints:
+    - logic.general_propositional_inference
+  lean_done: false
+  latex_done: false

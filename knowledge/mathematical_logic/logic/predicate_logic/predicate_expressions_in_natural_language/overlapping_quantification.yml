@@ -1,0 +1,21 @@
+logic.overlapping_quantification:
+  name: 重叠量化式
+  type: concept
+  part: mathematical_logic
+  chapter: logic
+  section: predicate_logic
+  subsection: predicate_expressions_in_natural_language
+  sources:
+    - folder: textbooks/mathematical_logic/logic/逻辑学-第3版-中国人民大学哲学院逻辑学教研室编-中国人民大学哲学院-20260517124112/
+      pages: 116-117
+      parts: 第五章 谓词逻辑 / 第二节 自然语言的谓词表达式 / 二、重叠量化式
+      role: main
+  latex: |
+    在一个量化式中出现两个或以上量词时，就得到重叠量化式。不同量词的先后次序和辖域安排会改变表达式的意义，从而区分“每个对象各有一个对应对象”与“存在一个共同对应对象”等不同结构。
+  dependent_keypoints:
+    - logic.quantifier
+    - logic.scope_of_quantifier
+  related_keypoints:
+    - logic.composition_of_quantified_expressions
+  lean_done: false
+  latex_done: false

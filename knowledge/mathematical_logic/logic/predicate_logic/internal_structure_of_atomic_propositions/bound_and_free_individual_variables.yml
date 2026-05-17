@@ -1,0 +1,21 @@
+logic.bound_and_free_individual_variables:
+  name: 约束个体变项和自由个体变项
+  type: concept
+  part: mathematical_logic
+  chapter: logic
+  section: predicate_logic
+  subsection: internal_structure_of_atomic_propositions
+  sources:
+    - folder: textbooks/mathematical_logic/logic/逻辑学-第3版-中国人民大学哲学院逻辑学教研室编-中国人民大学哲学院-20260517124112/
+      pages: 112-113
+      parts: 第五章 谓词逻辑 / 第一节 原子命题的内部结构 / 三、量词
+      role: main
+  latex: |
+    被量词约束的个体变项称为约束个体变项，不被量词约束的称为自由个体变项。含自由个体变项的表达式通常不是命题，而是需要进一步解释或量化的命题形式。
+  dependent_keypoints:
+    - logic.quantifier
+  related_keypoints:
+    - logic.scope_of_quantifier
+    - logic.propositional_form_in_predicate_logic
+  lean_done: false
+  latex_done: false

@@ -1,0 +1,21 @@
+logic.sufficient_necessary_and_biconditional_propositions:
+  name: 充分条件、必要条件和充要条件假言命题
+  type: concept
+  part: mathematical_logic
+  chapter: logic
+  section: propositional_logic
+  subsection: compound_propositions
+  sources:
+    - folder: textbooks/mathematical_logic/logic/逻辑学-第3版-中国人民大学哲学院逻辑学教研室编-中国人民大学哲学院-20260517124112/
+      pages: 36-39
+      parts: 第三章 命题逻辑 / 第一节 复合命题 / 三、几种基本的复合命题 / （三）假言命题 / 2. 充分条件假言命题; 3. 必要条件假言命题; 4. 充要条件假言命题
+      role: main
+  latex: |
+    充分条件假言命题断定“有前件则有后件”，必要条件假言命题断定“无前件则无后件”，充要条件假言命题同时断定前件与后件互为充分必要条件。三者分别对应不同的真假条件与自然语言表达方式。
+  dependent_keypoints:
+    - logic.hypothetical_proposition
+  related_keypoints:
+    - logic.hypothetical_inference
+    - logic.truth_form
+  lean_done: false
+  latex_done: false

@@ -1,0 +1,32 @@
+identity_law:
+  description: 说明同一律的基本含义、要求及其违反所导致的逻辑错误。
+  sources:
+    - path: textbooks/mathematical_logic/logic/逻辑学-第3版-中国人民大学哲学院逻辑学教研室编-中国人民大学哲学院-20260517124112/toc.md
+      pages: 128-129
+      parts: 第六章 逻辑基本规律 / 第一节 同一律 / 一、什么是同一律; 二、同一律的要求和违反同一律的逻辑错误
+      role: main
+  notes_for_extraction: 聚焦同一概念在论证中的稳定性，不加入其他基本规律。
+law_of_noncontradiction:
+  description: 说明命题矛盾与反对、矛盾律的要求、逻辑错误与悖论。
+  sources:
+    - path: textbooks/mathematical_logic/logic/逻辑学-第3版-中国人民大学哲学院逻辑学教研室编-中国人民大学哲学院-20260517124112/toc.md
+      pages: 130-136
+      parts: 第六章 逻辑基本规律 / 第二节 矛盾律 / 一、命题的矛盾和反对; 二、什么是矛盾律; 三、矛盾律的要求和违反矛盾律的逻辑错误; 四、悖论
+      role: main
+  notes_for_extraction: 保持在传统逻辑的矛盾律范围内，不扩展到非经典逻辑。
+law_of_excluded_middle:
+  description: 说明排中律的基本要求，以及它与矛盾律的区别。
+  sources:
+    - path: textbooks/mathematical_logic/logic/逻辑学-第3版-中国人民大学哲学院逻辑学教研室编-中国人民大学哲学院-20260517124112/toc.md
+      pages: 137-138
+      parts: 第六章 逻辑基本规律 / 第三节 排中律 / 一、什么是排中律; 二、排中律的要求和违反排中律的逻辑错误; 三、矛盾律和排中律的区别
+      role: main
+  notes_for_extraction: 只区分排中律与矛盾律，不讨论其他逻辑系统的替代理律。
+law_of_sufficient_reason:
+  description: 说明充足理由律的基本含义、要求以及相关逻辑错误。
+  sources:
+    - path: textbooks/mathematical_logic/logic/逻辑学-第3版-中国人民大学哲学院逻辑学教研室编-中国人民大学哲学院-20260517124112/toc.md
+      pages: 139-140
+      parts: 第六章 逻辑基本规律 / 第四节 充足理由律 / 一、什么是充足理由律; 二、充足理由律的要求和违反充足理由律的逻辑错误
+      role: main
+  notes_for_extraction: 仅记录理由充分性的规范，不进入认识论争议。

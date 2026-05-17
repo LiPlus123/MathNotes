@@ -1,0 +1,21 @@
+logic.quantified_inference_expression:
+  name: 量化推理式
+  type: concept
+  part: mathematical_logic
+  chapter: logic
+  section: predicate_logic
+  subsection: predicate_expressions_in_natural_language
+  sources:
+    - folder: textbooks/mathematical_logic/logic/逻辑学-第3版-中国人民大学哲学院逻辑学教研室编-中国人民大学哲学院-20260517124112/
+      pages: 118-119
+      parts: 第五章 谓词逻辑 / 第二节 自然语言的谓词表达式 / 四、量化推理式
+      role: main
+  latex: |
+    量化推理式是包含量词的推理的符号表达式。其构造方法是分别将前提和结论符号化，再用蕴涵号将前提的合取与结论联结起来，从而显式呈现推理中的量化结构。
+  dependent_keypoints:
+    - logic.categorical_proposition_expression
+    - logic.composition_of_quantified_expressions
+  related_keypoints:
+    - logic.quantified_inference
+  lean_done: false
+  latex_done: false

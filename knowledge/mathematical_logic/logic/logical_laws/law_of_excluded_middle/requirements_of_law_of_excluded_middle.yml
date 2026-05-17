@@ -1,0 +1,20 @@
+logic.requirements_of_law_of_excluded_middle:
+  name: 排中律的要求
+  type: concept
+  part: mathematical_logic
+  chapter: logic
+  section: logical_laws
+  subsection: law_of_excluded_middle
+  sources:
+    - folder: textbooks/mathematical_logic/logic/逻辑学-第3版-中国人民大学哲学院逻辑学教研室编-中国人民大学哲学院-20260517124112/
+      pages: 137-138
+      parts: 第六章 逻辑基本规律 / 第三节 排中律 / 二、排中律的要求和违反排中律的逻辑错误
+      role: main
+  latex: |
+    排中律要求，对两个矛盾命题不能同时都否定，必须肯定其中之一。违反这一要求所犯的逻辑错误，称为“不当两不可”。
+  dependent_keypoints:
+    - logic.law_of_excluded_middle
+  related_keypoints:
+    - logic.difference_between_noncontradiction_and_excluded_middle
+  lean_done: false
+  latex_done: false

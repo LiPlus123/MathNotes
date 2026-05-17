@@ -1,6 +1,6 @@
 ---
 name: textbook-outline-schema
-description: "用于教材目录建模阶段的 YAML 契约 skill。Use when: 需要生成或校验 knowledge/outline.yml、课程 outline.yml、section_scope.yml 的结构、字段、命名和页码来源。Do not use for: 知识点 schema、Lean4 schema、LaTeX TODO schema。"
+description: "用于教材目录建模阶段的 YAML 契约 skill。Use when: 需要生成或校验 knowledge/outline.yml、课程 outline.yml、section_scope.yml 的结构、字段、命名，以及教材和权威百科页面来源。Do not use for: 知识点 schema、Lean4 schema、LaTeX TODO schema。"
 ---
 
 # Textbook Outline Schema
@@ -56,11 +56,12 @@ chapter_id:
 subsection_id:
   description: 该 subsection 的内容简介
   sources:
-    - path: textbooks/<course_path>/main.pdf
+    - folder: textbooks/<course_path>/<textbook_name>/
       pages: 12-18
+      parts: 第 1.2 节 计数原理
       role: main
-    - path: textbooks/<course_path>/reference_1.pdf
-      pages: 20-23
+    - url: https://example.org/topic
+      parts: Terminology and overview
       role: reference
   notes_for_extraction: 后续正文提取时的边界说明
 ```
@@ -68,8 +69,10 @@ subsection_id:
 字段约束：
 - `description` 必填，描述主题边界而不是抄教材标题
 - `sources` 必填，至少一项
-- `path` 必须指向 `textbooks/` 下的具体教材文件
-- `pages` 必须是页码范围字符串，便于人工复核
+- `folder` 可以指向 `textbooks/` 下的具体教材文件夹，也可以是权威百科页面链接
+- 教材来源必须提供 `pages`
+- 百科页面来源必须提供 `parts`
+- 教材来源建议同时提供 `parts`，便于后续定位
 - `role` 只能是 `main` 或 `reference`
 - `notes_for_extraction` 选填，但建议说明后续正文抽取的边界或特殊注意事项
 
@@ -85,4 +88,5 @@ subsection_id:
 - 全局 outline 是否包含课程入口
 - 课程级 outline 是否覆盖所有 section 与 subsection
 - 每个 section 是否都存在目录与 `section_scope.yml`
-- 每个 subsection 是否都至少关联一本教材和一个页码范围
+- 每个 subsection 是否都至少关联一本教材来源
+- 若登记了百科页面来源，是否给出了可定位的 `parts`

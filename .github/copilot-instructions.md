@@ -1,13 +1,6 @@
 # Math Notes
 
-本项目利用 AI Coding 技术，基于教科书，从零开始，渐进式构建一份严谨的、成体系的数学笔记。笔记中的知识点都是重要的：
-- 公理 Axioms
-- 定义 Definitions
-- 引理 Lemmas
-- 命题 Propositions
-- 定理 Theorems
-- 推论 Corollaries
-- 例子 Examples
+本项目利用 AI Coding 技术，基于教科书，从零开始，渐进式构建一份严谨的、成体系的数学笔记。笔记中的知识点包含数学对象（公理 Axioms，定义 Definitions，引理 Lemmas，命题 Propositions，定理 Theorems，推论 Corollaries，例子 Examples）和重要的概念 Concepts。
 
 知识点按主题，划分到不同的章节。章节分为四个等级：
 1. 部分，对应 LaTeX 的 `\part`，例如“数理逻辑”、“离散数学”、“代数学”、“分析学”、“几何学”、“应用数学”等

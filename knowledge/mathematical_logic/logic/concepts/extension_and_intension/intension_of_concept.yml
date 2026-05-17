@@ -1,0 +1,22 @@
+logic.intension_of_concept:
+  name: 概念的内涵
+  type: concept
+  part: mathematical_logic
+  chapter: logic
+  section: concepts
+  subsection: extension_and_intension
+  sources:
+    - folder: textbooks/mathematical_logic/logic/逻辑学-第3版-中国人民大学哲学院逻辑学教研室编-中国人民大学哲学院-20260517124112/
+      pages: 10-11
+      parts: 第二章 概念 / 第一节 内涵和外延 / 二、内涵和外延
+      role: main
+  latex: |
+    概念的内涵是概念所反映对象的本质属性。准确把握概念，首先要求明确这一概念究竟断定了对象的哪些本质规定。
+  dependent_keypoints:
+    - logic.concept
+    - logic.essential_property
+  related_keypoints:
+    - logic.extension_of_concept
+    - logic.inverse_variation_between_intension_and_extension
+  lean_done: false
+  latex_done: false

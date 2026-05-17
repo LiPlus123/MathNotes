@@ -1,0 +1,21 @@
+logic.quantified_inference:
+  name: 量化推理
+  type: concept
+  part: mathematical_logic
+  chapter: logic
+  section: predicate_logic
+  subsection: quantified_inference
+  sources:
+    - folder: textbooks/mathematical_logic/logic/逻辑学-第3版-中国人民大学哲学院逻辑学教研室编-中国人民大学哲学院-20260517124112/
+      pages: 120
+      parts: 第五章 谓词逻辑 / 第三节 量化推理
+      role: main
+  latex: |
+    包含量词的推理称为量化推理。谓词逻辑研究这类推理的有效性问题，即在涉及对象、性质、关系和量词约束时，前提是否形式上保证结论成立。
+  dependent_keypoints:
+    - logic.quantified_inference_expression
+    - logic.significance_of_predicate_logic
+  related_keypoints:
+    - logic.decidability_of_quantified_inference
+  lean_done: false
+  latex_done: false

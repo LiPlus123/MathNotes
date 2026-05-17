@@ -1,0 +1,21 @@
+logic.concept:
+  name: 概念
+  type: concept
+  part: mathematical_logic
+  chapter: logic
+  section: concepts
+  subsection: extension_and_intension
+  sources:
+    - folder: textbooks/mathematical_logic/logic/逻辑学-第3版-中国人民大学哲学院逻辑学教研室编-中国人民大学哲学院-20260517124112/
+      pages: 9-11
+      parts: 第二章 概念 / 第一节 内涵和外延 / 一、反映对象本质属性的思维形式; 二、内涵和外延
+      role: main
+  latex: |
+    概念是反映对象本质属性的思维形式。它以类的方式把握对象，舍弃偶有属性，抽取该类对象共同具有且仅为该类对象所具有的本质属性。
+  dependent_keypoints: []
+  related_keypoints:
+    - logic.essential_property
+    - logic.intension_of_concept
+    - logic.extension_of_concept
+  lean_done: false
+  latex_done: false

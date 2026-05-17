@@ -1,0 +1,20 @@
+logic.identity_law:
+  name: 同一律
+  type: concept
+  part: mathematical_logic
+  chapter: logic
+  section: logical_laws
+  subsection: identity_law
+  sources:
+    - folder: textbooks/mathematical_logic/logic/逻辑学-第3版-中国人民大学哲学院逻辑学教研室编-中国人民大学哲学院-20260517124112/
+      pages: 128
+      parts: 第六章 逻辑基本规律 / 第一节 同一律 / 一、什么是同一律
+      role: main
+  latex: |
+    同一律的内容是：在同一思维过程中，每一思想与其自身同一，即概念、命题和其他思维形式都应保持确定性和一贯性。其公式可概括为“A 是 A”。
+  dependent_keypoints: []
+  related_keypoints:
+    - logic.requirements_of_identity_law
+    - logic.equivocation_and_shift_of_context
+  lean_done: false
+  latex_done: false

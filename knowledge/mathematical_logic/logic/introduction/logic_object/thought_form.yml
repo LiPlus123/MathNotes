@@ -1,0 +1,20 @@
+logic.thought_form:
+  name: 思维形式
+  type: concept
+  part: mathematical_logic
+  chapter: logic
+  section: introduction
+  subsection: logic_object
+  sources:
+    - folder: textbooks/mathematical_logic/logic/逻辑学-第3版-中国人民大学哲学院逻辑学教研室编-中国人民大学哲学院-20260517124112/
+      pages: 1-2
+      parts: 第一节 逻辑学的对象 / 一、逻辑学是研究思维形式及其规律的科学
+      role: main
+  latex: |
+    思维形式是思维内容的存在和联系方式，是对具体内容加以逻辑抽象后所保留下来的结构性方面；不同具体内容可以具有同一思维形式。
+  dependent_keypoints: []
+  related_keypoints:
+    - logic.logical_constant
+    - logic.logical_variable
+  lean_done: false
+  latex_done: false

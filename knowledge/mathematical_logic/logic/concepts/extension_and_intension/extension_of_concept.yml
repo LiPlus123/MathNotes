@@ -1,0 +1,21 @@
+logic.extension_of_concept:
+  name: 概念的外延
+  type: concept
+  part: mathematical_logic
+  chapter: logic
+  section: concepts
+  subsection: extension_and_intension
+  sources:
+    - folder: textbooks/mathematical_logic/logic/逻辑学-第3版-中国人民大学哲学院逻辑学教研室编-中国人民大学哲学院-20260517124112/
+      pages: 10-11
+      parts: 第二章 概念 / 第一节 内涵和外延 / 二、内涵和外延
+      role: main
+  latex: |
+    概念的外延是具有该概念内涵的全部对象所构成的对象类。外延分析的最低层次是分子或个体，判断某对象是否属于某概念的外延，标准在于它是否具有该概念的内涵。
+  dependent_keypoints:
+    - logic.intension_of_concept
+  related_keypoints:
+    - logic.universal_singular_and_empty_concepts
+    - logic.inverse_variation_between_intension_and_extension
+  lean_done: false
+  latex_done: false

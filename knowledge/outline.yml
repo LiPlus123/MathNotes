@@ -2,7 +2,7 @@ mathematical_logic:
   name: 数理逻辑
   chapters:
     - logic:
-      name: 逻辑学简介
+      name: 逻辑学基础
     - proof_theory:
       name: 证明论
 discrete_mathematics:

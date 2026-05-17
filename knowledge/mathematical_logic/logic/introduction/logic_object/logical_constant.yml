@@ -1,0 +1,20 @@
+logic.logical_constant:
+  name: 逻辑常项
+  type: concept
+  part: mathematical_logic
+  chapter: logic
+  section: introduction
+  subsection: logic_object
+  sources:
+    - folder: textbooks/mathematical_logic/logic/逻辑学-第3版-中国人民大学哲学院逻辑学教研室编-中国人民大学哲学院-20260517124112/
+      pages: 1-2
+      parts: 第一节 逻辑学的对象 / 一、逻辑学是研究思维形式及其规律的科学
+      role: main
+  latex: |
+    逻辑常项是思维形式中的不变成分，用来规定思维的逻辑结构和连接方式，如“所有……是……”“如果……那么……”之类的结构性表达。
+  dependent_keypoints:
+    - logic.thought_form
+  related_keypoints:
+    - logic.logical_variable
+  lean_done: false
+  latex_done: false

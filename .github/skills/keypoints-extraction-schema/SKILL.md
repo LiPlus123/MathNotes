@@ -1,13 +1,13 @@
 ---
 name: keypoints-extraction-schema
-description: "用于知识点提取阶段的 YAML 契约 skill。Use when: 需要生成或校验 knowledge/keypoints.yml 与单知识点 yml 文件的结构、字段、命名、状态位和来源信息。Do not use for: 课程 outline、section_scope、Lean4 TODO、LaTeX TODO。"
+description: "用于知识点提取阶段的产物契约 skill。Use when: 需要生成或校验 knowledge/keypoints.yml、单知识点 yml 文件，以及 section 级 section_summary.md 的结构、字段、命名、状态位和来源信息。Do not use for: 课程 outline、section_scope、Lean4 TODO、LaTeX TODO。"
 ---
 
 # Keypoints Extraction Schema
 
 ## Purpose
 
-这个 skill 约束 `keypoints-extraction` 的输出结构，保证知识点文件、全局索引和后续阶段之间的接口稳定。
+这个 skill 约束 `keypoints-extraction` 的输出结构，保证知识点文件、section 级总结、全局索引和后续阶段之间的接口稳定。
 
 ## Global Index Schema
 
@@ -35,10 +35,14 @@ combinatorics.addition_rule:
   chapter: combinatorics
   section: permutations_and_combinations
   subsection: counting_principles
-  source_textbooks:
-    - path: textbooks/discrete_mathematics/combinatorics/main.pdf
+  sources:
+    - folder: textbooks/<course_path>/<textbook_name>/
       pages: 12-13
+      parts: 第 1.2 节 加法原则
       role: main
+    - url: https://example.org/wiki/addition_rule
+      parts: Definition
+      role: reference
   latex: |
     设 ...
   dependent_keypoints: []
@@ -49,9 +53,12 @@ combinatorics.addition_rule:
 
 字段约束：
 - `name` 必填，使用中文正式名称
-- `type` 必填，推荐值为 `axiom`、`definition`、`lemma`、`proposition`、`theorem`、`corollary`、`example`
+- `type` 必填，推荐值为 `axiom`、`definition`、`lemma`、`proposition`、`theorem`、`corollary`、`example`，如果是非数学对象，则使用 `concept`
 - `part`、`chapter`、`section`、`subsection` 必填，且必须与文件所在目录一致
-- `source_textbooks` 必填，至少一项
+- `sources` 必填，至少一项
+- `folder` 可以是教材文件夹路径
+- `url` 可以是已登记的权威百科页面链接
+- 教材来源应给出 `pages`，百科页面来源应给出 `parts`
 - `role` 只能是 `main` 或 `reference`
 - `latex` 必填，保存知识点陈述本身
 - `dependent_keypoints`、`related_keypoints` 必填，未知时使用空列表 `[]`
@@ -70,5 +77,29 @@ combinatorics.addition_rule:
 - `knowledge/keypoints.yml` 是否新增了对应索引项
 - 索引路径是否真实存在
 - 单知识点文件的目录位置与 `part/chapter/section/subsection` 字段是否一致
-- `source_textbooks` 是否记录了教材路径和页码范围
+- `sources` 是否记录了教材路径或已登记百科页面，以及对应页码或页面部分
 - `dependent_keypoints` 与 `related_keypoints` 是否使用列表而不是空值
+
+## Section Summary Contract
+
+文件：`knowledge/<part>/<chapter>/<section>/section_summary.md`
+
+至少包含以下板块：
+
+```md
+# <section 名称>
+
+## 主题概览
+
+## subsection 结构
+
+## 核心知识点
+
+## 阅读提示
+```
+
+约束：
+- 这是 section 级总结，不是课程级 `summary.md`
+- 应概括该 section 下各 subsection 的关系与主线
+- 可以引用知识点 id，但不复制完整 YAML 内容
+- 不写完整证明，不扩展到其他 section

@@ -1,0 +1,20 @@
+logic.natural_language:
+  name: 自然语言
+  type: concept
+  part: mathematical_logic
+  chapter: logic
+  section: introduction
+  subsection: thought_language_and_logic
+  sources:
+    - folder: textbooks/mathematical_logic/logic/逻辑学-第3版-中国人民大学哲学院逻辑学教研室编-中国人民大学哲学院-20260517124112/
+      pages: 4-5
+      parts: 第二节 思维、语言和逻辑 / 二、自然语言和符号语言
+      role: main
+  latex: |
+    自然语言是人类在长期社会实践中形成并约定俗成地使用的语言系统，能够表达日常思维，但通常具有歧义，并受语境和语用因素影响。
+  dependent_keypoints: []
+  related_keypoints:
+    - logic.symbolic_language
+    - logic.object_language_and_metalanguage
+  lean_done: false
+  latex_done: false

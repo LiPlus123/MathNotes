@@ -1,0 +1,21 @@
+logic.conjunction_proposition:
+  name: 联言命题
+  type: concept
+  part: mathematical_logic
+  chapter: logic
+  section: propositional_logic
+  subsection: compound_propositions
+  sources:
+    - folder: textbooks/mathematical_logic/logic/逻辑学-第3版-中国人民大学哲学院逻辑学教研室编-中国人民大学哲学院-20260517124112/
+      pages: 32-33
+      parts: 第三章 命题逻辑 / 第一节 复合命题 / 三、几种基本的复合命题 / （一）联言命题
+      role: main
+  latex: |
+    联言命题是断定若干事物情况同时存在的复合命题，其一般形式是“p 并且 q”。它只有在全部联言支都真时才真，在其余情况下都假。
+  dependent_keypoints:
+    - logic.truth_functional_compound_proposition
+  related_keypoints:
+    - logic.negation_proposition
+    - logic.conjunctive_inference
+  lean_done: false
+  latex_done: false

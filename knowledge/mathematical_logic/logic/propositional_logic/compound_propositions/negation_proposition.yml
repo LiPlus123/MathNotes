@@ -1,0 +1,20 @@
+logic.negation_proposition:
+  name: 负命题
+  type: concept
+  part: mathematical_logic
+  chapter: logic
+  section: propositional_logic
+  subsection: compound_propositions
+  sources:
+    - folder: textbooks/mathematical_logic/logic/逻辑学-第3版-中国人民大学哲学院逻辑学教研室编-中国人民大学哲学院-20260517124112/
+      pages: 39-40
+      parts: 第三章 命题逻辑 / 第一节 复合命题 / 三、几种基本的复合命题 / （四）负命题 / 1. 什么是负命题
+      role: main
+  latex: |
+    负命题是否定一个命题所得的命题，其一般形式是“并非 p”。一个负命题为真，当且仅当它所否定的支命题为假。
+  dependent_keypoints:
+    - logic.truth_functional_compound_proposition
+  related_keypoints:
+    - logic.equivalent_negations_of_basic_compounds
+  lean_done: false
+  latex_done: false

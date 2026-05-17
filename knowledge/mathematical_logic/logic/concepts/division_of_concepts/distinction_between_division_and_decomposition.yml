@@ -1,0 +1,20 @@
+logic.distinction_between_division_and_decomposition:
+  name: 划分与分解的区别
+  type: concept
+  part: mathematical_logic
+  chapter: logic
+  section: concepts
+  subsection: division_of_concepts
+  sources:
+    - folder: textbooks/mathematical_logic/logic/逻辑学-第3版-中国人民大学哲学院逻辑学教研室编-中国人民大学哲学院-20260517124112/
+      pages: 20
+      parts: 第二章 概念 / 第五节 概念的划分 / 三、划分和分解
+      role: main
+  latex: |
+    划分是把类分为子类，用以揭示概念外延；分解是把整体分为部分，用以说明整体构成。若断定“A_i 是 A”成立，则该表达属于划分；否则属于分解而非划分。
+  dependent_keypoints:
+    - logic.division_of_concept
+  related_keypoints:
+    - logic.collective_and_non_collective_concepts
+  lean_done: false
+  latex_done: false

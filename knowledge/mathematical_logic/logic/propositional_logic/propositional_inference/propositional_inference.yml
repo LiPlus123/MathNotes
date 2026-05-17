@@ -1,0 +1,22 @@
+logic.propositional_inference:
+  name: 命题推理
+  type: concept
+  part: mathematical_logic
+  chapter: logic
+  section: propositional_logic
+  subsection: propositional_inference
+  sources:
+    - folder: textbooks/mathematical_logic/logic/逻辑学-第3版-中国人民大学哲学院逻辑学教研室编-中国人民大学哲学院-20260517124112/
+      pages: 45
+      parts: 第三章 命题逻辑 / 第二节 命题推理 / 一、推理概述 / （三）命题推理及其有效式
+      role: main
+  latex: |
+    命题推理是依据命题之间的逻辑关系进行的推理。在这种推理中，原子命题被视为最基本单位而不再分析其内部结构；其推理形式由命题变项和联结词构成，一命题推理有效，当且仅当其对应的蕴涵式是重言式。
+  dependent_keypoints:
+    - logic.formal_validity_of_inference
+    - logic.truth_form
+  related_keypoints:
+    - logic.general_propositional_inference
+    - logic.common_tautological_forms
+  lean_done: false
+  latex_done: false

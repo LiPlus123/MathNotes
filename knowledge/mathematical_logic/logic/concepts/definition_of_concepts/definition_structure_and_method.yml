@@ -1,0 +1,21 @@
+logic.definition_structure_and_method:
+  name: 定义的结构和方法
+  type: concept
+  part: mathematical_logic
+  chapter: logic
+  section: concepts
+  subsection: definition_of_concepts
+  sources:
+    - folder: textbooks/mathematical_logic/logic/逻辑学-第3版-中国人民大学哲学院逻辑学教研室编-中国人民大学哲学院-20260517124112/
+      pages: 16
+      parts: 第二章 概念 / 第四节 概念的定义 / 二、定义的结构和方法
+      role: main
+  latex: |
+    定义通常由被定义项和定义项构成，其一般形式是“被定义概念 = 邻近属概念 + 种差”。定义的方法是在恰当归类的基础上，找出该概念与同属其他种概念之间的差别。
+  dependent_keypoints:
+    - logic.concept_statement_and_definition
+    - logic.genus_species_relation_between_concepts
+  related_keypoints:
+    - logic.definition_rule
+  lean_done: false
+  latex_done: false

@@ -1,0 +1,20 @@
+logic.verbal_definition:
+  name: 语词定义
+  type: concept
+  part: mathematical_logic
+  chapter: logic
+  section: concepts
+  subsection: definition_of_concepts
+  sources:
+    - folder: textbooks/mathematical_logic/logic/逻辑学-第3版-中国人民大学哲学院逻辑学教研室编-中国人民大学哲学院-20260517124112/
+      pages: 17-18
+      parts: 第二章 概念 / 第四节 概念的定义 / 四、语词定义
+      role: main
+  latex: |
+    语词定义并不揭示概念的内涵，而是规定或说明语词的意义。它关注语词如何使用，而不是对象本身具有什么本质属性。
+  dependent_keypoints:
+    - logic.concept_statement_and_definition
+  related_keypoints:
+    - logic.stipulative_and_explanatory_word_definitions
+  lean_done: false
+  latex_done: false

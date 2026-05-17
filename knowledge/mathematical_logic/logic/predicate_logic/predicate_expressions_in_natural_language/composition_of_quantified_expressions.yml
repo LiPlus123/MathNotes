@@ -1,0 +1,20 @@
+logic.composition_of_quantified_expressions:
+  name: 量化式的复合
+  type: concept
+  part: mathematical_logic
+  chapter: logic
+  section: predicate_logic
+  subsection: predicate_expressions_in_natural_language
+  sources:
+    - folder: textbooks/mathematical_logic/logic/逻辑学-第3版-中国人民大学哲学院逻辑学教研室编-中国人民大学哲学院-20260517124112/
+      pages: 117-118
+      parts: 第五章 谓词逻辑 / 第二节 自然语言的谓词表达式 / 三、量化式的复合
+      role: main
+  latex: |
+    当简单量化式通过逻辑联结词连接时，就形成量化式的复合。该类表达式把量词结构与联言、选言、否定等命题联结方式结合起来，用以刻画更复杂的自然语言断定。
+  dependent_keypoints:
+    - logic.overlapping_quantification
+  related_keypoints:
+    - logic.quantified_inference_expression
+  lean_done: false
+  latex_done: false

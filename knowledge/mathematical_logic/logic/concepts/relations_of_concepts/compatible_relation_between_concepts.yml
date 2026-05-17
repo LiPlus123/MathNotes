@@ -1,0 +1,23 @@
+logic.compatible_relation_between_concepts:
+  name: 概念之间的相容关系
+  type: concept
+  part: mathematical_logic
+  chapter: logic
+  section: concepts
+  subsection: relations_of_concepts
+  sources:
+    - folder: textbooks/mathematical_logic/logic/逻辑学-第3版-中国人民大学哲学院逻辑学教研室编-中国人民大学哲学院-20260517124112/
+      pages: 13-14
+      parts: 第二章 概念 / 第三节 概念的关系 / 一、相容关系
+      role: main
+  latex: |
+    两个概念的外延有共同分子时，这两个概念处于相容关系。相容关系的基本类型包括全同关系、属种关系和交叉关系。
+  dependent_keypoints:
+    - logic.extension_of_concept
+  related_keypoints:
+    - logic.identical_relation_between_concepts
+    - logic.genus_species_relation_between_concepts
+    - logic.intersecting_relation_between_concepts
+    - logic.incompatible_relation_between_concepts
+  lean_done: false
+  latex_done: false

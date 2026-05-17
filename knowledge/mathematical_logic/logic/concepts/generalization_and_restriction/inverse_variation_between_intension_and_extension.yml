@@ -1,0 +1,22 @@
+logic.inverse_variation_between_intension_and_extension:
+  name: 内涵与外延的反变关系
+  type: concept
+  part: mathematical_logic
+  chapter: logic
+  section: concepts
+  subsection: generalization_and_restriction
+  sources:
+    - folder: textbooks/mathematical_logic/logic/逻辑学-第3版-中国人民大学哲学院逻辑学教研室编-中国人民大学哲学院-20260517124112/
+      pages: 20-21
+      parts: 第二章 概念 / 第六节 概括和限制 / 一、内涵与外延的反变关系
+      role: main
+  latex: |
+    在具有属种关系的概念之间，内涵与外延呈反变关系：内涵较少的概念外延较大，内涵较多的概念外延较小。
+  dependent_keypoints:
+    - logic.intension_of_concept
+    - logic.extension_of_concept
+    - logic.genus_species_relation_between_concepts
+  related_keypoints:
+    - logic.restriction_and_generalization_of_concepts
+  lean_done: false
+  latex_done: false

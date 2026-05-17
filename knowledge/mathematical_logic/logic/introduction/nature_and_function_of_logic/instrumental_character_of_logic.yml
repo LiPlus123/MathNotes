@@ -1,0 +1,21 @@
+logic.instrumental_character_of_logic:
+  name: 逻辑学的工具性
+  type: concept
+  part: mathematical_logic
+  chapter: logic
+  section: introduction
+  subsection: nature_and_function_of_logic
+  sources:
+    - folder: textbooks/mathematical_logic/logic/逻辑学-第3版-中国人民大学哲学院逻辑学教研室编-中国人民大学哲学院-20260517124112/
+      pages: 7-8
+      parts: 第三节 逻辑学的性质和作用 / 一、逻辑学的性质
+      role: main
+  latex: |
+    逻辑学具有工具性，因为它为正确思维、有效表达、论证分析与探求真理提供可普遍使用的形式工具和评价标准。
+  dependent_keypoints:
+    - logic.logic_research_object
+  related_keypoints:
+    - logic.foundational_character_of_logic
+    - logic.function_of_logic
+  lean_done: false
+  latex_done: false

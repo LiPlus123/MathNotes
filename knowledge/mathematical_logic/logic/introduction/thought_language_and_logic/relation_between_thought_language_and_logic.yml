@@ -1,0 +1,21 @@
+logic.relation_between_thought_language_and_logic:
+  name: 思维、语言和逻辑的关系
+  type: concept
+  part: mathematical_logic
+  chapter: logic
+  section: introduction
+  subsection: thought_language_and_logic
+  sources:
+    - folder: textbooks/mathematical_logic/logic/逻辑学-第3版-中国人民大学哲学院逻辑学教研室编-中国人民大学哲学院-20260517124112/
+      pages: 3-4
+      parts: 第二节 思维、语言和逻辑 / 一、思维、语言和逻辑
+      role: main
+  latex: |
+    思维是人类理性认识的基本活动，语言是思维取得直接现实性的物质外壳，而逻辑学通过分析语言形式来把握思维形式及其规律，因此三者既有区分又相互依赖。
+  dependent_keypoints: []
+  related_keypoints:
+    - logic.object_language_and_metalanguage
+    - logic.natural_language
+    - logic.symbolic_language
+  lean_done: false
+  latex_done: false

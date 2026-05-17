@@ -1,0 +1,21 @@
+logic.requirements_of_law_of_noncontradiction:
+  name: 矛盾律的要求
+  type: concept
+  part: mathematical_logic
+  chapter: logic
+  section: logical_laws
+  subsection: law_of_noncontradiction
+  sources:
+    - folder: textbooks/mathematical_logic/logic/逻辑学-第3版-中国人民大学哲学院逻辑学教研室编-中国人民大学哲学院-20260517124112/
+      pages: 131-133
+      parts: 第六章 逻辑基本规律 / 第二节 矛盾律 / 三、矛盾律的要求和违反矛盾律的逻辑错误
+      role: main
+  latex: |
+    矛盾律要求，对两个互相矛盾或互相反对的命题不能同时都肯定。违反这一要求所导致的逻辑错误称为自相矛盾，它破坏了思想的一致性。
+  dependent_keypoints:
+    - logic.law_of_noncontradiction
+  related_keypoints:
+    - logic.forms_of_inconsistency
+    - logic.paradox
+  lean_done: false
+  latex_done: false

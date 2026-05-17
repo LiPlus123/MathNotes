@@ -1,0 +1,21 @@
+logic.division_of_concept:
+  name: 概念的划分
+  type: concept
+  part: mathematical_logic
+  chapter: logic
+  section: concepts
+  subsection: division_of_concepts
+  sources:
+    - folder: textbooks/mathematical_logic/logic/逻辑学-第3版-中国人民大学哲学院逻辑学教研室编-中国人民大学哲学院-20260517124112/
+      pages: 19-20
+      parts: 第二章 概念 / 第五节 概念的划分 / 一、划分的结构
+      role: main
+  latex: |
+    划分是揭示概念外延的逻辑方法，它把一个母项按照一定标准分成若干子项，用以明确上位概念的外延范围。
+  dependent_keypoints:
+    - logic.extension_of_concept
+  related_keypoints:
+    - logic.elements_and_rules_of_division
+    - logic.distinction_between_division_and_decomposition
+  lean_done: false
+  latex_done: false

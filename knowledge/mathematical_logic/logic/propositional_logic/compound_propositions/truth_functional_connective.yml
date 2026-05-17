@@ -1,0 +1,21 @@
+logic.truth_functional_connective:
+  name: 真值联结词
+  type: concept
+  part: mathematical_logic
+  chapter: logic
+  section: propositional_logic
+  subsection: compound_propositions
+  sources:
+    - folder: textbooks/mathematical_logic/logic/逻辑学-第3版-中国人民大学哲学院逻辑学教研室编-中国人民大学哲学院-20260517124112/
+      pages: 40-41
+      parts: 第三章 命题逻辑 / 第一节 复合命题 / 四、一般复合命题及其真值形式 / （一）真值联结词和真值形式
+      role: main
+  latex: |
+    真值联结词是对日常语言联结词所作的真值抽象，只保留它们对命题真值关系的刻画。教材将否定、合取、析取、蕴涵和等值列为基本或常用真值联结词。
+  dependent_keypoints:
+    - logic.truth_functional_compound_proposition
+  related_keypoints:
+    - logic.truth_form
+    - logic.normal_form
+  lean_done: false
+  latex_done: false
