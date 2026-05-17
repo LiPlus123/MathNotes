@@ -36,11 +36,13 @@ combinatorics.addition_rule:
   section: permutations_and_combinations
   subsection: counting_principles
   sources:
-    - folder: textbooks/<course_path>/<textbook_name>/
+    - path: textbooks/<course_path>/<textbook_name>/toc.md
+      source_type: textbook
       pages: 12-13
       parts: 第 1.2 节 加法原则
       role: main
-    - url: https://example.org/wiki/addition_rule
+    - path: https://example.org/wiki/addition_rule
+      source_type: encyclopedia
       parts: Definition
       role: reference
   latex: |
@@ -56,8 +58,8 @@ combinatorics.addition_rule:
 - `type` 必填，推荐值为 `axiom`、`definition`、`lemma`、`proposition`、`theorem`、`corollary`、`example`，如果是非数学对象，则使用 `concept`
 - `part`、`chapter`、`section`、`subsection` 必填，且必须与文件所在目录一致
 - `sources` 必填，至少一项
-- `folder` 可以是教材文件夹路径
-- `url` 可以是已登记的权威百科页面链接
+- `path` 统一表示教材来源或网页来源
+- `source_type` 只能使用 `textbook` 或 `encyclopedia`
 - 教材来源应给出 `pages`，百科页面来源应给出 `parts`
 - `role` 只能是 `main` 或 `reference`
 - `latex` 必填，保存知识点陈述本身

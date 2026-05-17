@@ -48,4 +48,5 @@ desktop.ini
 .vscode/
 .idea/
 build/
-textbooks/
+# textbooks/
+textbooks/**/*.jpg

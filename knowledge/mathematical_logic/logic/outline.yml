@@ -1,5 +1,5 @@
 logic:
-  name: 逻辑学基础
+  name: 逻辑学
   sections:
     - introduction:
       name: 绪论
