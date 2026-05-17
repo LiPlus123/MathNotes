@@ -124,7 +124,7 @@ combinatorics.addition_rule:
 	section: permutations_and_combinations
 	subsection: counting_principles
 	sources:
-		- path: textbooks/<course_path>/<textbook_name>/toc.md
+		- path: textbooks/<course_path>/<textbook_name>/
 			source_type: textbook
 			pages: 12-13
 			parts: 第 1.2 节 加法原则

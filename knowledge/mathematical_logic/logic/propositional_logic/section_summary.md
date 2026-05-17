@@ -28,5 +28,3 @@
 ## 阅读提示
 
 这一节有三组边界需要特别注意。第一，教材区分“一般意义上的复合命题”和“命题逻辑所研究的复合命题”，后者必须具有真值函数性质。第二，自然语言里的“或者”“如果……那么……”往往带有语义联系，但在命题逻辑中，重点是其真值关系的抽象。第三，推理有效只保证“若前提真则结论真”，并不自动保证前提本身为真。
-
-需要人工特别注意的一点是：当前 [knowledge/mathematical_logic/logic/propositional_logic/section_scope.yml](f:/Projects/AICodingTest/MathNotes/knowledge/mathematical_logic/logic/propositional_logic/section_scope.yml) 登记的主线来源指向 `toc.md`，而本次具体抽取依据了用户提供的第三章正文内容来细化陈述。若后续要求严格按已登记正文文件追溯来源，建议把实际使用的正文文件补登记到 `section_scope.yml`。

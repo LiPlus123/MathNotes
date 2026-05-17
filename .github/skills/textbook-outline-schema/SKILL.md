@@ -86,7 +86,7 @@ chapter_id:
 subsection_id:
   description: 该 subsection 的内容简介
   sources:
-    - path: textbooks/<course_path>/<textbook_name>/toc.md
+    - path: textbooks/<course_path>/<textbook_name>/
       source_type: textbook
       pages: 12-18
       parts: 第 1.2 节 计数原理

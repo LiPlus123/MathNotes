@@ -34,5 +34,3 @@
 ## 阅读提示
 
 这一节最容易混淆的地方有三处。第一，矛盾律和排中律都处理矛盾命题，但前者禁止“同真”，后者禁止“同假”。第二，悖论不能简单等同于普通谬误，它往往触及语言、自指和逻辑层次问题。第三，充足理由律处理的是论证是否成立，而不直接决定论据内容在经验上是否真实。
-
-需要人工特别注意的一点是：当前 [knowledge/mathematical_logic/logic/logical_laws/section_scope.yml](f:/Projects/AICodingTest/MathNotes/knowledge/mathematical_logic/logic/logical_laws/section_scope.yml) 登记的来源仍指向 `toc.md`，而本次具体表述依据了你提供的第六章正文内容进行细化。若后续要求严格按已登记正文溯源，建议把实际使用的正文文件补登记到 `section_scope.yml`。

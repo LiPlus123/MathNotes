@@ -36,5 +36,3 @@
 ## 阅读提示
 
 这一节最容易混淆的地方有三处。第一，含自由个体变项的表达式通常不是命题，而是需要解释或量化的命题形式。第二，量词的先后顺序和辖域范围会直接改变重叠量化式的含义。第三，教材对量化推理的讨论重点是可判定性边界和有穷域归约，而不是给出一个普适的机械判定程序。
-
-需要人工特别注意的一点是：当前 [knowledge/mathematical_logic/logic/predicate_logic/section_scope.yml](f:/Projects/AICodingTest/MathNotes/knowledge/mathematical_logic/logic/predicate_logic/section_scope.yml) 登记的来源仍指向 `toc.md`，而本次具体表述依据了你提供的第五章正文内容进行细化。若后续要求严格按已登记正文溯源，建议把实际使用的正文文件补登记到 `section_scope.yml`。
