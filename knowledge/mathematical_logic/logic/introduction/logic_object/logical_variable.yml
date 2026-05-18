@@ -17,4 +17,4 @@ logic.logical_variable:
   related_keypoints:
     - logic.logical_constant
   lean_done: false
-  latex_done: false
+  latex_done: true

@@ -17,4 +17,4 @@ logic.natural_language:
     - logic.symbolic_language
     - logic.object_language_and_metalanguage
   lean_done: false
-  latex_done: false
+  latex_done: true

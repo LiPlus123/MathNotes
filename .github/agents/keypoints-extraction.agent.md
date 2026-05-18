@@ -91,10 +91,12 @@ user-invocable: true
 
 ## 命名规则
 
-- `keypoint_id` 使用 `<chapter_id>.<concept_id>` 形式，例如 `combinatorics.addition_rule`
-- 输出文件名与 `concept_id` 保持一致，例如 `addition_rule.yml`
-- `concept_id` 使用英文蛇形命名
+- `keypoint_id` 必须严格使用 `<chapter_id>.<keypoint>` 形式，例如 `combinatorics.addition_rule`
+- `keypoint_id` 的前缀必须且只能是当前课程的 `chapter_id`
+- `keypoint` 使用英文蛇形命名，例如 `addition_rule`
+- 输出文件名必须与 `keypoint` 保持一致，例如 `addition_rule.yml`
 - 不能使用 `definition_1`、`theorem_2` 这类顺序编号作为稳定标识
+- 不允许生成不带 `chapter_id` 前缀的 id，也不允许生成 `part.chapter.keypoint` 这类额外层级 id
 
 ## 输出契约
 

@@ -21,4 +21,4 @@ logic.logic_research_object:
     - logic.logical_law
     - logic.logical_contradiction
   lean_done: false
-  latex_done: false
+  latex_done: true

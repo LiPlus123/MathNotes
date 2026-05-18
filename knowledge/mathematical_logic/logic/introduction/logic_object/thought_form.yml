@@ -17,4 +17,4 @@ logic.thought_form:
     - logic.logical_constant
     - logic.logical_variable
   lean_done: false
-  latex_done: false
+  latex_done: true

@@ -19,4 +19,4 @@ logic.logical_contradiction:
     - logic.law_of_noncontradiction
     - logic.paradox
   lean_done: false
-  latex_done: false
+  latex_done: true

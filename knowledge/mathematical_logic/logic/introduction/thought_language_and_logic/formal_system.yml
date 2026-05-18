@@ -17,4 +17,4 @@ logic.formal_system:
   related_keypoints:
     - logic.traditional_and_modern_logic
   lean_done: false
-  latex_done: false
+  latex_done: true

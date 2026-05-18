@@ -18,4 +18,4 @@ logic.symbolic_language:
     - logic.formal_system
     - logic.traditional_and_modern_logic
   lean_done: false
-  latex_done: false
+  latex_done: true

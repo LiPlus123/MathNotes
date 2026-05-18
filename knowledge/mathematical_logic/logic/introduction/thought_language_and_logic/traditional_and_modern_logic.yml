@@ -21,4 +21,4 @@ logic.traditional_and_modern_logic:
     - logic.formal_system
     - logic.natural_language
   lean_done: false
-  latex_done: false
+  latex_done: true

@@ -18,4 +18,4 @@ logic.function_of_logic:
   related_keypoints:
     - logic.universality_of_logic
   lean_done: false
-  latex_done: false
+  latex_done: true

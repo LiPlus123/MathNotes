@@ -18,4 +18,4 @@ logic.object_language_and_metalanguage:
     - logic.natural_language
     - logic.symbolic_language
   lean_done: false
-  latex_done: false
+  latex_done: true

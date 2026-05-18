@@ -23,4 +23,4 @@ logic.logical_law:
     - logic.law_of_noncontradiction
     - logic.law_of_excluded_middle
   lean_done: false
-  latex_done: false
+  latex_done: true
