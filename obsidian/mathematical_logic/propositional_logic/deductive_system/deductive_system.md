@@ -10,3 +10,4 @@ tags:
 
 - [[axiom_system|公理系统]]
 - [[natural_deduction_system|自然演绎系统]]
+- [[sequent_calculus_system|相继式演算系统]]
