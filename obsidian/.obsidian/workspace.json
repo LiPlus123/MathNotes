@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "mathematical_logic/propositional_logic/deductive_system/sequent_calculus_system.md",
+                "file": "mathematical_logic/propositional_logic/semantic/satisfaction_and_tautology.md",
                 "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "sequent_calculus_system"
+              "title": "satisfaction_and_tautology"
             }
           }
         ]
@@ -185,23 +185,32 @@
   },
   "active": "90956737e2a99371",
   "lastOpenFiles": [
-    "mathematical_logic/propositional_logic/deductive_system/deductive_system.md",
-    "mathematical_logic/propositional_logic/deductive_system/sequent_calculus_system.md",
-    "mathematical_logic/propositional_logic/deductive_system/axiom_system.md",
-    "mathematical_logic/propositional_logic/deductive_system/natural_deduction_system.md",
+    "mathematical_logic/propositional_logic/semantic/truth_function_and_assignment_function.md",
+    "mathematical_logic/propositional_logic/semantic/semantic.md",
+    "mathematical_logic/propositional_logic/syntax/formation_rules.md",
+    "mathematical_logic/first_order_logic/syntax/syntax.md",
+    "mathematical_logic/first_order_logic/first_order_logic.md",
+    "mathematical_logic/first_order_logic/semantic/semantic.md",
     "mathematical_logic/propositional_logic/meta_theory/soundness_and_completeness.md",
-    "mathematical_logic/propositional_logic/meta_theory/decidability.md",
     "mathematical_logic/propositional_logic/meta_theory/consistency.md",
+    "mathematical_logic/propositional_logic/meta_theory/compactness_and_decidability.md",
+    "mathematical_logic/propositional_logic/meta_theory/meta_theory.md",
+    "mathematical_logic/propositional_logic/deductive_system/axiom_system.md",
+    "mathematical_logic/propositional_logic/deductive_system/deductive_system.md",
+    "mathematical_logic/propositional_logic/proposition_logic.md",
+    "mathematical_logic/propositional_logic/deductive_system/sequent_calculus_system.md",
+    "mathematical_logic/first_order_logic/semantic",
+    "mathematical_logic/first_order_logic/syntax",
+    "mathematical_logic/first_order_logic/syn",
+    "mathematical_logic/first_order_logic",
+    "mathematical_logic/propositional_logic/deductive_system/natural_deduction_system.md",
+    "mathematical_logic/propositional_logic/meta_theory/decidability.md",
     "mathematical_logic/propositional_logic/meta_theory/compactness.md",
     "mathematical_logic/propositional_logic/meta_theory",
     "mathematical_logic/propositional_logic/syntax/syntax.md",
-    "mathematical_logic/propositional_logic/semantic/semantic.md",
-    "mathematical_logic/propositional_logic/proposition_logic.md",
     "mathematical_logic/propositional_logic/syntax/variables_and_connectives.md",
-    "mathematical_logic/propositional_logic/syntax/formation_rules.md",
     "mathematical_logic/propositional_logic/syntax/other_connectives.md",
     "mathematical_logic/propositional_logic/semantic/satisfaction_and_tautology.md",
-    "mathematical_logic/propositional_logic/semantic/truth_function_and_assignment_function.md",
     "mathematical_logic/propositional_logic/deductive_system/satisfaction_and_tautology.md",
     "mathematical_logic/propositional_logic/syntax/axiom_system.md",
     "mathematical_logic/propositional_logic/deductive_system",
@@ -211,8 +220,6 @@
     "欢迎.md",
     "mathematical_logic/propositional_logic/syntax",
     "mathematical_logic/propositional_logic/semantic",
-    "mathematical_logic/propositional_logic/syntactic",
-    "mathematical_logic/propositional_logic/syn",
-    "mathematical_logic/propositional_logic"
+    "mathematical_logic/propositional_logic/syntactic"
   ]
 }
