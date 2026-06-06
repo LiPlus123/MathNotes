@@ -106,6 +106,7 @@ tags:
 
 > **注**：双重否定律说明，如果 $\neg\neg \varphi$ 成立，那么 $\varphi$ 也成立。比如，如果“不是不下雨”，那么“下雨”就成立。
 
+<!-- reductio_ad_absurdum_law_l_0 -->
 > [!Theorem]
 > **归谬律 Reductio ad Absurdum Law**：设 $\Gamma$ 是 $\mathcal{L}_0$ 的一个公式集，$\varphi,\psi$ 是 $\mathcal{L}_0$ 的公式。如果
 > $$

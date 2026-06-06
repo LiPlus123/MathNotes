@@ -9,7 +9,7 @@ tags:
 
 # 自然演绎系统
 
-[[axiom_system|希尔伯特公理演算系统]]理论上有无穷多的公理，与一条推理规则（MP 规则），因此使用公理系统编写的证明会非常冗长。逻辑学家根岑（Gerhard Gentzen, 1909-1945）引入与公理系统等价的“自然演绎系统 Natural Deduction System”。自然演绎系统的特点是：没有公理，只有推理规则，而且每个逻辑连接词都有对应的引入规则和消去规则。自然演绎系统的证明结构更接近于数学家日常使用的证明方式，因此在实际应用中更为常用。
+[[mathematical_logic/propositional_logic/deductive_system/axiom_system|希尔伯特公理演算系统]]理论上有无穷多的公理，与一条推理规则（MP 规则），因此使用公理系统编写的证明会非常冗长。逻辑学家根岑（Gerhard Gentzen, 1909-1945）引入与公理系统等价的“自然演绎系统 Natural Deduction System”。自然演绎系统的特点是：没有公理，只有推理规则，而且每个逻辑连接词都有对应的引入规则和消去规则。自然演绎系统的证明结构更接近于数学家日常使用的证明方式，因此在实际应用中更为常用。
 
 <!-- implication_introduction_rule -->
 > [!Definition]

@@ -8,7 +8,7 @@ tags:
 
 # 命题变元与逻辑连接词
 
-<!-- initial_symbols_of_L0 -->
+<!-- initial_symbols_l_0 -->
 > [!Definition]
 > **命题逻辑语言的初始符号**：命题逻辑语言记为 $\mathcal{L}_0$ ，其初始符号为：
 > - 命题变元：$p_0,p_1,p_2,\cdots$

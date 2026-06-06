@@ -75,3 +75,7 @@ git submodule update --init --recursive
 - 代数几何
 - 解析数论
 - 代数数论
+
+**附录**
+- 数学思想史
+- Lean4 形式化证明

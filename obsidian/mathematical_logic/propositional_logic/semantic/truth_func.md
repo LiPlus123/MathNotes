@@ -8,7 +8,7 @@ tags:
 
 # 真值函数与赋值函数
 
-在[[formation_rules|公式的形成规则]]一节中，定义了命题逻辑语言 $\mathcal{L}_0$ 的合法字符串 —— “公式”。逻辑学中，命题是能判断真假的陈述句，每个公式都是一类命题的形式化，公式本身没有意义，本节通过真值函数和赋值函数，为每个公式赋予“真”与“假”的语义。
+在[[mathematical_logic/propositional_logic/syntax/formation_rules|公式的形成规则]]一节中，定义了命题逻辑语言 $\mathcal{L}_0$ 的合法字符串 —— “公式”。逻辑学中，命题是能判断真假的陈述句，每个公式都是一类命题的形式化，公式本身没有意义，本节通过真值函数和赋值函数，为每个公式赋予“真”与“假”的语义。
 
 ## 真值函数
 
@@ -21,12 +21,23 @@ tags:
 <!-- one_ary_truth_function -->
 > [!Definition]
 > **一元真值函数 1-ary Truth Function**：函数 $f:\{\bot,\top\} \to \{\bot,\top\}$ 称为一元真值函数。一元真值函数分为四种：
-> 1. 恒真真值函数 $f_{\top}$：$f_{\top}(\bot) = \top$，$f_{\top}(\top) = \top$
-> 2. 恒假真值函数 $f_{\bot}$：$f_{\bot}(\bot) = \bot$，$f_{\bot}(\top) = \bot$
-> 3. 恒同真值函数 $f_{id}$：$f_{id}(\bot) = \bot$，$f_{id}(\top) = \top$
-> 4. 反同真值函数 $f_{\neg}$：$f_{\neg}(\bot) = \top$，$f_{\neg}(\top) = \bot$
+> 1. $f_1(\bot) = \top$，$f_1(\top) = \top$
+> 2. $f_2(\bot) = \bot$，$f_2(\top) = \bot$
+> 3. $f_3(\bot) = \bot$，$f_3(\top) = \top$
+> 4. $f_4(\bot) = \top$，$f_4(\top) = \bot$
 
-> **注**：否定连接词在自然语言中，对应 “并非……” 的形式。反同函数用一个单独的真值表表示为：
+<!-- neg_truth_func -->
+> [!Definition]
+> **反同真值函数 Negation Truth Function**：将一元真值函数 $f_4$ 定义为 $f_{\neg}$
+> $$
+> f_{\neg}(b) := f_4(b) = \begin{cases}
+> \bot & \text{if } b = \top \\
+> \top & \text{if } b = \bot
+> \end{cases}
+> $$
+> 称为反同真值函数。
+
+> **注**：否定连接词在自然语言中，对应 “并非……” 的形式。反同真值函数用一个单独的真值表表示为：
 > 
 > | $b$ | $f_{\neg}$ |
 > | --- | --- |
@@ -48,13 +59,13 @@ tags:
 | $\bot,\top$ | $\top$ | $\top$ | $\bot$ | $\bot$ | $\top$ | $\top$ | $\bot$ | $\bot$ | $\top$ | $\top$ | $\bot$ | $\bot$ | $\top$ | $\top$ | $\bot$ | $\bot$ | 
 | $\bot,\bot$ | $\top$ | $\bot$ | $\top$ | $\bot$ | $\top$ | $\bot$ | $\top$ | $\bot$ | $\top$ | $\bot$ | $\top$ | $\bot$ | $\top$ | $\bot$ | $\top$ | $\bot$ | 
  
- <!-- implication_truth_function -->
+ <!-- imp_truth_func -->
 > [!Definition]
 > **蕴含真值函数 Implication Truth Function**：定义二元真值函数 $f_{5}$ 为：
 > $$
 > f_{\to}(b_1, b_2) := f_{5}(b_1, b_2) = \begin{cases}
-> \top & \text{if } b_1 = \bot \text{ or } b_2 = \top \\
-> \bot & \text{otherwise}
+> \bot & \text{if } b_1 = \top \text{ and } b_2 = \bot \\
+> \top & \text{otherwise}
 > \end{cases}
 > $$
 
@@ -73,7 +84,7 @@ tags:
 > 3. 今天不下雨，我带伞：这个命题为真
 > 4. 今天不下雨，我不带伞：这个命题为真
 
-<!-- conjunction_truth_function -->
+<!-- conj_truth_func -->
 > [!Definition]
 > **合取真值函数 Conjunction Truth Function**：定义二元真值函数 $f_8$ 为：
 > $$
@@ -94,7 +105,7 @@ tags:
 >
 > 合取真值函数说明，只有在两个命题都为真时，这个命题才为真，其他情况下，这个命题都为假。
 
-<!--disjunction_truth_function -->
+<!--disj_truth_func -->
 > [!Definition]
 > **析取真值函数 Disjunction Truth Function**：定义二元真值函数 $f_2$ 为：
 > $$
@@ -115,6 +126,7 @@ tags:
 >
 > 析取真值函数说明，只有在两个命题只要有一个为真时，这个命题就为真，只有在两个命题都为假时，这个命题才为假。
 
+<!-- bicond_truth_func -->
 > [!Definition]
 > 双条件真值函数 Biconditional Truth Function：定义二元真值函数 $f_{7}$ 为：
 > $$
@@ -136,27 +148,42 @@ tags:
 > 双条件真值函数说明，只有在两个命题的真值相同，即同真或同假时，这个命题才为真，其他情况下，这个命题都为假。
 
 ## 赋值函数
-<!-- assignment_function -->
+<!-- assignment_l_0 -->
 > [!Definition]
 > **赋值函数 Assignment Function**：是从命题变元集到集合 $\{\bot,\top\}$ 的函数，记为 $v$。
 
 > **注**：赋值函数为每个命题变元指定唯一真值，比如记命题“太阳从西边出来”为 $p$，那么 $v(p) = \bot$
 
-<!-- extended_assignment_function -->
+<!-- formula_assignment_l_0 -->
 > [!Definition]
-> **拓展赋值函数 Extended Assignment Function**：是从 $\mathcal{L}_0$ 公式集到集合 $\{\bot,\top\}$ 的函数，记为 $\bar{v}$。拓展赋值函数 $\bar{v}$ 满足：
+> **公式赋值函数 Formula Assignment Function**：是从 $\mathcal{L}_0$ 公式集到集合 $\{\bot,\top\}$ 的函数，记为 $\bar{v}$。公式赋值函数 $\bar{v}$ 满足：
 > 1. 对任意命题变元 $p$，$\bar{v}(p) = v(p)$
 > 2. 设 $\varphi$ 是公式，那么 $\bar{v}(\neg \varphi) = f_{\neg}(\bar{v}(\varphi))$
 > 3. 设 $\varphi,\psi$ 是公式，那么 $\bar{v}(\varphi \to \psi) = f_{\to}(\bar{v}(\varphi),\bar{v}(\psi))$
 
-<!-- extended_assignment_function_exsistence_uniqueness -->
+<!-- formula_assignment_exsistence_uniqueness -->
 > [!Theorem]
-> **拓展赋值函数的存在唯一性**：设 $v$ 是公式 $\varphi$ 中命题变元集的一个赋值，那么存在唯一一个拓展赋值函数 $\bar{v}$ 满足上述条件。称 $\bar{v}$ 是由 $v$ 诱导的拓展赋值函数。
+> **公式赋值函数的存在唯一性**：设 $v$ 是公式 $\varphi$ 中命题变元集的一个赋值，那么存在唯一一个公式赋值函数 $\bar{v}$ 满足上述条件。称 $\bar{v}$ 是由 $v$ 诱导的公式赋值函数。
 
+<!-- conj_formula_assignment -->
 > [!Theorem]
-> 设 $\varphi,\psi$ 是公式，那么：
-> 1. $\bar{v}(\varphi \wedge \psi) = f_{\wedge}(\bar{v}(\varphi),\bar{v}(\psi))$
-> 2. $\bar{v}(\varphi \vee \psi) = f_{\vee}(\bar{v}(\varphi),\bar{v}(\psi))$
-> 3. $\bar{v}(\varphi \leftrightarrow \psi) = f_{\leftrightarrow}(\bar{v}(\varphi),\bar{v}(\psi))$
+> **合取公式的赋值**：设 $\varphi,\psi$ 是 $\mathcal{L}_0$ 的公式，那么：
+> $$
+> \bar{v}(\varphi \wedge \psi) = f_{\wedge}(\bar{v}(\varphi),\bar{v}(\psi))
+> $$
+
+<!-- disj_formula_assignment -->
+> [!Theorem]
+> **析取公式的赋值**：设 $\varphi,\psi$ 是 $\mathcal{L}_0$ 的公式，那么：
+> $$
+> \bar{v}(\varphi \vee \psi) = f_{\vee}(\bar{v}(\varphi),\bar{v}(\psi))
+> $$
+
+<!-- bicond_formula_assignment -->
+> [!Theorem]
+> **双条件公式的赋值**：设 $\varphi,\psi$ 是 $\mathcal{L}_0$ 的公式，那么：
+> $$
+> \bar{v}(\varphi \leftrightarrow \psi) = f_{\leftrightarrow}(\bar{v}(\varphi),\bar{v}(\psi))
+> $$
 
 > **注**：根据[[other_connectives|合取、析取和双条件的定义]]与合取、析取和双条件的真值函数的真值表，可以证明上述定理。

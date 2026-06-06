@@ -8,9 +8,9 @@ tags:
 
 # 满足关系与重言式
 
-<!-- satisfaction_relation -->
+<!-- satisfaction_l_0 -->
 > [!Definition]
-> **满足关系 Satisfaction Relation**：设 $\varphi$ 是 $\mathcal{L}_0$ 的一个公式，$v$  是 $\varphi$ 中命题变元集的一个赋值，$\bar{v}$ 是由 $v$ 诱导的拓展赋值函数。如果 $\bar{v}(\varphi) = \top$，那么称赋值 $v$ 满足 $\varphi$，记为：
+> **满足关系 Satisfaction Relation**：设 $\varphi$ 是 $\mathcal{L}_0$ 的一个公式，$v$ 是 $\varphi$ 中命题变元集的一个赋值，$\bar{v}$ 是由 $v$ 诱导的公式赋值函数。如果 $\bar{v}(\varphi) = \top$，那么称赋值 $v$ 满足 $\varphi$，记为：
 > $$
 > v \models \varphi
 > $$
@@ -32,6 +32,7 @@ tags:
 
 > **注**：重言式也称为“永真式”，指的是无论命题变元取什么真值，这个公式都为真。比如，公式 $p \vee \neg p$ 就是一个重言式，因为无论 $p$ 是真还是假，这个公式的真值都为真。与重言式相对的，称为“矛盾式”。
 
+<!-- contradiction_formula -->
 > [!Definition]
 > **矛盾式 Contradiction**：设 $\varphi$ 是 $\mathcal{L}_0$ 的一个公式，如果任意赋值 $v$ 都不满足 $\varphi$，那么称 $\varphi$ 是一个矛盾式。
 

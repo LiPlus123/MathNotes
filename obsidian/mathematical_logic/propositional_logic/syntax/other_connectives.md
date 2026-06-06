@@ -10,23 +10,23 @@ tags:
 
 为了使表达式更加简洁，再定义一些“派生连接词”。需要注意的是，这些连接词都不是 $\mathcal{L}_0$ 的初始连接词，而是通过 $\neg$ 和 $\to$ 定义出来的，因此，它们并不增加 $\mathcal{L}_0$ 的表达能力。
 
-<!-- conjunction_of_L0 -->
+<!-- conj_l_0 -->
 > [!Definition] 
 > **合取 Conjunction**：设 $\varphi$ 和 $\psi$ 是 $\mathcal{L}_0$ 的公式。$\varphi$ 和 $\psi$ 的合取记为 $\varphi \wedge \psi$，定义为：
 > $$
 > \varphi \wedge \psi := \neg (\varphi \to \neg \psi)
 > $$
 
-<!-- disjunction_of_L0 -->
+<!-- disj_l_0 -->
 > [!Definition]
 > **析取 Disjunction**：设 $\varphi$ 和 $\psi$ 是 $\mathcal{L}_0$ 的公式。$\varphi$ 和 $\psi$ 的析取记为 $\varphi \vee \psi$，定义为：
 > $$
 > \varphi \vee \psi := (\neg \varphi \to \psi)
 > $$
 
-<!-- biconditional_of_L0 -->
+<!-- bicon_l_0 -->
 > [!Definition]
-> **双条件 Biconditional**：设 $\varphi$ 和 $\psi$ 是 $\mathcal{L}_0$ 的公式。$\varphi$ 和 $\psi$ 的双条件记为 $\varphi \leftrightarrow \psi$，定义为：
+> **双条件 Bicondition**：设 $\varphi$ 和 $\psi$ 是 $\mathcal{L}_0$ 的公式。$\varphi$ 和 $\psi$ 的双条件记为 $\varphi \leftrightarrow \psi$，定义为：
 > $$
 > \varphi \leftrightarrow \psi := ((\varphi \to \psi) \wedge (\psi \to \varphi))
 > $$

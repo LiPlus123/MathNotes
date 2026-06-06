@@ -4,6 +4,9 @@ buildDir = "../build/.lake"
 packagesDir = "../build/.lake/packages"
 defaultTargets = ["math_notes"]
 
+[[lean_lib]]
+name = "mathematical_logic"
+
 [[lean_exe]]
 name = "math_notes"
 root = "main"
