@@ -4,9 +4,9 @@ title: 一致性
 
 # 一致性
 
-<!-- consistency -->
+<!-- consistency_l_0 -->
 > [!Definition]
-> 一致性 Consistency：设 $\Gamma$ 是 $\mathcal{L}_0$ 的公式集，如果存在 $\varphi$，使得：
+> **一致性 Consistency**：设 $\Gamma$ 是 $\mathcal{L}_0$ 的公式集，如果存在 $\varphi$，使得：
 > $$
 > \Gamma \vdash \varphi \qquad \text{且} \qquad \Gamma \vdash \neg \varphi
 > $$

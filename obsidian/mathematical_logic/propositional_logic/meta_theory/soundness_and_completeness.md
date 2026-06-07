@@ -9,19 +9,6 @@ tags:
 
 可靠性和完全性是语义和语法之间的桥梁。
 
-<!-- semantic_consequence -->
-> [!Definition]
-> **语义后承 Semantic Consequence**：设 $\Gamma$ 是 $\mathcal{L}_0$ 的公式集，$\varphi$ 是 $\mathcal{L}_0$ 的一个公式。如果任意 $v\models \Gamma$ 也都 $v\models \varphi$，那么称 $\varphi$ 是 $\Gamma$ 的语义后承，记为：
-> $$
-> \Gamma \models \varphi
-> $$
-
-> [!Proposition]
-> 设 $\varnothing$ 是 $\mathcal{L}_0$ 的空公式集，那么任意赋值 $v$ 都满足 $\varnothing$，即 $v \models \varnothing$。
-
-> [!Theorem]
-> 如果 $\varphi$ 是 $\mathcal{L}_0$ 的重言式，那么 $\varnothing \models \varphi$。
-
 <!-- soundness_l_0 -->
 > [!Theorem]
 > **可靠性 Soundness**：设 $\Gamma$ 是 $\mathcal{L}_0$ 的公式集，$\varphi$ 是 $\mathcal{L}_0$ 的一个公式。如果 $\Gamma \vdash \varphi$，那么 $\Gamma \models \varphi$。

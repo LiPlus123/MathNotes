@@ -3,3 +3,5 @@ import mathematical_logic.propositional_logic.syntax.formation_rules
 import mathematical_logic.propositional_logic.syntax.other_connectives
 import mathematical_logic.propositional_logic.semantic.truth_func
 import mathematical_logic.propositional_logic.semantic.satisfaction
+import mathematical_logic.propositional_logic.semantic.tautology
+import mathematical_logic.propositional_logic.deduction_system.axiom_system

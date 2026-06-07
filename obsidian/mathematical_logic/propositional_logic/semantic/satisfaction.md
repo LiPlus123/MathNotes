@@ -6,7 +6,7 @@ tags:
   - semantic
 ---
 
-# 满足关系与重言式
+# 满足关系
 
 <!-- satisfaction_l_0 -->
 > [!Definition]
@@ -23,34 +23,15 @@ tags:
 > [!Definition]
 > **可满足式 Satisfiable Formula**：设 $\varphi$ 是 $\mathcal{L}_0$ 的一个公式，如果存在一个赋值 $v$ 满足 $\varphi$，那么称 $\varphi$ 是一个可满足式。
 
-<!-- tautology -->
+> [!Proposition]
+> 设 $\varnothing$ 是 $\mathcal{L}_0$ 的空公式集，那么任意赋值 $v$ 都满足 $\varnothing$，即 $v \models \varnothing$。
+
+<!-- semantic_consequence_l_0 -->
 > [!Definition]
-> **重言式 Tautology**：设 $\varphi$ 是 $\mathcal{L}_0$ 的一个公式，如果任意赋值 $v$ 都满足 $\varphi$，那么称 $\varphi$ 是一个重言式，记为
+> **语义后承 Semantic Consequence**：设 $\Gamma$ 是 $\mathcal{L}_0$ 的公式集，$\varphi$ 是 $\mathcal{L}_0$ 的一个公式。如果任意 $v\models \Gamma$ 也都 $v\models \varphi$，那么称 $\varphi$ 是 $\Gamma$ 的语义后承，记为：
 > $$
-> \models \varphi
+> \Gamma \models \varphi
 > $$
 
-> **注**：重言式也称为“永真式”，指的是无论命题变元取什么真值，这个公式都为真。比如，公式 $p \vee \neg p$ 就是一个重言式，因为无论 $p$ 是真还是假，这个公式的真值都为真。与重言式相对的，称为“矛盾式”。
-
-<!-- contradiction_formula -->
-> [!Definition]
-> **矛盾式 Contradiction**：设 $\varphi$ 是 $\mathcal{L}_0$ 的一个公式，如果任意赋值 $v$ 都不满足 $\varphi$，那么称 $\varphi$ 是一个矛盾式。
-
-> **注**：矛盾式也称为“永假式”，指的是无论命题变元取什么真值，这个公式都为假。比如，公式 $p \wedge \neg p$ 就是一个矛盾式，因为无论 $p$ 是真还是假，这个公式的真值都为假。
-
-> [!Theorem]
-> **常见的重言式**：设 $\varphi,\psi,\theta$ 是 $\mathcal{L}_0$ 的公式，那么：
-> 1. 同一律：$\varphi \to \varphi$
-> 2. 排中律：$\varphi \vee \neg \varphi$
-> 3. 矛盾律：$\neg (\varphi \wedge \neg \varphi)$
-> 4. 分离律：$\varphi \wedge (\varphi \to \psi) \to \psi$
-> 5. 交换律：$(\varphi \wedge \psi) \leftrightarrow (\psi \wedge \varphi)$ 与 $(\varphi \vee \psi) \leftrightarrow (\psi \vee \varphi)$
-> 6. 结合律：$\varphi \wedge (\psi \wedge \theta) \leftrightarrow (\varphi \wedge \psi) \wedge \theta$ 与 $\varphi \vee (\psi \vee \theta) \leftrightarrow (\varphi \vee \psi) \vee \theta$
-> 7. 分配律：$\varphi \wedge (\psi \vee \theta) \leftrightarrow (\varphi \wedge \psi) \vee (\varphi \wedge \theta)$ 与 $\varphi \vee (\psi \wedge \theta) \leftrightarrow (\varphi \vee \psi) \wedge (\varphi \vee \theta)$
-> 8. 德摩根律：$\neg (\varphi \wedge \psi) \leftrightarrow (\neg \varphi \vee \neg \psi)$ 与 $\neg (\varphi \vee \psi) \leftrightarrow (\neg \varphi \wedge \neg \psi)$
-
-^c1ebf9
-
-> **注**：利用真值表可以验证上述公式都是重言式。
 
 

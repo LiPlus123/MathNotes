@@ -35,7 +35,7 @@ tags:
 
 > **注**：MP 规则，也称为“分离规则”，或“假言推理规则”，它来自重言式——[[satisfaction_and_tautology#^c1ebf9|分离律]]。说明如果 $\varphi$ 成立且 $\varphi$ 能推出 $\psi$，那么 $\psi$ 也成立。
 
-<!-- formal_proof -->
+<!-- formal_proof_l_0 -->
 > [!Definition]
 > **形式证明 Formal Proof**：设 $\Gamma$ 是 $\mathcal{L}_0$ 的一个公式集，$\varphi_1,\cdots,\varphi_n$ 是一个 $\mathcal{L}_0$ 的公式序列，如果每个公式 $\varphi_k,k=1,\cdots,n$ 满足以下三个条件之一：
 > 1. $\varphi_k$ 是 $\Gamma$ 中的一个公式
@@ -44,9 +44,9 @@ tags:
 > 
 > 则称这个公式序列为一个以 $\Gamma$ 为假设的证明。
 
-<!-- provable_formula -->
+<!-- provable_l_0 -->
 > [!Definition]
-> **可证明式 Provable Formula**：如果以 $\Gamma$ 为假设的证明 $\varphi_1,\cdots,\varphi_n$ 满足 $\varphi_n = \varphi$，那么称 $\varphi$ 是在假设 $\Gamma$ 下的一个可证明式，记为：
+> **可证明 Provable**：如果以 $\Gamma$ 为假设的证明 $\varphi_1,\cdots,\varphi_n$ 满足 $\varphi_n = \varphi$，那么称 $\varphi$ 是在假设 $\Gamma$ 下的一个可证明式，记为：
 > $$
 > \Gamma \vdash \varphi
 > $$
