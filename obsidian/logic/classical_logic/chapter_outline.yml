@@ -1,0 +1,34 @@
+classical_logic:
+  title: 经典逻辑学
+  sections:
+    - overview:
+      title: 经典逻辑学概述
+      subsections:
+        - thinking_and_language:
+          title: 思维与语言
+        - logic:
+          title: 逻辑学
+    - propositional_logic:
+      title: 命题逻辑
+      subsections:
+        - connectives:
+          title: 命题连接词
+        - truth_table:
+          title: 真值表
+        - tautology:
+          title: 重言式
+        - equivalence:
+          title: 等值
+        - propositional_reasoning:
+          title: 命题推理
+    - predicate_logic:
+      title: 谓词逻辑
+      subsections:
+        - components_of_proposition:
+          title: 命题的组成成分
+        - first_order_logic:
+          title: 一阶逻辑
+        - second_order_logic:
+          title: 二阶逻辑
+    - modal_logic:
+      title: 模态逻辑

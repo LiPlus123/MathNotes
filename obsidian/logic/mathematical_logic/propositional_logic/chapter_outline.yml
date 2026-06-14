@@ -1,0 +1,37 @@
+propositional_logic:
+  title: 命题逻辑
+  sections:
+  - syntax:
+    title: 语法
+    subsections:
+    - variables_and_connectives:
+      title: 变量和连接词
+    - formation_rules:
+      title: 公式的形成规则
+    - other_connectives:
+      title: 其他连接词
+  - semantic:
+    title: 语义
+    subsections:
+    - truth_func:
+      title: 真值函数与赋值函数
+    - satisfaction:
+      title: 满足关系
+    - tautology:
+      title: 重言式
+  - deductive_system:
+    title: 演绎系统
+    subsections:
+    - axiom_system:
+      title: 公理系统
+    - natural_deduction:
+      title: 自然演绎系统
+  - meta_theory:
+    title: 元理论
+    subsections:
+      - consistency:
+        title: 一致性
+      - soundness_and_completeness:
+        title: 可靠性与完备性
+      - compactness_and_decidability:
+        title: 紧致性与可判定性
