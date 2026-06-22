@@ -1,0 +1,107 @@
+keypoints:
+  # divisibility.md
+  - id: div_definition
+    title: 整除定义
+    file: divisibility.md
+    type: Definition
+
+  - id: div_basic_properties
+    title: 整除的基本性质
+    file: divisibility.md
+    type: Theorem
+
+  # division_with_remainder.md
+  - id: division_algorithm
+    title: 带余除法定理
+    file: division_with_remainder.md
+    type: Theorem
+
+  # gcd_and_lcm.md
+  - id: common_divisor_definition
+    title: 公因数与最大公因数定义
+    file: gcd_and_lcm.md
+    type: Definition
+
+  - id: coprime_definition
+    title: 互素定义
+    file: gcd_and_lcm.md
+    type: Definition
+
+  - id: common_multiple_definition
+    title: 公倍数与最小公倍数定义
+    file: gcd_and_lcm.md
+    type: Definition
+
+  - id: gcd_properties
+    title: 最大公因数的基本性质
+    file: gcd_and_lcm.md
+    type: Theorem
+
+  - id: gcd_lcm_product
+    title: 最大公因数与最小公倍数的乘积关系
+    file: gcd_and_lcm.md
+    type: Theorem
+
+  # euclidean_algorithm.md
+  - id: euclidean_key_lemma
+    title: 欧几里得关键引理
+    file: euclidean_algorithm.md
+    type: Lemma
+
+  - id: euclidean_algorithm_theorem
+    title: 欧几里得算法
+    file: euclidean_algorithm.md
+    type: Theorem
+
+  - id: extended_euclidean_algorithm
+    title: 扩展欧几里得算法
+    file: euclidean_algorithm.md
+    type: Theorem
+
+  # bezout_identity.md
+  - id: bezout_theorem
+    title: 裴蜀定理
+    file: bezout_identity.md
+    type: Theorem
+
+  - id: bezout_coprime_corollary
+    title: 互素的裴蜀特征
+    file: bezout_identity.md
+    type: Corollary
+
+  - id: linear_diophantine_solvability
+    title: 线性不定方程可解性
+    file: bezout_identity.md
+    type: Corollary
+
+  # prime_numbers.md
+  - id: prime_definition
+    title: 素数与合数定义
+    file: prime_numbers.md
+    type: Definition
+
+  - id: euclid_lemma
+    title: 欧几里得引理
+    file: prime_numbers.md
+    type: Lemma
+
+  - id: infinitely_many_primes
+    title: 素数无穷定理
+    file: prime_numbers.md
+    type: Theorem
+
+  # fundamental_theorem_of_arithmetic.md
+  - id: fta_theorem
+    title: 算术基本定理
+    file: fundamental_theorem_of_arithmetic.md
+    type: Theorem
+
+  - id: fta_canonical_form
+    title: 标准分解式
+    file: fundamental_theorem_of_arithmetic.md
+    type: Definition
+
+  - id: fta_gcd_lcm_formula
+    title: 最大公因数与最小公倍数的素因子表达式
+    file: fundamental_theorem_of_arithmetic.md
+    type: Theorem

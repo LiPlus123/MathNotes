@@ -15,8 +15,8 @@ user-invocable: true
 每次执行任务时，严格按照以下步骤进行：
 
 1. **读取符号表**：先读取 `symbols_list.md`，掌握当前所有规范符号，避免引入不一致的写法。
-2. **读取现有内容**：读取目标 subsection 的 `keypoints.yml` 文件（若存在），了解已有知识点及其 keypoint_id，**不得修改已有 keypoint_id**。
-3. **读取 chapter_outline.yml**：定位目标 subsection 在章节大纲中的位置，理解其范围和上下文。
+2. **读取现有内容**：读取目标 subsection 的 markdown 文件（若存在），了解已有知识点及其 keypoint_id，**不得修改已有 keypoint_id**。
+3. **读取 chapter_outline.yml**：定位目标 subsection 在章节大纲中的位置，读取 subsection 的 content（若存在），理解其范围和上下文。
 4. **查阅参考文献（如需要）**：如果需要引用教材内容，使用 `bibliography-reading` skill 或 web 工具查阅相关资料，确保知识点有据可查。
 5. **撰写内容**：按下方约束和格式编写目标 subsection 的知识点。
 6. **更新符号表**：如果引入了新的数学符号，追加到 `symbols_list.md` 对应分类下。

@@ -1,0 +1,147 @@
+keypoints:
+  # definition_of_arithmetic_functions.md
+  - id: arithmetic_function_definition
+    title: 数论函数定义
+    file: definition_of_arithmetic_functions.md
+    type: Definition
+
+  - id: arithmetic_function_examples
+    title: 常见数论函数举例
+    file: definition_of_arithmetic_functions.md
+    type: Definition
+
+  # multiplicative_functions.md
+  - id: multiplicative_function_definition
+    title: 积性函数定义
+    file: multiplicative_functions.md
+    type: Definition
+
+  - id: completely_multiplicative_definition
+    title: 完全积性函数定义
+    file: multiplicative_functions.md
+    type: Definition
+
+  - id: multiplicative_function_value_at_1
+    title: 积性函数在1处的值
+    file: multiplicative_functions.md
+    type: Theorem
+
+  - id: multiplicative_determined_by_prime_powers
+    title: 积性函数由素数幂处的值唯一确定
+    file: multiplicative_functions.md
+    type: Theorem
+
+  - id: multiplicative_product_multiplicative
+    title: 积性函数之积仍是积性函数
+    file: multiplicative_functions.md
+    type: Theorem
+
+  # divisor_function.md
+  - id: divisor_count_definition
+    title: 约数个数函数定义
+    file: divisor_function.md
+    type: Definition
+
+  - id: divisor_sum_definition
+    title: 约数和函数定义
+    file: divisor_function.md
+    type: Definition
+
+  - id: divisor_functions_multiplicative
+    title: 约数函数的积性
+    file: divisor_function.md
+    type: Theorem
+
+  - id: divisor_count_formula
+    title: 约数个数函数的计算公式
+    file: divisor_function.md
+    type: Theorem
+
+  - id: divisor_sum_formula
+    title: 约数和函数的计算公式
+    file: divisor_function.md
+    type: Theorem
+
+  - id: perfect_number_definition
+    title: 完全数定义
+    file: divisor_function.md
+    type: Definition
+
+  # euler_phi_formula.md
+  - id: euler_phi_multiplicative
+    title: 欧拉函数是积性函数
+    file: euler_phi_formula.md
+    type: Theorem
+
+  - id: euler_phi_at_prime_power
+    title: 欧拉函数在素数幂处的值
+    file: euler_phi_formula.md
+    type: Theorem
+
+  - id: euler_phi_formula
+    title: 欧拉函数的乘积公式
+    file: euler_phi_formula.md
+    type: Theorem
+
+  - id: euler_phi_sum_property
+    title: 欧拉函数的求和性质
+    file: euler_phi_formula.md
+    type: Theorem
+
+  # mobius_function.md
+  - id: mobius_function_definition
+    title: 莫比乌斯函数定义
+    file: mobius_function.md
+    type: Definition
+
+  - id: mobius_function_multiplicative
+    title: 莫比乌斯函数是积性函数
+    file: mobius_function.md
+    type: Theorem
+
+  - id: mobius_function_sum_property
+    title: 莫比乌斯函数的基本求和性质
+    file: mobius_function.md
+    type: Theorem
+
+  # mobius_inversion.md
+  - id: mobius_inversion_divisor_form
+    title: 莫比乌斯反演公式（整除形式）
+    file: mobius_inversion.md
+    type: Theorem
+
+  - id: mobius_inversion_multiple_form
+    title: 莫比乌斯反演公式（倍数形式）
+    file: mobius_inversion.md
+    type: Theorem
+
+  - id: mobius_inversion_example_phi
+    title: 欧拉函数的莫比乌斯反演
+    file: mobius_inversion.md
+    type: Example
+
+  # dirichlet_convolution.md
+  - id: dirichlet_convolution_definition
+    title: 狄利克雷卷积定义
+    file: dirichlet_convolution.md
+    type: Definition
+
+  - id: dirichlet_convolution_properties
+    title: 狄利克雷卷积的基本性质
+    file: dirichlet_convolution.md
+    type: Theorem
+
+  - id: dirichlet_convolution_of_multiplicative
+    title: 积性函数的Dirichlet卷积仍是积性函数
+    file: dirichlet_convolution.md
+    type: Theorem
+
+  - id: dirichlet_inverse
+    title: Dirichlet逆
+    file: dirichlet_convolution.md
+    type: Theorem
+
+  - id: dirichlet_convolution_ring
+    title: 数论函数环
+    file: dirichlet_convolution.md
+    type: Theorem

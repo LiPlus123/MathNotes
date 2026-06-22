@@ -1,0 +1,104 @@
+keypoints:
+  # finite_continued_fractions.md
+  - id: finite_cf_definition
+    title: 有限连分数
+    file: finite_continued_fractions.md
+    type: Definition
+
+  - id: convergent_definition
+    title: 渐近分数
+    file: finite_continued_fractions.md
+    type: Definition
+
+  - id: convergent_properties
+    title: 渐近分数的基本性质
+    file: finite_continued_fractions.md
+    type: Theorem
+
+  - id: rational_cf_representation
+    title: 有理数的连分数表示
+    file: finite_continued_fractions.md
+    type: Theorem
+
+  - id: cf_euclidean_connection
+    title: 连分数与欧几里得算法的联系
+    file: finite_continued_fractions.md
+    type: Theorem
+
+  # infinite_continued_fractions.md
+  - id: infinite_cf_definition
+    title: 无限连分数
+    file: infinite_continued_fractions.md
+    type: Definition
+
+  - id: infinite_cf_convergence
+    title: 无限连分数的收敛性
+    file: infinite_continued_fractions.md
+    type: Theorem
+
+  - id: irrational_cf_expansion
+    title: 无理数的连分数展开
+    file: infinite_continued_fractions.md
+    type: Theorem
+
+  - id: best_rational_approximation
+    title: 渐近分数的最佳有理逼近性质
+    file: infinite_continued_fractions.md
+    type: Theorem
+
+  - id: hurwitz_theorem
+    title: 赫尔维茨定理
+    file: infinite_continued_fractions.md
+    type: Theorem
+
+  # periodic_continued_fractions.md
+  - id: periodic_cf_definition
+    title: 循环连分数
+    file: periodic_continued_fractions.md
+    type: Definition
+
+  - id: quadratic_irrational_definition
+    title: 二次无理数
+    file: periodic_continued_fractions.md
+    type: Definition
+
+  - id: lagrange_theorem_cf
+    title: 拉格朗日定理（连分数）
+    file: periodic_continued_fractions.md
+    type: Theorem
+
+  - id: purely_periodic_cf_theorem
+    title: 纯循环连分数定理
+    file: periodic_continued_fractions.md
+    type: Theorem
+
+  - id: sqrt_d_cf_expansion
+    title: sqrt(D) 的连分数展开
+    file: periodic_continued_fractions.md
+    type: Example
+
+  # pell_equation.md
+  - id: pell_equation_definition
+    title: 佩尔方程
+    file: pell_equation.md
+    type: Definition
+
+  - id: pell_equation_fundamental_solution
+    title: 佩尔方程的基本解
+    file: pell_equation.md
+    type: Theorem
+
+  - id: pell_equation_all_solutions
+    title: 佩尔方程的全部解
+    file: pell_equation.md
+    type: Theorem
+
+  - id: pell_equation_negative
+    title: 负佩尔方程
+    file: pell_equation.md
+    type: Definition
+
+  - id: pell_equation_example
+    title: 佩尔方程求解举例
+    file: pell_equation.md
+    type: Example

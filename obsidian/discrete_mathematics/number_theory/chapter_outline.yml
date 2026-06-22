@@ -1,2 +1,169 @@
 number_theory:
-  title: "初等数论"
+  title: 初等数论
+  sections:
+    - divisibility_theory:
+        title: 整除理论
+        subsections:
+            - divisibility:
+                title: 整除
+                content: 整除的定义及其性质，包括传递性、线性组合封闭性等
+            - division_with_remainder:
+                title: 带余除法
+                content: 任意整数除以正整数存在唯一的商和余数
+            - gcd_and_lcm:
+                title: 最大公约数与最小公倍数
+                content: gcd 和 lcm 的定义与重要性质
+            - euclidean_algorithm:
+                title: 欧几里得算法
+                content: 欧几里得算法求 gcd 的过程，介绍扩展欧几里得算法及其应用
+            - bezout_identity:
+                title: 裴蜀定理
+                content: 裴蜀定理的内容，说明其在求解线性不定方程中的应用
+            - prime_numbers:
+                title: 素数
+                content: 素数与合数的定义，素数的无穷性等初等性质
+            - fundamental_theorem_of_arithmetic:
+                title: 算术基本定理
+                content: 算术基本定理的内容与证明思路
+    - congruence:
+        title: 同余
+        subsections:
+            - definition_and_properties:
+                title: 定义与性质
+                content: 同余的定义，以及关于加、减、乘运算的相容性等基本性质
+            - residue_classes:
+                title: 剩余类
+                content: 剩余类，完全剩余系，简化剩余系的相关概念
+            - euler_phi_function:
+                title: 欧拉函数
+                content: 欧拉函数的定义，简化剩余系的元素个数即为欧拉函数值
+            - euler_theorem:
+                title: 欧拉定理
+                content: 欧拉定理的内容与证明思路，以及其应用
+            - fermat_little_theorem:
+                title: 费马小定理
+                content: 费马小定理的内容与证明思路，以及其应用
+            - wilson_theorem:
+                title: 威尔逊定理
+                content: 威尔逊定理的内容与证明思路，作为素数的判定准则
+    - congruence_equations:
+        title: 同余方程
+        subsections:
+            - linear_congruences:
+                title: 线性同余方程
+                content: 线性同余方程的可解条件与解数
+            - linear_congruence_system:
+                title: 线性同余方程组
+                content: 二元/多元线性同余方程组消元解法
+            - chinese_remainder_theorem:
+                title: 中国剩余定理
+                content: 中国剩余定理的内容与证明思路，以及其在求解同余方程组中的应用
+            - lagrange_theorem:
+                title: 拉格朗日定理
+                content: 模素数的 n 次同余方程至多有 n 个解
+            - congruence_modulo_prime_power:
+                title: 素数幂模同余方程
+                content: 高次同余方程的解数，以及由素数模解提升到素数幂模解的方法
+    - arithmetic_functions:
+        title: 数论函数
+        subsections: 
+            - definition_of_arithmetic_functions:
+                title: 数论函数的定义
+                content: 数论函数（算术函数）的定义及常见例子
+            - multiplicative_functions:
+                title: 积性函数
+                content: 积性函数与完全积性函数的定义及基本性质
+            - divisor_function:
+                title: 约数函数与约数和函数
+                content: 约数个数函数 d(n) 与约数和函数 σ(n) 的计算公式及积性
+            - euler_phi_formula:
+                title: 欧拉函数的计算公式
+                content: 由积性导出欧拉函数的乘积表达式及其求和性质
+            - mobius_function:
+                title: 莫比乌斯函数
+                content: 莫比乌斯函数 μ(n) 的定义、积性
+            - mobius_inversion:
+                title: 莫比乌斯反演
+                content: 两种形式反演公式，计数类应用
+            - dirichlet_convolution:
+                title: 狄利克雷卷积
+                content: 数论函数的狄利克雷卷积定义、性质，以及由此构成的代数结构
+    - root_and_indicator:
+        title: "原根与指标"
+        subsections:
+            - order_of_element:
+                title: 元素的阶
+                content: 元素模 m 的阶的定义与性质，证明阶整除欧拉函数值
+            - primitive_root_existence:
+                title: 原根的存在性
+                content: 原根的定义，以及模 p、p^k、2p^k 存在原根的证明
+            - indicator:
+                title: 指标
+                content: 利用原根定义指标（离散对数）及其运算性质
+            - structure_of_reduced_residue_system:
+                title: 既约剩余系的结构
+                content: 刻画乘法群 (Z/nZ)^× 的循环或非循环结构
+    - quadratic_residues:
+        title: 二次剩余
+        subsections:
+            - quadratic_residues:
+                title: 二次剩余与二次非剩余
+                content: 二次剩余与二次非剩余的定义，以及模素数下两者个数相等
+            - legendre_symbol:
+                title: 勒让德符号
+                content: 勒让德符号的定义及其性质
+            - euler_criterion:
+                title: 欧拉判别法
+                content: 欧拉判别法的内容与证明思路
+            - gauss_lemma:
+                title: 高斯引理
+                content: 高斯引理的内容与证明思路
+            - quadratic_reciprocity:
+                title: 二次互反律
+                content: 二次互反律的内容与证明思路
+            - jacobi_symbol:
+                title: 雅可比符号
+                content: 把勒让德符号推广到合数模并给出其互反律
+    - indeterminate_equation:
+        title: "不定方程"
+        subsections:
+            - linear_diophantine_equations:
+                title: 线性丢番图方程
+                content: 二元/多元一次不定方程整数解存在条件与通解
+            - pythagorean_triples:
+                title: 勾股数
+                content: 本原毕达哥拉斯三元组的参数化表示及其推导
+            - fermat_last_theorem_n4:
+                title: 费马大定理
+                content: 费马大定理内容简介，n=4时证明思路
+    - continued_fractions:
+        title: "连分数"
+        subsections:
+            - finite_continued_fractions:
+                title: 有限连分数
+                content: 有限连分数的定义、渐近分数及其与欧几里得算法的联系
+            - infinite_continued_fractions:
+                title: 无限连分数
+                content: 无理数的无限连分数展开及渐近分数的最佳有理逼近性质
+            - periodic_continued_fractions:
+                title: 循环连分数
+                content: 二次无理数的循环连分数展开及其在佩尔方程中的应用
+            - pell_equation:
+                title: 佩尔方程
+                content: 佩尔方程 x^2-Dy^2=1 的解结构及由基本解生成全部解
+    - prime_number_distribution:
+        title: "素数分布"
+        subsections:
+            - prime_counting_function:
+                title: 素数计数函数
+                content: 素数计数函数 π(x) 的定义及素数分布的基本问题
+            - chebyshev_theorem:
+                title: 切比雪夫定理
+                content: 切比雪夫对 π(x) 量级的上下界估计
+            - bertrand_postulate:
+                title: 伯特兰假设
+                content: 任意 n 与 2n 之间必存在素数
+            - prime_number_theorem:
+                title: 素数定理
+                content: 素数定理 π(x)~x/ln x 的陈述及历史背景（不要求初等证明）
+  

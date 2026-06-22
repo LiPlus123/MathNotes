@@ -1,0 +1,105 @@
+keypoints:
+  # 线性同余方程 linear_congruences.md
+  - keypoint_id: linear_congruence_definition
+    type: Definition
+    title: 线性同余方程
+    file: linear_congruences.md
+
+  - keypoint_id: linear_congruence_solvability
+    type: Theorem
+    title: 线性同余方程的可解性
+    file: linear_congruences.md
+
+  - keypoint_id: linear_congruence_inverse_solution
+    type: Theorem
+    title: 利用模逆元求解
+    file: linear_congruences.md
+
+  - keypoint_id: linear_congruence_example_basic
+    type: Example
+    title: 线性同余方程求解示例
+    file: linear_congruences.md
+
+  - keypoint_id: linear_congruence_example_no_solution
+    type: Example
+    title: 无解的线性同余方程
+    file: linear_congruences.md
+
+  # 线性同余方程组 linear_congruence_system.md
+  - keypoint_id: linear_congruence_system_two_equations
+    type: Theorem
+    title: 二元线性同余方程组的可解性
+    file: linear_congruence_system.md
+
+  - keypoint_id: linear_congruence_system_general
+    type: Theorem
+    title: 多元线性同余方程组的求解
+    file: linear_congruence_system.md
+
+  - keypoint_id: linear_congruence_system_example
+    type: Example
+    title: 线性同余方程组求解示例
+    file: linear_congruence_system.md
+
+  # 中国剩余定理 chinese_remainder_theorem.md
+  - keypoint_id: chinese_remainder_theorem
+    type: Theorem
+    title: 中国剩余定理
+    file: chinese_remainder_theorem.md
+
+  - keypoint_id: crt_example_basic
+    type: Example
+    title: 中国剩余定理应用示例
+    file: chinese_remainder_theorem.md
+
+  - keypoint_id: crt_application_remainder
+    type: Example
+    title: 物不知数问题
+    file: chinese_remainder_theorem.md
+
+  # 拉格朗日定理 lagrange_theorem.md
+  - keypoint_id: lagrange_theorem_poly_congruence
+    type: Theorem
+    title: 拉格朗日定理
+    file: lagrange_theorem.md
+
+  - keypoint_id: lagrange_corollary_factored
+    type: Corollary
+    title: n次多项式有n个解时的分解
+    file: lagrange_theorem.md
+
+  - keypoint_id: lagrange_corollary_wilson_proof
+    type: Corollary
+    title: 拉格朗日定理与威尔逊定理的联系
+    file: lagrange_theorem.md
+
+  - keypoint_id: lagrange_example_quadratic
+    type: Example
+    title: 二次同余方程的解数
+    file: lagrange_theorem.md
+
+  # 素数幂模同余方程 congruence_modulo_prime_power.md
+  - keypoint_id: hensel_lemma
+    type: Lemma
+    title: 亨塞尔引理（非奇异情形）
+    file: congruence_modulo_prime_power.md
+
+  - keypoint_id: hensel_lemma_singular
+    type: Lemma
+    title: 亨塞尔引理（奇异情形）
+    file: congruence_modulo_prime_power.md
+
+  - keypoint_id: congruence_prime_power_solution_count
+    type: Theorem
+    title: 素数幂模同余方程的解数
+    file: congruence_modulo_prime_power.md
+
+  - keypoint_id: hensel_lemma_example_nonsingular
+    type: Example
+    title: 非奇异情形的提升
+    file: congruence_modulo_prime_power.md
+
+  - keypoint_id: hensel_lemma_example_singular
+    type: Example
+    title: 奇异情形
+    file: congruence_modulo_prime_power.md

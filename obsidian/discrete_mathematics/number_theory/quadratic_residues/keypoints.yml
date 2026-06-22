@@ -1,0 +1,106 @@
+keypoints:
+  # quadratic_residues.md
+  - id: quadratic_residue_definition
+    title: 二次剩余与二次非剩余定义
+    file: quadratic_residues.md
+    type: Definition
+
+  - id: quadratic_residue_count
+    title: 二次剩余与二次非剩余的个数
+    file: quadratic_residues.md
+    type: Theorem
+
+  - id: quadratic_residue_product
+    title: 二次剩余的乘法规则
+    file: quadratic_residues.md
+    type: Theorem
+
+  # legendre_symbol.md
+  - id: legendre_symbol_definition
+    title: 勒让德符号定义
+    file: legendre_symbol.md
+    type: Definition
+
+  - id: legendre_symbol_multiplicativity
+    title: 勒让德符号的完全积性
+    file: legendre_symbol.md
+    type: Theorem
+
+  - id: legendre_symbol_periodicity
+    title: 勒让德符号的周期性
+    file: legendre_symbol.md
+    type: Theorem
+
+  - id: legendre_symbol_neg1
+    title: -1 的勒让德符号
+    file: legendre_symbol.md
+    type: Theorem
+
+  - id: legendre_symbol_2
+    title: 2 的勒让德符号
+    file: legendre_symbol.md
+    type: Theorem
+
+  # euler_criterion.md
+  - id: euler_criterion
+    title: 欧拉判别法
+    file: euler_criterion.md
+    type: Theorem
+
+  # gauss_lemma.md
+  - id: gauss_lemma_nt
+    title: 高斯引理
+    file: gauss_lemma.md
+    type: Lemma
+
+  - id: gauss_lemma_application_neg1
+    title: -1 是否为二次剩余
+    file: gauss_lemma.md
+    type: Corollary
+
+  - id: gauss_lemma_application_2
+    title: 2 是否为二次剩余
+    file: gauss_lemma.md
+    type: Corollary
+
+  # quadratic_reciprocity.md
+  - id: quadratic_reciprocity_law
+    title: 二次互反律
+    file: quadratic_reciprocity.md
+    type: Theorem
+
+  - id: quadratic_reciprocity_supplement
+    title: 二次互反律的补充
+    file: quadratic_reciprocity.md
+    type: Corollary
+
+  - id: legendre_symbol_computation_example
+    title: 利用二次互反律计算勒让德符号
+    file: quadratic_reciprocity.md
+    type: Example
+
+  # jacobi_symbol.md
+  - id: jacobi_symbol_definition
+    title: 雅可比符号定义
+    file: jacobi_symbol.md
+    type: Definition
+
+  - id: jacobi_symbol_properties
+    title: 雅可比符号的基本性质
+    file: jacobi_symbol.md
+    type: Theorem
+
+  - id: jacobi_symbol_qr_caution
+    title: 雅可比符号与二次剩余的关系
+    file: jacobi_symbol.md
+    type: Theorem
+
+  - id: jacobi_symbol_reciprocity
+    title: 雅可比符号的互反律
+    file: jacobi_symbol.md
+    type: Theorem
+
+  - id: jacobi_symbol_computation_use
+    title: 雅可比符号的计算应用
+    file: jacobi_symbol.md
+    type: Corollary

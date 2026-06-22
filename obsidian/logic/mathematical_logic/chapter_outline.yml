@@ -1,0 +1,145 @@
+mathematical_logic:
+  title: 数理逻辑
+  sections:
+    - overview:
+      title: 数理逻辑概览
+      subsections:
+        - naive_set_theory:
+          title: 朴素集合论
+          content: 朴素集合的基本概念，罗素悖论与第三次数学危机的简介
+        - philosophical_stance:
+          title: 哲学立场
+          content: 逻辑主义、形式主义、直觉主义、构造主义等不同的数理逻辑哲学立场简介
+        - hilberts_program:
+          title: 希尔伯特纲领
+          content: 希尔伯特纲领的内容及其结果，引出数理逻辑的分支
+        - branches_of_mathematical_logic:
+          title: 数理逻辑的分支
+          content: 证明论、模型论、集合论和递归论的简介，以及它们之间的关系
+    - propositional_language:
+      title: 命题逻辑语言
+      subsections:
+        - syntax_of_l_0:
+          title: 命题逻辑语言的语法
+          content: 初始符号、公式形成的规则、拓展的命题连接词的定义
+        - semantics_of_l_0:
+          title: 命题逻辑语言的语义
+          content: 真值函数、赋值函数、满足关系、语义后承、重言式
+        - hilberts_system_of_l_0:
+          title: 命题逻辑语言的希尔伯特系统
+          content: 公理模式、MP 规则、可证关系、演绎定理
+        - meta_theory_of_l_0:
+          title: 命题逻辑语言的元理论
+          content: 一致性、可靠性与完备性、紧致性与可判定性
+    - first_order_language:
+      title: 一阶逻辑语言
+      subsections:
+        - syntax_of_l_1:
+          title: 一阶逻辑语言的语法
+          content: 初始符号、项的定义、原子公式与公式的形成规则、签名、存在量词的定义、自由变元与约束变元
+        - semantics_of_l_1:
+          title: 一阶逻辑语言的语义
+          content: 结构与赋值、满足关系、语义后承、有效式、理论、模型
+        - agreement_and_substitution:
+          title: 合同与代入
+          content: 合同的定义、合同引理、代入的定义、自由代入、代入引理
+        - hilberts_system_of_l_1:
+          title: 一阶逻辑语言的希尔伯特系统
+          content: 公理模式、MP 规则、可证关系、演绎定理
+        - meta_theory_of_l_1:
+          title: 一阶逻辑语言的元理论
+          content: 一致性、可靠性与完全性、紧致性、洛文海姆-斯科勒姆定理、不可判定性
+    - set_theory:
+      title: 集合论
+      subsections:
+        - zfc_axiom_system:
+          title: ZFC 公理系统
+        - relations_and_functions:
+          title: 关系与函数
+          content: 关系的定义、自反性、传递性、对称性、函数关系、单射、满射、双射、全函数与部分函数
+        - equivalence_relations:
+          title: 等价关系
+          content: 等价关系的定义、等价类、商集、划分
+        - order_relations:
+          title: 序关系
+          content: 偏序、严格偏序、全序、严格全序、上下界、上下确界、最大最小元
+        - definition_of_natural_numbers:
+          title: 自然数的定义
+          content: 通过 ZFC 系统定义自然数，自然数的序数，加法和乘法的定义及性质
+        - cardinals_and_ordinals:
+          title: 基数与序数
+          content: 集合的基数、集合的比较、序数的定义、基数与序数的关系
+    - recursion_theory:
+      title: 递归论
+      subsections:
+        - turing_machine:
+          title: 图灵机
+          content: 图灵机的定义、图灵可计算函数
+        - recursive_functions:
+          title: 递归函数
+          content: 初始函数、原始递归函数、μ 算子、递归函数、部分递归函数
+        - lambda_calculus:
+          title: λ 演算
+          content: λ 项的定义、自由变元、约束变元、代入、β-规约、α-变换、η-规约、正规项
+        - church_turing_thesis:
+          title: 丘奇-图灵论题
+        - recursive_and_re_sets:
+          title: 递归集与递归可枚举集
+        - decision_problem:
+          title: 判定性问题
+          content: 可判定性、停机问题、停机问题的不可判定性证明
+    - first_order_arithmetic:
+      title: 一阶算术
+      subsections:
+        - robinson_arithmetic:
+          title: 罗宾逊算术系统
+        - peano_arithmetic:
+          title: 皮亚诺算术系统
+        - godel_numbering:
+          title: 哥德尔编码
+          content: 将形式语言的符号、项、公式、有限符号串、证明树编码为自然数
+        - representability:
+          title: 可表示性
+          content: 关系\函数的可表示定义、可表示性的强弱、可表示性定理
+        - diagonalization_and_fixed_point_lemma:
+          title: 对角化与不动点引理
+          content: 对角化函数、不动点引理
+        - first_incompleteness_theorem:
+          title: 第一哥德尔不完备性定理
+        - second_incompleteness_theorem:
+          title: 第二哥德尔不完备性定理
+    - deductive_systems:
+      title: 演绎系统
+      subsections:
+        - natural_deduction:
+          title: 自然演绎系统
+        - sequent_calculus:
+          title: 相继式演算
+        - deductive_systems_equivalence:
+          title: 演绎系统的等价性
+        - cut_elimination:
+          title: 切消定理
+        - normalization_theorem:
+          title: 正规化定理
+    - high_order_language:
+      title: 高阶逻辑语言
+      subsections:
+        - syntax_of_l_n:
+          title: 高阶逻辑语言的语法
+        - semantics_of_l_n:
+          title: 高阶逻辑语言的语义
+        - hilberts_system_of_l_n:
+          title: 高阶逻辑语言的希尔伯特系统
+        - meta_theory_of_l_n:
+          title: 高阶逻辑语言的元理论
+    - type_theory:
+      title: 类型论
+      subsections:
+        - simple_typed_lambda_calculus:
+          title: 简单类型 λ 演算
+        - simple_type_theory:
+          title: 简单类型论
+        - curry_howard_correspondence:
+          title: 柯里-霍华德同构
+        - dependent_type_theory:
+          title: 依赖类型理论

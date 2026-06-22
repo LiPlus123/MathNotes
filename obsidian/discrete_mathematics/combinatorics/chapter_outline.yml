@@ -1,2 +1,62 @@
 combinatorics:
   title: "组合数学"
+  sections:
+    - permutations_and_combinations:
+        title: "排列与组合"
+        subsections:
+          - counting_principles:
+              title: "计数原理"
+          - permutations:
+              title: "排列"
+          - combinations:
+              title: "组合"
+          - binomial_theorem:
+              title: "二项式定理"
+          - multinomial_theorem:
+              title: "多项式定理"
+          - combinatorial_identities:
+              title: "组合恒等式"
+    - advanced_counting_principles:
+        title: "高级计数原理"
+        subsections:
+          - inclusion_exclusion_principle:
+              title: "容斥原理"
+          - derangements:
+              title: "错位排列"
+          - pigeonhole_principle:
+              title: "鸽巢原理"
+    - recurrence_relations:
+        title: "递推关系"
+        subsections:
+          - recurrence_modeling:
+              title: "计数问题的递推建模"
+          - first_order_recurrence:
+              title: "一阶线性递推"
+          - linear_homogeneous_const_coeff:
+              title: "线性齐次常系数递推关系"
+          - linear_nonhomogeneous_const_coeff:
+              title: "线性非齐次常系数递推关系"
+    - generating_functions:
+        title: "生成函数"
+        subsections:
+          - ordinary_generating_functions:
+              title: "普通生成函数"
+          - gf_basic_operation:
+              title: "生成函数基本运算与卷积"
+          - solving_recurrence_by_ogf:
+              title: "通过生成函数求解递推关系"
+          - exponential_generating_functions:
+              title: "指数生成函数"
+          - solving_counting_by_egf:
+              title: "通过指数生成函数求解计数问题"
+          - integer_partitions:
+              title: "整数拆分"
+    - special_sequences:
+        title: "特殊数列"
+        subsections:
+          - catalan_numbers:
+              title: "卡特兰数"
+          - stirling_numbers:
+              title: "斯特林数"
+          - bell_numbers:
+              title: "贝尔数"

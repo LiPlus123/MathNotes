@@ -1,0 +1,50 @@
+polynomial_equations:
+  title: 多项式方程
+  sections:
+    - fundamentals:
+        title: 基本概念
+        subsections:
+          - polynomial_definition:
+              title: 多项式的定义
+          - polynomial_ring:
+              title: 多项式环
+          - polynomial_equation:
+              title: 多项式方程
+    - number_system:
+        title: 数系的扩充
+        subsections:
+          - integers:
+              title: 整数
+          - rational_numbers:
+              title: 有理数
+          - real_numbers:
+              title: 实数
+          - complex_numbers:
+              title: 复数
+    - solving_polynomial_equations:
+        title: 多项式方程的求解
+        subsections:
+          - factorization:
+              title: 因式分解
+          - completing_the_square:  
+              title: 配方法
+    - properties_of_roots:
+        title: 根的性质
+        subsections:
+          - vieta's_formulas:
+              title: 维达定理
+          - fundamental_theorem_of_algebra:
+              title: 代数学基本定理
+              content: 介绍代数学基本定理，先叙述引理每个非零单变量多项式在复数域上至少有一个根，再用因式分解定理可以可证明。但该引理的证明依赖复分析，需要在文档中强调这一点。
+    - roots_formula:
+        title: 求根公式
+        subsections:
+          - quadratic_formula:
+              title: 二次方程求根公式
+          - cubic_formula:
+              title: 三次方程求根公式
+          - quartic_formula:
+              title: 四次方程求根公式
+          - abel_ruffini_theorem:
+              title: 阿贝尔-鲁菲尼定理
+              content: 说明五次及以上的多项式方程没有一般求根公式，但该证明依赖抽象代数的知识，需要在文档中需要强调这一点。

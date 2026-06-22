@@ -1,0 +1,53 @@
+keypoints:
+  # linear_diophantine_equations.md
+  - id: linear_diophantine_definition
+    title: 线性丢番图方程
+    file: linear_diophantine_equations.md
+    type: Definition
+
+  - id: binary_linear_diophantine_solvability
+    title: 二元线性丢番图方程的可解性与通解
+    file: linear_diophantine_equations.md
+    type: Theorem
+
+  - id: multivariable_linear_diophantine_solvability
+    title: 多元线性丢番图方程的可解性
+    file: linear_diophantine_equations.md
+    type: Theorem
+
+  # pythagorean_triples.md
+  - id: pythagorean_triple_definition
+    title: 勾股数与本原勾股数
+    file: pythagorean_triples.md
+    type: Definition
+
+  - id: pythagorean_triple_parametrization
+    title: 本原勾股数的参数化
+    file: pythagorean_triples.md
+    type: Theorem
+
+  - id: all_pythagorean_triples
+    title: 所有勾股数的结构
+    file: pythagorean_triples.md
+    type: Corollary
+
+  - id: pythagorean_triple_example
+    title: 本原勾股数举例
+    file: pythagorean_triples.md
+    type: Example
+
+  # fermat_last_theorem_n4.md
+  - id: fermat_last_theorem_statement
+    title: 费马大定理
+    file: fermat_last_theorem_n4.md
+    type: Theorem
+
+  - id: fermat_n4_theorem
+    title: 费马大定理（n=4 的情形）
+    file: fermat_last_theorem_n4.md
+    type: Theorem
+
+  - id: fermat_last_theorem_reduction
+    title: 费马大定理的约化
+    file: fermat_last_theorem_n4.md
+    type: Corollary

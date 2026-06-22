@@ -1,0 +1,119 @@
+keypoints:
+  # order_of_element.md
+  - id: order_definition
+    title: 元素的阶定义
+    file: order_of_element.md
+    type: Definition
+
+  - id: order_divides_power
+    title: 阶的整除性
+    file: order_of_element.md
+    type: Theorem
+
+  - id: order_divides_phi
+    title: 阶整除欧拉函数值
+    file: order_of_element.md
+    type: Corollary
+
+  - id: order_of_power
+    title: 幂的阶
+    file: order_of_element.md
+    type: Theorem
+
+  - id: order_congruence_iff
+    title: 同阶幂的判定
+    file: order_of_element.md
+    type: Theorem
+
+  # primitive_root_existence.md
+  - id: primitive_root_definition
+    title: 原根定义
+    file: primitive_root_existence.md
+    type: Definition
+
+  - id: primitive_root_generates
+    title: 原根生成简化剩余系
+    file: primitive_root_existence.md
+    type: Theorem
+
+  - id: primitive_root_count
+    title: 原根的个数
+    file: primitive_root_existence.md
+    type: Theorem
+
+  - id: primitive_root_mod_prime
+    title: 模素数的原根存在性
+    file: primitive_root_existence.md
+    type: Theorem
+
+  - id: primitive_root_mod_prime_power
+    title: 模奇素数幂的原根存在性
+    file: primitive_root_existence.md
+    type: Theorem
+
+  - id: primitive_root_mod_2prime_power
+    title: 模 2p^k 的原根存在性
+    file: primitive_root_existence.md
+    type: Theorem
+
+  - id: primitive_root_nonexistence
+    title: 原根不存在的情形
+    file: primitive_root_existence.md
+    type: Theorem
+
+  # indicator.md
+  - id: indicator_definition
+    title: 指标（离散对数）定义
+    file: indicator.md
+    type: Definition
+
+  - id: indicator_product_rule
+    title: 指标的乘积法则
+    file: indicator.md
+    type: Theorem
+
+  - id: indicator_power_rule
+    title: 指标的幂次法则
+    file: indicator.md
+    type: Theorem
+
+  - id: indicator_change_of_base
+    title: 换底公式
+    file: indicator.md
+    type: Theorem
+
+  - id: indicator_power_congruence
+    title: 指标在幂次同余方程中的应用
+    file: indicator.md
+    type: Theorem
+
+  # structure_of_reduced_residue_system.md
+  - id: reduced_residue_group_structure
+    title: 既约剩余系的群结构
+    file: structure_of_reduced_residue_system.md
+    type: Theorem
+
+  - id: cyclic_iff_primitive_root
+    title: 循环群的判定
+    file: structure_of_reduced_residue_system.md
+    type: Theorem
+
+  - id: structure_mod_prime
+    title: 模素数的既约剩余系结构
+    file: structure_of_reduced_residue_system.md
+    type: Theorem
+
+  - id: structure_mod_prime_power
+    title: 模奇素数幂的既约剩余系结构
+    file: structure_of_reduced_residue_system.md
+    type: Theorem
+
+  - id: structure_mod_2_power
+    title: 模 2^k 的既约剩余系结构
+    file: structure_of_reduced_residue_system.md
+    type: Theorem
+
+  - id: structure_general
+    title: 一般模数的既约剩余系结构
+    file: structure_of_reduced_residue_system.md
+    type: Theorem

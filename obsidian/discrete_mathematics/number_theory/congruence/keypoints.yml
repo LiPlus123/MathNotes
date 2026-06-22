@@ -1,0 +1,116 @@
+keypoints:
+  # definition_and_properties.md
+  - id: congruence_definition
+    title: 同余定义
+    file: definition_and_properties.md
+    type: Definition
+
+  - id: congruence_equivalence
+    title: 同余是等价关系
+    file: definition_and_properties.md
+    type: Theorem
+
+  - id: congruence_arithmetic_properties
+    title: 同余的算术相容性
+    file: definition_and_properties.md
+    type: Theorem
+
+  - id: congruence_cancellation
+    title: 同余的消去律
+    file: definition_and_properties.md
+    type: Theorem
+
+  # residue_classes.md
+  - id: residue_class_definition
+    title: 剩余类定义
+    file: residue_classes.md
+    type: Definition
+
+  - id: complete_residue_system_definition
+    title: 完全剩余系定义
+    file: residue_classes.md
+    type: Definition
+
+  - id: crs_characterization
+    title: 完全剩余系的判定
+    file: residue_classes.md
+    type: Theorem
+
+  - id: reduced_residue_system_definition
+    title: 简化剩余系定义
+    file: residue_classes.md
+    type: Definition
+
+  - id: rrs_characterization
+    title: 简化剩余系的判定
+    file: residue_classes.md
+    type: Theorem
+
+  - id: rrs_multiplication_closure
+    title: 简化剩余系在乘法下的封闭性
+    file: residue_classes.md
+    type: Theorem
+
+  # euler_phi_function.md
+  - id: euler_phi_definition
+    title: 欧拉函数定义
+    file: euler_phi_function.md
+    type: Definition
+
+  - id: euler_phi_prime
+    title: 素数的欧拉函数值
+    file: euler_phi_function.md
+    type: Theorem
+
+  - id: euler_phi_multiplicative
+    title: 欧拉函数的积性
+    file: euler_phi_function.md
+    type: Theorem
+
+  - id: euler_phi_formula
+    title: 欧拉函数的计算公式
+    file: euler_phi_function.md
+    type: Theorem
+
+  - id: euler_phi_sum
+    title: 欧拉函数的求和公式
+    file: euler_phi_function.md
+    type: Theorem
+
+  # euler_theorem.md
+  - id: euler_theorem
+    title: 欧拉定理
+    file: euler_theorem.md
+    type: Theorem
+
+  - id: modular_inverse_existence
+    title: 模逆元的存在性
+    file: euler_theorem.md
+    type: Theorem
+
+  # fermat_little_theorem.md
+  - id: fermat_little_theorem
+    title: 费马小定理
+    file: fermat_little_theorem.md
+    type: Theorem
+
+  - id: fermat_little_theorem_corollary
+    title: 费马小定理的幂简化推论
+    file: fermat_little_theorem.md
+    type: Corollary
+
+  # wilson_theorem.md
+  - id: wilson_theorem
+    title: 威尔逊定理
+    file: wilson_theorem.md
+    type: Theorem
+
+  - id: wilson_theorem_corollary
+    title: 威尔逊定理的素数判定推论
+    file: wilson_theorem.md
+    type: Corollary
+
+  - id: wilson_quadratic_residue
+    title: 威尔逊定理与二次剩余的联系
+    file: wilson_theorem.md
+    type: Corollary
