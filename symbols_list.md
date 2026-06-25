@@ -192,3 +192,195 @@ $p$ 进赋值（$p$ 在 $n$ 中的指数）：$v_p(n)$
 连分数的完全商（第 $k$ 个）：$\alpha_k$
 
 佩尔方程：$x^2 - Dy^2 = 1$（$D$ 为非完全平方正整数）
+
+## 抽象代数
+
+### 群论
+
+群（一般用大写字母）：$G, H, K$
+
+群的单位元：$e$ 或 $e_G$
+
+元素的阶：$\mathrm{ord}(a)$
+
+子群：$H \leq G$
+
+真子群：$H < G$
+
+正规子群：$N \trianglelefteq G$，真正规子群：$N \triangleleft G$
+
+商群：$G/N$
+
+群同态：$\varphi: G \to H$
+
+同态的核：$\ker\varphi$
+
+同态的像：$\mathrm{Im}\,\varphi$
+
+群同构：$G \cong H$
+
+循环群（由 $a$ 生成）：$\langle a \rangle$
+
+$n$ 次单位根群：$\mu_n$
+
+$H$ 在 $G$ 中的指数：$[G : H]$
+
+左陪集：$aH$
+
+右陪集：$Ha$
+
+共轭类：$\mathrm{Cl}(a)$
+
+中心化子：$C_G(a)$
+
+中心：$Z(G)$
+
+正规化子：$N_G(H)$
+
+$n$ 元对称群：$S_n$
+
+$n$ 元交替群：$A_n$
+
+集合 $X$ 的对称群：$\mathrm{Sym}(X)$
+
+$n$ 阶二面体群：$D_n$
+
+置换的符号：$\mathrm{sgn}(\sigma)$
+
+一般线性群：$GL(n, F)$
+
+特殊线性群：$SL(n, F)$
+
+正交群：$O(n)$
+
+特殊正交群：$SO(n)$
+
+酉群：$U(n)$
+
+特殊酉群：$SU(n)$
+
+轨道：$G \cdot x$
+
+稳定子（迷向子群）：$G_x$ 或 $\mathrm{Stab}_G(x)$
+
+Sylow $p$-子群的全体：$\mathrm{Syl}_p(G)$
+
+Sylow $p$-子群的个数：$n_p$
+
+### 环论
+
+环（一般用大写字母）：$R, S, T$
+
+环的加法零元：$0$ 或 $0_R$
+
+环的乘法单位元：$1$ 或 $1_R$
+
+环的单位群（可逆元群）：$R^\times$
+
+子环：$S \leq R$
+
+理想（双边）：$I \trianglelefteq R$
+
+商环：$R/I$
+
+环同态：$\varphi: R \to S$
+
+环同态的核：$\ker\varphi$
+
+环同态的像：$\mathrm{Im}\,\varphi$
+
+环同构：$R \cong S$
+
+相伴关系：$a \sim b$
+
+多项式环：$R[x]$
+
+多项式的次数：$\deg f$
+
+分式域（商域）：$\mathrm{Frac}(R)$
+
+有理函数域：$F(x)$
+
+中心（环）：$Z(R)$
+
+### 域论
+
+域（一般用大写字母）：$F, E, K, L$
+
+子域：$F \leq E$
+
+域扩张：$E/F$（表示 $F \subseteq E$）
+
+扩张次数：$[E:F]$
+
+域的特征：$\mathrm{char}(F)$
+
+素域：$\mathbb{Q}$（当 $\mathrm{char}(F)=0$）或 $\mathbb{F}_p$（当 $\mathrm{char}(F)=p$）
+
+代数元素：$\alpha$（相对于基域 $F$）
+
+最小多项式：$m_{\alpha,F}(x)$
+
+单扩张：$F(\alpha)$
+
+分裂域：$\mathrm{Spl}_F(f)$
+
+代数闭包：$\overline{F}$
+
+有限域（$q=p^n$）：$\mathbb{F}_q$
+
+Frobenius 自同态：$\mathrm{Fr}_p(x)=x^p$
+
+### Galois 理论
+
+Galois 群：$\mathrm{Gal}(E/F)$
+
+子群 $H$ 的固定域：$E^H$
+
+可作图数域：$\mathbb{Q}^{\mathrm{cons}}$
+
+导群（换位子群）：$G' = [G, G]$
+
+导群列：$G^{(0)} \geq G^{(1)} \geq G^{(2)} \geq \cdots$（$G^{(0)}=G$，$G^{(n+1)}=[G^{(n)},G^{(n)}]$）
+
+换位子：$[a, b] = a^{-1}b^{-1}ab$
+
+分圆多项式：$\Phi_n(x)$
+
+$n$ 次本原单位根：$\zeta_n = e^{2\pi i/n}$
+
+## 多项式方程
+
+数域（通用记号）：$K$
+
+多项式（通用记号）：$f(x), g(x), h(x)$
+
+多项式系数：$a_i, b_i$（$i = 0, 1, \ldots, n$）
+
+带余除法的商式：$q(x)$
+
+带余除法的余式：$r(x)$
+
+多项式整除：$g(x) \mid f(x)$
+
+多项式不整除：$g(x) \nmid f(x)$
+
+多项式相伴：$f(x) \sim g(x)$
+
+多项式最大公因式：$\gcd(f, g)$ 或 $(f, g)$
+
+方程的根（通用记号）：$\alpha, \beta, \gamma$
+
+多项式的根（按序列举）：$\alpha_1, \alpha_2, \ldots, \alpha_n$
+
+根的重数：$k$（$k$ 重根记为 multiplicity $k$）
+
+形式导数：$f'(x)$，高阶形式导数：$f^{(k)}(x)$
+
+初等对称多项式：$e_k(\alpha_1, \ldots, \alpha_n)$
+
+多项式的判别式：$\Delta(f)$
+
+多项式的容度（content）：$c(f)$
+
+复数的复共轭：$\bar{z}$（$z = a + bi$ 时 $\bar{z} = a - bi$）

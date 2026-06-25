@@ -1,2 +1,116 @@
 abstract_algebra:
   title: 抽象代数
+  sections:
+    - group_theory:
+      title: 群论
+      subsections:
+        - fundamentals_of_group:
+          title: 群的基本概念
+          content: 半群、幺半群、群、阿贝尔群的定义、群的性质、群的例子、群的阶
+        - subgroup:
+          title: 子群
+          content: 子群的定义、子群的判定法则、子群的例子
+        - homomorphism_and_isomorphism:
+          title: 同态与同构
+          content: 群同态的定义、同态的性质、同构的定义、同构的性质、例子、群同态的核
+        - cyclic_group:
+          title: 幂运算与循环群
+          content: 群元素的整数次幂运算、循环群与生成元的定义、循环群的性质、例子、循环群的子群
+        - transformation_group:
+          title: 变换与变换群
+          content: 变换的定义、变换群的定义、例子
+        - permutation_group:
+          title: 置换与置换群
+          content: cayley 定理、置换的定义、对比组合数学中排列的定义、对称群与置换群的定义
+        - linear_group:
+          title: 线性群
+          content: 一般线性群、特殊线性群、正交群、酉群、例子
+        - coset_and_lagrange_theorem:
+          title: 陪集与拉格朗日定理
+          content: 左陪集、右陪集的定义性质、群划分、拉格朗日定理
+        - normal_subgroup_and_quotient_group:
+          title: 正规子群与商群
+          content: 共轭、正规子群的定义、商群的定义、商群的性质、例子
+        - group_isomorphism_theorems:
+          title: 群同构基本定理
+          content: 第一、第二、第三同构定理
+        - direct_product:
+          title: 直积
+          content: 外直积、内直积、有限生成阿贝尔群基本结构定理
+        - group_actions:
+          title: 群作用
+          content: 群作用的定义、轨道与稳定子、轨道-稳定子定理、例子
+        - sylow_theorems:
+          title: Sylow 定理
+          content: Sylow p-子群的定义、Sylow 定理的叙述与证明、例子
+    - ring_theory:
+      title: 环论
+      subsections:
+        - fundamentals_of_ring:
+          title: 环的基本概念
+          content: 环的定义、交换环、无零因子环、含幺环、整环、除环
+        - subring:
+          title: 子环
+          content: 子环的定义、子环的判定法则、子环的例子
+        - ring_homomorphism_and_isomorphism:
+          title: 环同态与同构
+          content: 环同态的定义、同态的性质、同构的定义、同构的性质、例子、环同态的核
+        - ideal_and_quotient_ring:
+          title: 理想与商环
+          content: 左理想、右理想、双边理想的定义、理想的性质、理想的例子、商环的定义、商环的性质
+        - prime_and_maximal_ideals:
+          title: 素理想与极大理想
+          content: 素理想与极大理想的定义、素理想与极大理想的性质、例子
+        - ring_isomorphism_theorems:
+          title: 环同构基本定理
+          content: 第一、第二、第三同构定理
+        - field_of_fractions:
+          title: 分式域
+        - ufd_pid_ed:
+          title: 唯一分解环、主理想环与欧几里得环
+          content: 唯一分解环、主理想环与欧几里得环的定义、性质与例子、高斯引理
+        - polynomial_rings:
+          title: 多项式环
+          content: 介绍多项式环相关概念、整除与不可约性
+    - field_theory:
+      title: 域论
+      subsections:
+        - fundamentals_of_field:
+          title: 域的基本概念
+          content: 域的定义、域的性质
+        - field_extensions:
+          title: 域扩张
+          content: 、域扩张、代数扩张与超越扩张、有限扩张与无限扩张、例子
+        - algebraic_elements_and_minimal_polynomials:
+          title: 代数元素与极小多项式
+          content: 代数元、极小多项式、单扩张
+        - splitting_fields:
+          title: 分裂域
+          content: 分裂域的定义、分裂域的存在性与唯一性、例子
+        - algebraic_closure:
+          title: 代数闭包
+          content: 代数闭包的定义、代数闭包的性质、广义代数基本定理
+        - separable_and_inseparable_extensions:
+          title: 可分扩张与不可分扩张
+          content: 可分元素与不可分元素的定义、可分扩张与不可分扩张的定义、例子
+        - normal_extensions:
+          title: 正规扩张
+          content: 正规扩张的定义、正规扩张的性质、例子
+        - finite_fields:
+          title: 有限域
+    - galois_theory:
+      title: Galois 理论
+      subsections:
+        - galois_extensions:
+          title: Galois 扩张
+          content: Galois 扩张的定义、Galois 扩张的性质、例子
+        - galois_group:
+          title: Galois 群
+        - fundamental_theorem_of_galois_theory:
+          title: Galois 理论基本定理
+          content: Galois 理论基本定理的叙述与证明、例子
+        - solvable_group:
+          title: 可解群
+        - applications_of_galois_theory:
+          title: Galois 理论的应用
+          content: 尺规作图、根式可解定理、阿贝尔-鲁菲尼定理

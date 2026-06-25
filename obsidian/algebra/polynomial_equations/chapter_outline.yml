@@ -6,8 +6,15 @@ polynomial_equations:
         subsections:
           - polynomial_definition:
               title: 多项式的定义
-          - polynomial_ring:
-              title: 多项式环
+          - polynomial_operations:
+              title: 多项式的运算
+              content: 多项式的加法、减法、乘法、运算律以及多项式环
+          - polynomial_division:
+              title: 多项式的除法
+              content: 多项式的带余除法、整除、因式的定义、相伴、余数定理
+          - polynomial_gcd:
+              title: 多项式的最大公因式
+              content: 类比整数的最大公约数，介绍公因式与最大公因式、辗转相除法、裴蜀等式、多项式互素
           - polynomial_equation:
               title: 多项式方程
     - number_system:
@@ -21,21 +28,52 @@ polynomial_equations:
               title: 实数
           - complex_numbers:
               title: 复数
-    - solving_polynomial_equations:
-        title: 多项式方程的求解
-        subsections:
-          - factorization:
-              title: 因式分解
-          - completing_the_square:  
-              title: 配方法
     - properties_of_roots:
         title: 根的性质
         subsections:
-          - vieta's_formulas:
-              title: 维达定理
+          - factorization_theorem:
+              title: 因式分解定理
+              content: 介绍因式分解定理
+          - root_count_bound:
+              title: 根的个数上界
+              content: n 次非零多项式至多有 n 个根（含重数与不含重数两种叙述）
           - fundamental_theorem_of_algebra:
               title: 代数学基本定理
               content: 介绍代数学基本定理，先叙述引理每个非零单变量多项式在复数域上至少有一个根，再用因式分解定理可以可证明。但该引理的证明依赖复分析，需要在文档中强调这一点。
+          - vietas_formulas:
+              title: 维达定理
+          - multiple_root_theorem:
+              title: 重根判定定理
+          - discriminant:
+              title: 判别式
+              content: 判别式的定义、二次与三次的具体形式、判别式与重根的关系
+          - conjugate_roots:
+              title: 实系数多项式的复根共轭性
+              content: 实系数多项式的非实复根成对出现；推论：奇数次实系数多项式必有实根
+          - rational_root_theorem:
+              title: 有理根定理
+              content: 整系数多项式有理根的必要条件 (p/q 中 p|常数项, q|首项系数)
+    - factorization_theory:
+        title: 多项式的因式分解
+        subsections:
+          - irreducible_polynomial:
+              title: 不可约多项式
+              content: 不可约性的定义；不可约性依赖于系数域
+          - unique_factorization_over_field:
+              title: 数域上多项式的唯一分解定理
+              content: K[x] 中任意非零非常数多项式可唯一分解为不可约因子之积（在相伴意义下）；K[x] 是 UFD（详细的环论叙述参见"抽象代数"chapter）
+          - factorization_over_complex:
+              title: 复数域上的因式分解
+              content: ℂ[x] 上不可约多项式恰为一次多项式；任意复系数多项式分解为一次因子之积
+          - factorization_over_real:
+              title: 实数域上的因式分解
+              content: ℝ[x] 上不可约多项式恰为一次多项式或判别式为负的二次多项式
+          - gauss_lemma:
+              title: 高斯引理
+              content: 整系数本原多项式之积仍是本原；ℤ[x] 上不可约 iff ℚ[x] 上不可约
+          - eisenstein_criterion:
+              title: 艾森斯坦判别法
+              content: 整系数多项式在 ℚ 上不可约的充分条件
     - roots_formula:
         title: 求根公式
         subsections:
