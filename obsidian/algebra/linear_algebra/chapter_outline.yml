@@ -1,2 +1,267 @@
 linear_algebra:
   title: "线性代数"
+  sections:
+    - linear_space:
+      title: 线性空间
+      subsections:
+        - definition_of_linear_space:
+            title: 线性空间的定义
+        - subspace:
+            title: 子空间
+        - linear_dependence:
+            title: 线性相关性
+        - basis_and_dimension:
+            title: 基与维数
+        - rank_of_vector_set:
+            title: 向量组的秩
+    - normed_space_and_inner_product_space:
+      title: 赋范空间与内积空间
+      subsections:
+        - normed_linear_space:
+            title: 赋范线性空间
+        - inner_product_space:
+            title: 内积空间
+            content: 内积空间的定义
+        - orthogonality_and_projection:
+            title: 正交与投影
+            content: 正交性、正交补、投影、Gram-Schmidt 正交化
+        - cauchy_schwarz_inequality:
+            title: 柯西-施瓦兹不等式
+        - bessel_inequality:
+            title: 贝塞尔不等式
+    - linear_operator:
+      title: 线性算子
+      subsections:
+        - definition_of_linear_operator:
+            title: 线性算子的定义
+            content: 线性算子、线性同构、线性变换、线性泛函、逆算子
+        - kernel_and_nullity:
+            title: 核与零度
+            content: 核的定义、零度的定义、线性单射的充要条件、线性同构的充要条件
+        - image_and_rank:
+            title: 像与秩
+            content: 像的定义、秩的定义、秩-零定理
+        - linear_operator_space:
+            title: 线性算子空间
+            content: 零算子、恒等算子、线性算子的加法、线性算子的数乘、线性算子空间的维数、线性算子的复合（乘法）
+        - special_linear_operator:
+            title: 特殊线性算子
+            content: 投影算子、正规算子、幂等算子、酉算子、厄米算子
+        - dual_linear_space:
+            title: 对偶线性空间
+            content: 对偶线性空间的定义、对偶基、对偶映射
+    - matrix:
+      title: 矩阵
+      subsections:
+        - definition_of_matrix:
+            title: 矩阵的定义
+            content: 矩阵的定义、矩阵的加法、矩阵的数乘、矩阵的乘法、矩阵空间
+        - matrix_trace:
+            title: 矩阵的迹
+        - rank_of_matrix:
+            title: 矩阵的秩
+            content: 矩阵秩的定义
+        - matrix_transpose:
+            title: 转置
+        - matrix_determinant:
+            title: 行列式
+        - matrix_inverse:
+            title: 逆矩阵
+        - coordinate_transformation:
+            title: 坐标变换
+        - similarity_of_matrices:
+            title: 矩阵的相似
+        - linear_operator_and_matrix:
+            title: 线性算子与矩阵
+            content: 线性算子与矩阵的关系
+    - eigenvalue_and_eigenvector:
+      title: 特征值与特征向量
+      subsections:
+        - characteristic_polynomial_and_eigenvalues:
+            title: 特征多项式与特征值
+            content: 特征多项式的定义、代数重数、根据多项式方程根的性质，介绍特征值的性质，相似矩阵有相同的特征值、最小多项式
+        - eigenvector_and_eigen_space:
+            title: 特征向量与特征子空间
+            content: 特征空间的定义、几何重数、几何重数与代数重数的关系、特征值与特征向量的关系
+        - invariant_subspace:
+            title: 不变子空间
+            content: 不变子空间的定义、特征子空间是矩阵的不变子空间
+        - cayley_hamilton_theorem:
+            title: Cayley–Hamilton 定理
+            content: Cayley–Hamilton 定理的叙述、Cayley–Hamilton 定理的应用
+    - diagonalization_and_canonical_form:
+      title: 对角化与标准形
+      subsections:
+        - triangular_matrix:
+            title: 三角矩阵
+            content: 上三角矩阵、下三角矩阵、三角矩阵的特征值
+        - triangularization:
+            title: 三角化
+            content: 三角化、可三角化矩阵的条件
+        - diagonal_matrix:
+            title: 对角矩阵
+            content: 对角矩阵、对角矩阵的特征值
+        - diagonalization_and_eigenvalue_decomposition:
+            title: 对角化与特征值分解
+            content: 对角化、可对角化的条件、特征值分解
+        - block_matrix:
+            title: 分块矩阵
+            content: 分块矩阵的定义、分块矩阵的运算、分块矩阵的性质
+        - matrix_direct_sum:
+            title: 矩阵的直和
+            content: 矩阵的直和、运算性质、行列式性质、特征值与特征多项式性质
+        - jordan_block:
+            title: Jordan 块
+        - jordan_canonical_form:
+            title: Jordan 标准形
+    - matrix_norm:
+      title: 矩阵范数
+      subsections:
+        - definition_of_matrix_norm:
+            title: 矩阵范数的定义
+            content: 矩阵范数的定义、向量范数诱导的矩阵范数（行范数、列范数、谱范数）、Frobenius 范数
+        - inequalities_of_matrix_norm:
+            title: 矩阵范数的不等式
+            content: 矩阵范数基本不等式、方阵范数次乘性
+        - condition_number:
+            title: 条件数
+            content: 条件数的定义、条件数的性质与作用
+        - matrix_spectral_theory:
+            title: 矩阵谱理论
+            content: 矩阵谱半径、谱半径与方阵范数不等式、Gelfand 定理
+    - normal_matrix_and_spectral_decomposition:
+      title: 正规矩阵与谱分解
+      subsections:
+        - normal_matrix:
+            title: 正规矩阵的定义
+            content: 正规矩阵的定义、性质
+        - orthogonal_and_unitary_matrix:
+            title: 正交矩阵与酉矩阵
+            content: 正交矩阵与酉矩阵的定义、性质
+        - normal_matrix_spectral_decomposition_theorem:
+            title: 正规矩阵谱分解定理
+            content: 谱分解定理的叙述、谱分解定理的应用
+        - real_symmetric_matrix:
+            title: 实对称矩阵
+            content: 实对称矩阵的定义、实对称矩阵的性质、实对称矩阵是可对角化的矩阵
+        - hermitian_matrix:
+            title: 厄米矩阵
+            content: 厄米矩阵的定义、厄米矩阵的性质、厄米矩阵是可对角化的矩阵
+        - hermitian_matrix_spectral_decomposition_theorem:
+            title: 厄米矩阵谱分解定理
+            content: 厄米矩阵谱分解定理的叙述、厄米矩阵谱分解定理的应用
+        - singular_value_and_singular_value_decomposition:
+            title: 奇异值与奇异值分解
+            content: 奇异值的定义、奇异值分解的定义、奇异值分解的性质
+        - polar_decomposition:
+            title: 极分解
+    - quadratic_form:
+      title: 二次型
+      subsections:
+        - bilinear_form:
+            title: 双线性型
+            content: 双线性型的定义、双线性型与矩阵的关系
+        - definition_of_quadratic_form:
+            title: 二次型的定义
+            content: 二次型的定义、二次型与对称矩阵的关系
+        - polarization_identity:
+            title: 极化恒等式
+        - categories_of_real_symmetric_matrix:
+            title: 实对称矩阵的分类
+            content: 正定矩阵、半正定矩阵、负定矩阵、半负定矩阵、非负定矩阵、非正定矩阵
+        - congruence_of_matrices:
+            title: 矩阵合同
+            content: 矩阵合同的定义、矩阵合同的性质、二次型合同的判定
+        - standard_form_of_quadratic_form:
+            title: 二次型的标准形
+            content: 二次型的标准形、二次型的规范形、二次型的规范形与标准形之间的关系
+        - inertia_of_quadratic_form:
+            title: 惯性定理与惯性指数
+            content: 惯性定理的叙述、惯性指数的定义、惯性指数与正定性、半正定性、负定性、半负定性的关系
+    - linear_equation:
+      title: 线性方程组
+      subsections:
+        - definition_of_linear_equation:
+            title: 线性方程组的定义
+        - cramer_rule:
+            title: 克莱姆法则
+        - elementary_transformation_of_matrix:
+            title: 矩阵的初等变换
+        - permutation_matrix:
+            title: 置换矩阵
+        - gaussian_elimination:
+            title: 高斯消元法
+        - lu_decomposition:
+            title: LU 分解
+        - cholesky_decomposition:
+            title: Cholesky 分解
+        - qr_decomposition:
+            title: QR 分解
+        - homogeneous_linear_equation:
+            title: 齐次线性方程组
+            content: 基础解系、解空间的维数
+        - nonhomogeneous_linear_equation:
+            title: 非齐次线性方程组
+            content: 解的结构（特解 + 齐次解）、解的表达式
+    - generalized_inverse:
+      title: 广义逆
+      subsections:
+        - definition_of_generalized_inverse:
+            title: 广义逆的定义
+            content: 广义逆的定义、广义逆的存在性、广义逆不唯一
+        - moore_penrose_inverse:
+            title: Moore-Penrose 逆
+            content: Moore-Penrose 逆的定义、Moore-Penrose 逆的性质、SVD 求 MP 逆
+        - moore_penrose_inverse_and_kernel_and_image:
+            title: Moore-Penrose 逆与核像空间的关系
+        - generalized_inverse_and_linear_equation:
+            title: 广义逆与线性方程组
+            content: 广义逆与线性方程组的关系、广义逆与最小二乘解
+    - tensor_algebra:
+      title: 张量代数
+      subsections:
+        - indicial_notation:
+            title: 指标记号
+            content: 自由指标、求和约定、克罗内克尔符号、广义克罗内克尔符号
+        - definition_of_tensor:
+            title: 张量的定义
+            content: 多重线性泛函、张量的定义
+        - tensor_product:
+            title: 张量积
+            content: 张量积的定义、张量积的性质
+        - covariant_and_contravariant:
+            title: 协变与逆变
+            content: 协变基与逆变基、协变分量与逆变分量
+        - components_of_tensor:
+            title: 张量的分量表示
+            content: 张量的分量、张量的分量在不同基下的变换规律
+        - tensor_contraction:
+            title: 张量的缩并
+            content: 张量的缩并的定义、张量的缩并的性质
+        - metric_tensor:
+            title: 度量张量
+    - exterior_algebra:
+      title: 外代数
+      subsections:
+        - exterior_form:
+            title: 外形式 
+        - antisymmetric_operation:
+            title: 反对称化运算
+        - exterior_algebra_as_graded_algebra:
+            title: 外代数
+            content: 外代数的定义、外代数作为分次代数、外代数的维数 2^n
+        - wedge_product:
+            title: 楔积
+            content: 楔积的定义、楔积的性质
+        - basis_of_exterior_form:
+            title: 外形式的基
+            content: 外形式的基的定义、外形式的基的性质
+        - hodge_star_operator:
+            title: Hodge 星算子
+            content: Hodge 星算子的定义、Hodge 星算子的性质
+        - inner_product_of_exterior_form:
+            title: 外形式的内积
+            content: 外形式的内积的定义、外形式的内积的性质
+        - cross_product_in_3d_space:
+            title: 三维欧式空间中的叉积
+            content: 三维欧氏空间的向量外积、三维欧氏空间的向量外积与叉积的关系、叉乘与行列式的几何意义

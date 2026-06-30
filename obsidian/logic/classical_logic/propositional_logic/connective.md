@@ -1,11 +1,11 @@
 ---
 title: 逻辑连接词
 tags:
-  - logic
-  - classical_logic
   - propositional_logic
+  - classical_logic
+refs:
+  - "[[propositional_logic]]"
 ---
-
 # 逻辑连接词
 
 命题逻辑研究复合命题及其推理规则。一个复合命题 $\varphi$ 由多个分支命题组成，分支命题的具体内容可以变化，称为**命题变元**，用小写字母 $p,q$ 表示。命题变元通过逻辑连接词连接起来，得到一个复合命题。逻辑连接词有以下五种：

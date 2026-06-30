@@ -1,0 +1,234 @@
+algebraic_topology:
+  title: 代数拓扑
+  sections:
+    - axiomatic_homology:
+        title: 同调论的公理化
+        subsections:
+          - homology_as_functor:
+              title: 同调作为函子
+              content: 拓扑对范畴 Top² 上的函子族、同调群作为 Top² → Ab 的函子序列、自然变换 ∂_n、连续映射诱导的同调群同态的函子性
+          - eilenberg_steenrod_axioms:
+              title: Eilenberg-Steenrod 公理
+              content: 同伦不变性、长正合列、切除、维数公理、可加性、Eilenberg-Steenrod 公理的精确陈述
+          - uniqueness_of_homology_theory:
+              title: 同调论的唯一性
+              content: 在 CW 复形范畴上，满足 Eilenberg-Steenrod 公理的同调论由系数群唯一确定（同构意义下）
+          - reduced_and_unreduced:
+              title: 约化与非约化同调
+              content: 约化同调 H̃_*、二者之间的关系、楔积下约化同调的可加性
+    - singular_cohomology:
+        title: 奇异上同调
+        subsections:
+          - cochain_complex_and_cohomology:
+              title: 上链复形与上同调
+              content: 取 Hom(-, G) 得到上链复形、奇异上同调群 Hⁿ(X; G)、连续映射诱导的反变同态
+          - universal_coefficient_theorem:
+              title: 万有系数定理
+              content: 同调到上同调的万有系数短正合列（含 Ext 项）、同调取系数的万有系数定理（含 Tor 项）、PID 上分裂但不自然
+          - cohomology_of_basic_spaces:
+              title: 基本空间的上同调
+              content: 球面、射影空间、环面、Klein 瓶、紧致曲面的上同调群
+          - cohomology_long_exact_sequences:
+              title: 上同调的长正合列
+              content: 对（X, A）的上同调长正合列、Mayer-Vietoris 上同调版本
+    - cup_product_and_cohomology_ring:
+        title: 上积与上同调环
+        subsections:
+          - cup_product:
+              title: 上积
+              content: 奇异上链上的上积公式、∪ 在上同调上的良定性、结合律、单位元、上积关于连续映射的自然性
+          - cohomology_ring:
+              title: 上同调环
+              content: H^*(X; R) 的分次环结构、分次交换律 α ∪ β = (-1)^{pq} β ∪ α、上同调环作为同伦不变量
+          - cap_product:
+              title: 卡积
+              content: 卡积、与上积的关系、自然性
+          - examples_cohomology_rings:
+              title: 上同调环的例子
+              content: H^*(ℝPⁿ; ℤ/2) ≅ ℤ/2[x]/(x^{n+1})、H^*(ℂPⁿ; ℤ) ≅ ℤ[x]/(x^{n+1})、环面 H^*(T^n; ℤ) 为外代数
+    - kunneth_and_eilenberg_zilber:
+        title: Künneth 公式与 Eilenberg-Zilber 定理
+        subsections:
+          - eilenberg_zilber_theorem:
+              title: Eilenberg-Zilber 定理
+              content: S_*(X × Y) 与 S_*(X) ⊗ S_*(Y) 在链同伦意义下等价、Alexander-Whitney 与 Eilenberg-Zilber 映射
+          - kunneth_formula_for_chain_complexes:
+              title: 链复形的 Künneth 公式
+              content: 自由链复形张量积的同调短正合列（含 Tor 项）、PID 上的分裂
+          - kunneth_formula_topological:
+              title: 拓扑空间的 Künneth 公式
+              content: H_*(X × Y) 由 H_*(X) ⊗ H_*(Y) 与 Tor 项构造、上同调版本与上积的相容性
+    - poincare_duality:
+        title: Poincaré 对偶
+        subsections:
+          - manifold_and_orientation:
+              title: 流形与定向
+              content: 拓扑流形、局部同调、定向覆叠、可定向流形、定向类（fundamental class）
+          - poincare_duality_theorem:
+              title: Poincaré 对偶定理
+              content: 闭可定向 n-流形的同构 H^k(M; R) ≅ H_{n-k}(M; R)、非紧情形（紧支撑上同调）、ℤ/2 系数下的非定向版本
+          - lefschetz_duality:
+              title: Lefschetz 对偶
+              content: 带边流形上 H^k(M, ∂M) ≅ H_{n-k}(M) 的对偶
+          - alexander_duality:
+              title: Alexander 对偶
+              content: 球面中紧致子空间补集的（约化）上同调与子空间的（约化）同调之间的对偶、Jordan-Brouwer 定理的推广
+          - intersection_form:
+              title: 相交形式
+              content: 闭可定向偶数维流形上的相交形式、对称/反对称性、流形分类的应用
+    - higher_homotopy_groups:
+        title: 高阶同伦群
+        subsections:
+          - definition_of_homotopy_groups:
+              title: 高阶同伦群的定义
+              content: πₙ(X, x₀) 的两种等价定义（[Sⁿ, X] 与 [Iⁿ, ∂Iⁿ; X, x₀]）、群运算、n ≥ 2 时的可交换性
+          - functoriality_and_basepoint:
+              title: 函子性与基点依赖
+              content: 连续映射诱导 f_# 同态、πₙ 作为 Top_* → Grp（n=1）或 → Ab（n≥2）的函子、基点依赖与 π₁ 作用
+          - relative_homotopy_groups:
+              title: 相对同伦群
+              content: πₙ(X, A, x₀) 的定义、相对同伦群长正合列
+          - hurewicz_theorem:
+              title: Hurewicz 定理
+              content: Hurewicz 同态 πₙ(X) → Hₙ(X)、n-连通空间的 Hurewicz 定理、相对版本
+          - whitehead_theorem:
+              title: Whitehead 定理
+              content: 弱同伦等价、CW 复形之间的弱同伦等价即同伦等价、同调版本的 Whitehead 定理
+          - cw_approximation:
+              title: CW 近似
+              content: 任意空间的 CW 近似存在、n-连通对的 CW 近似、与谱序列的应用
+    - fibration_and_cofibration:
+        title: 纤维化与上纤维化
+        subsections:
+          - fibration:
+              title: 纤维化
+              content: Hurewicz 纤维化（同伦提升性质）、Serre 纤维化（CW 同伦提升）、例子（覆叠映射、纤维丛、道路纤维化）
+          - long_exact_sequence_of_fibration:
+              title: 纤维化的同伦长正合列
+              content: 纤维 F → 全空间 E → 底空间 B 的同伦群长正合列、应用计算
+          - cofibration:
+              title: 上纤维化
+              content: 同伦扩张性质、NDR 对、上纤维化的对偶定义、CW 对作为上纤维化
+          - puppe_sequence:
+              title: Puppe 序列
+              content: 映射的纤维序列 ... → ΩY → F → X → Y、对偶的上纤维序列 X → Y → Cf → ΣX → ΣY、长正合列推广
+          - loop_and_suspension:
+              title: 环路空间与悬挂
+              content: 环路空间 ΩX、约化悬挂 ΣX、伴随 [ΣX, Y] ≅ [X, ΩY]、Freudenthal 悬挂定理
+    - spectral_sequences_in_topology:
+        title: 拓扑中的谱序列
+        subsections:
+          - serre_spectral_sequence:
+              title: Serre 谱序列
+              content: 纤维化 F → E → B 的同调/上同调 Serre 谱序列、E₂ 项 = H_p(B; H_q(F))、收敛到 H_{p+q}(E)
+          - applications_serre:
+              title: Serre 谱序列的应用
+              content: 球面环路空间的上同调、Hopf 纤维化、Steenrod 上同调的计算、低维同伦群
+          - leray_serre_for_cohomology:
+              title: 上同调 Serre 谱序列
+              content: 上同调 E₂^{p,q} = Hᵖ(B; H^q(F))、乘法结构、转换法（transgression）
+          - atiyah_hirzebruch:
+              title: Atiyah-Hirzebruch 谱序列
+              content: 广义上同调论的谱序列、E₂^{p,q} = Hᵖ(X; h^q(pt))、应用于 K-理论与配边
+    - eilenberg_maclane_and_representability:
+        title: Eilenberg-MacLane 空间与可表性
+        subsections:
+          - eilenberg_maclane_space:
+              title: Eilenberg-MacLane 空间
+              content: K(G, n) 空间的定义与存在性、唯一性（弱同伦等价意义下）、构造方法
+          - cohomology_representability:
+              title: 上同调的可表性
+              content: 自然同构 Hⁿ(X; G) ≅ [X, K(G, n)]（CW 复形上）、与 Yoneda 引理的关系
+          - postnikov_tower:
+              title: Postnikov 塔
+              content: 空间的 Postnikov 分解、k-不变量、K(πₙ, n) 作为构件
+          - brown_representability:
+              title: Brown 可表性定理
+              content: CW 复形上满足 Mayer-Vietoris 与楔积公理的反变函子可表、广义上同调论的可表性
+    - cohomology_operations_and_steenrod:
+        title: 上同调运算与 Steenrod 代数
+        subsections:
+          - cohomology_operations:
+              title: 上同调运算
+              content: 稳定与非稳定上同调运算、由 [K(G, n), K(H, m)] 描述
+          - steenrod_squares:
+              title: Steenrod 平方
+              content: Sqⁱ、公理（自然性、稳定性、Cartan 公式、Adem 关系、Sq⁰ = id、Sqⁿ x = x²）
+          - steenrod_powers:
+              title: Steenrod 幂
+              content: 素数 p 的奇数情形、Pⁱ 运算、Bockstein 同态
+          - steenrod_algebra:
+              title: Steenrod 代数
+              content: 模 2 Steenrod 代数 𝒜₂ 作为稳定上同调运算的代数、Adem 关系、可允许单项式基、对偶 Steenrod 代数
+          - applications_steenrod:
+              title: Steenrod 代数的应用
+              content: Hopf 不变量为一问题、球面同伦群、向量场问题
+    - vector_bundle_and_characteristic_classes:
+        title: 向量丛与特征类
+        subsections:
+          - vector_bundle:
+              title: 向量丛
+              content: 向量丛的定义、丛同构、丛运算（直和、张量积、对偶、Hom）、纤维丛的回拉
+          - classifying_space:
+              title: 分类空间
+              content: Grassmann 流形 Gₙ(ℝ^∞)、Gₙ(ℂ^∞)、万有丛、向量丛的同伦分类 [X, BG]
+          - stiefel_whitney_classes:
+              title: Stiefel-Whitney 类
+              content: wᵢ(E) ∈ Hⁱ(X; ℤ/2) 的公理化定义、Whitney 求和公式、推论（可定向性、Spin 结构、配边不变量）
+          - chern_classes:
+              title: Chern 类
+              content: 复向量丛的 cᵢ(E) ∈ H^{2i}(X; ℤ)、由分裂原理与第一 Chern 类构造、ℂPⁿ 的切丛
+          - pontryagin_classes:
+              title: Pontryagin 类
+              content: 实向量丛的 pᵢ(E) ∈ H^{4i}(X; ℤ)、与复化 Chern 类的关系、Pontryagin 数
+          - euler_class:
+              title: Euler 类
+              content: 可定向实向量丛的 Euler 类 e(E) ∈ Hⁿ(X; ℤ)、与最高 Chern 类、Stiefel-Whitney 顶类的关系、Gauss-Bonnet 雏形
+    - k_theory:
+        title: K-理论初步
+        subsections:
+          - topological_k_theory:
+              title: 拓扑 K-理论
+              content: 复向量丛的 Grothendieck 群 K⁰(X)、约化 K̃⁰(X)、K-理论作为反变函子
+          - bott_periodicity:
+              title: Bott 周期性
+              content: 复 K-理论的周期 2（K⁻ⁿ ≅ K⁻ⁿ⁻²）、实 K-理论的周期 8、Bott 周期映射
+          - k_theory_as_cohomology:
+              title: K-理论作为广义上同调
+              content: 满足除维数公理外的 Eilenberg-Steenrod 公理、谱表示、与上同调通过 Chern 特征相关
+          - applications_k_theory:
+              title: K-理论的应用
+              content: 球面上的向量场问题、Hopf 不变量、Adams 运算、指标定理框架（叙述层面）
+    - spectrum_and_stable_homotopy:
+        title: 谱与稳定同伦范畴
+        subsections:
+          - spectrum:
+              title: 谱
+              content: CW 谱、Ω-谱、悬挂谱、Eilenberg-MacLane 谱 HG、K-理论谱 KU/KO、Thom 谱 MU/MO
+          - stable_homotopy_category:
+              title: 稳定同伦范畴
+              content: 稳定同伦范畴的构造、平移函子 Σ 作为可逆等价、稳定同伦群、辛对称幺半结构（smash product）
+          - generalized_cohomology_theories:
+              title: 广义上同调论
+              content: 谱表示的广义上同调论 E^n(X) = [Σ^∞ X, ΣⁿE]、复配边、稳定配边、ko/ku-理论
+          - smash_product_and_ring_spectra:
+              title: 击破积与环谱
+              content: 谱的击破积 ∧、环谱（A_∞、E_∞）、模谱、与同调代数中乘法结构的对偶
+    - model_category:
+        title: 模型范畴与同伦极限
+        subsections:
+          - definition_of_model_category:
+              title: 模型范畴的定义
+              content: 弱等价、纤维化、上纤维化、三类态射的公理（提升、分解）、Quillen 的模型范畴定义
+          - topological_model_structure:
+              title: 拓扑空间上的模型结构
+              content: Top 上的 Quillen 模型结构、CW 复形作为上纤维-可纤维对象
+          - chain_complex_model_structure:
+              title: 链复形上的模型结构
+              content: Ch(R-Mod) 上的投射/入射模型结构、与导出范畴的关系
+          - quillen_adjunction:
+              title: Quillen 伴随与等价
+              content: Quillen 伴随、左/右 Quillen 函子、Quillen 等价、导出函子作为 Quillen 函子的同伦延拓
+          - homotopy_limit_and_colimit:
+              title: 同伦极限与同伦余极限
+              content: 同伦推出、同伦回拉、同伦余极限作为锥构造的推广、Bousfield-Kan 公式、与谱序列的关系

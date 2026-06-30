@@ -72,6 +72,66 @@ abstract_algebra:
         - polynomial_rings:
           title: 多项式环
           content: 介绍多项式环相关概念、整除与不可约性
+    - module_theory:
+      title: 模论
+      subsections:
+        - fundamentals_of_module:
+          title: 模的基本概念
+          content: 左模、右模、双模的定义；与向量空间的对比；模的基本性质与例子（阿贝尔群作为 Z-模、向量空间作为域上的模、理想作为环自身的模）
+        - submodule_and_quotient_module:
+          title: 子模与商模
+          content: 子模的定义与判定法则、由子集生成的子模、子模的和与交、商模的构造与泛性质
+        - module_homomorphism:
+          title: 模同态与同构
+          content: 模同态的定义与性质、Hom 集合作为阿贝尔群、模同构、模同构基本定理（第一、第二、第三同构定理）、模同态的核与像
+        - direct_sum_and_direct_product:
+          title: 模的直和与直积
+          content: 外直和与外直积、内直和的判定、有限直和与无限直积的区别、补子模与分裂
+        - free_module:
+          title: 自由模
+          content: 自由模的定义与泛性质、基与秩、不变基数性质（IBN）、自由模作为 PID 上模的特例
+        - finitely_generated_module:
+          title: 有限生成模
+          content: 有限生成模与有限呈示模、PID 上有限生成模结构定理（不变因子分解与初等因子分解）、有限生成阿贝尔群分类作为推论
+        - exact_sequence:
+          title: 正合列
+          content: 短正合列与长正合列的定义、分裂正合列与等价刻画、四引理、五引理、蛇引理、9-引理（同调代数的代数前提）
+        - projective_module:
+          title: 投射模
+          content: 投射模的定义、四种等价刻画（提升性质、Hom 函子保正合、自由模的直和因子、分裂性）、投射模的例子
+        - injective_module:
+          title: 入射模
+          content: 入射模的定义与等价刻画、Baer 判别法、可除阿贝尔群作为 Z-入射模、入射包的存在性
+        - flat_module:
+          title: 平坦模
+          content: 平坦模的定义（张量函子保正合）、投射模蕴含平坦模、PID 上平坦模等价于无挠模、忠实平坦模
+        - chain_conditions_on_modules:
+          title: 模的链条件
+          content: Noether 模与 Artin 模的定义、升链条件与降链条件、合成列、Jordan-Hölder 定理、模的长度
+    - multilinear_algebra:
+      title: 张量积与多重线性代数
+      subsections:
+        - tensor_product_of_modules:
+          title: 模的张量积
+          content: 双线性映射、张量积的泛性质构造、张量积的基本同构（结合律、交换律、与直和交换、与基环的张量积）、纯张量与一般元素
+        - tensor_product_of_homomorphisms:
+          title: 张量积与同态
+          content: 同态的张量积、张量函子 -⊗M 的右正合性、Hom-⊗ 伴随关系、为 Tor 与 Ext 做铺垫
+        - extension_of_scalars:
+          title: 标量扩张
+          content: 沿环同态 R → S 的标量扩张 S ⊗_R M、标量限制函子、二者构成伴随对、向量空间的复化作为例子
+        - tensor_algebra:
+          title: 张量代数
+          content: 模 M 上的张量代数 T(M) 的构造、分次结构、泛性质（任意到结合代数的线性映射唯一扩张）
+        - symmetric_algebra:
+          title: 对称代数
+          content: 对称代数 S(M) 的构造（T(M) 商去交换关系）、泛性质、自由模上对称代数即多项式环、对称张量
+        - exterior_algebra:
+          title: 外代数
+          content: 外代数 Λ(M) 的构造（T(M) 商去反交换关系）、楔积、行列式的代数解释、自由模上外代数的基与维数、外代数与微分形式的联系
+        - graded_algebra_and_module:
+          title: 分次代数与分次模
+          content: 分次代数与分次模的定义、齐次元素、分次同态、张量积/对称/外代数作为分次代数的例子（为同调代数的链复形和代数拓扑的上同调环做准备）
     - field_theory:
       title: 域论
       subsections:

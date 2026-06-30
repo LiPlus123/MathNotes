@@ -1,0 +1,102 @@
+general_topology:
+  title: 一般拓扑学
+  sections:
+    - metric_space:
+        title: 度量空间
+        subsections:
+        - definition_of_metric_space:
+            title: 度量空间的定义
+            content: 度量空间的定义、度量空间的例子（赋范空间、内积空间）
+        - open_balls_and_closed_balls:
+            title: 开球与闭球
+            content: 开球与闭球的定义、开集与闭集的定义、开集与闭集的性质
+        - cauchy_sequences_and_limits:
+            title: 柯西序列与极限
+            content: 有界序列的定义、柯西序列的定义、序列收敛的定义、极限点的定义、极限点的性质（聚点性质）、完备性
+        - interior_and_boundary_and_closure:
+            title: 内部、边界与闭包
+            content: 内点与内部的定义、外点与外部的定义、边界与边界点的定义、闭包的定义
+        - continuous_function:
+            title: 连续函数
+            content: 连续函数的定义、一致连续函数的定义、Lipschitz 连续函数的定义
+        - isometric_embedding:
+            title: 等距嵌入
+            content: 等距嵌入的定义、等距嵌入与连续函数的关系
+    - topological_space:
+        title: 拓扑空间
+        subsections:
+        - definition_of_topological_space:
+            title: 拓扑空间的定义
+            content: 拓扑空间的定义、离散拓扑、平凡拓扑、闭集的定义、例子有限集的拓扑、度量空间诱导的拓扑、例子实数集的标准拓扑、例子实数集的下限拓扑、例子实数集的上限拓扑
+        - neighborhood_and_accumulation_point:
+            title: 邻域与聚点
+            content: 邻域的定义、邻域的性质、聚点的定义、聚点的性质、孤立点的定义、通过聚点判定闭集的充要条件
+        - interior_and_closure:
+            title: 内部与闭包
+            content: 内部的定义、闭包的定义、内部与闭包的关系与性质、通过内部与闭包判定开集与闭集的充要条件
+        - boundary_and_exterior:
+            title: 边界与外部
+            content: 边界的定义、边界的性质、闭包分解、外部的定义、外部的性质、内部，闭包，边界与外部的关系
+        - continuous_function_and_homeomorphism:
+            title: 连续函数与同胚
+            content: 连续函数的定义、连续函数的性质、连续函数的例子、同胚的定义、同胚的性质、同胚的例子
+        - topological_embedding:
+            title: 拓扑嵌入
+            content: 拓扑嵌入的定义、拓扑嵌入的性质
+    - construction_of_topological_spaces:
+        title: 拓扑空间的构造
+        subsections:
+          - topological_basis:
+              title: 拓扑基
+              content: 拓扑基的定义、拓扑基的性质、由拓扑基生成拓扑、由一个拓扑找出生成它的基、度量空间诱导的拓扑、例子实数集的不同拓扑的基
+          - finer_and_coarser:
+              title: 精细与粗糙
+              content: 拓扑的更精细与更粗糙的定义、性质与例子、通过拓扑基判定拓扑的精细与粗糙
+          - subspace_topology:
+              title: 子空间拓扑
+              content: 子空间拓扑的定义、子空间拓扑基
+          - order_topology:
+              title: 序拓扑
+              content: 序拓扑的定义、序拓扑的性质
+          - product_topology:
+              title: 积拓扑
+              content: 箱拓扑的定义、积拓扑的定义、投影映射、积拓扑的性质、积拓扑的例子
+          - quotient_topology:
+              title: 商拓扑
+              content: 商映射、商拓扑、商空间、粘合空间、例子（圆环、莫比乌斯带、克莱因瓶、球面、圆环的商空间）
+    - topological_properties:
+        title: 拓扑性质
+        subsections:
+          - connectedness:
+              title: 连通性
+              content: 分割的定义、连通的定义、连通分支、连通性的等价条件、连通性是一个拓扑性质
+          - path_connectedness:
+              title: 道路连通性
+              content: 道路的定义、道路连通的定义、道路连通分支、道路连通性与连通性的关系、道路连通性是一个拓扑性质
+          - local_connectedness:
+              title: 局部连通性
+              content: 局部连通的定义、局部连通性的性质、局部道路连通性的定义、局部道路连通性的性质
+          - countability:
+              title: 可数性
+              content: 邻域基、第一可数、第二可数、第一可数与第二可数的关系、可数性是一个拓扑性质、子空间的可数性、积空间的可数性
+          - separability:
+              title: 可分性
+              content: 稠密子集、可分空间的定义、可分性与可数性的关系、可分性是一个拓扑性质、积空间的可分性、子空间的可分性
+          - separation:
+              title: 分离性
+              content: T0、T1、T2、T3、T4 分离公理、分离性是一个拓扑性质、子空间的分离性、积空间的分离性
+          - compactness:
+              title: 紧致性
+              content: 开覆盖、紧致性的定义、紧致性是拓扑性质、Heine–Borel 定理、积空间的紧致性、Tychonoff 定理、闭子空间的紧致性、连续像紧
+          - sequential_compactness:
+              title: 列紧性
+              content: 拓扑空间的收敛序列、列紧性的定义、度量空间的列紧致性、有界和全有界度量空间、度量空间列紧致的充要条件、Bolzano-Weierstrass 定理
+          - local_compactness:
+              title: 局部紧致性
+              content: 局部紧致性的定义、局部紧致性是拓扑性质
+          - paracompactness:
+              title: 仿紧致性
+              content: 开加细、局部有限开集族、仿紧致性的定义、仿紧致性是拓扑性质
+          - metrizable_space:
+              title: 可度量化空间
+              content: 可度量化空间的定义、Urysohn 引理、Tietze 扩张定理、Urysohn 度量化定理、局部可度量化的定义、Nagata-Smirnov 度量化定理

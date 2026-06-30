@@ -4,7 +4,9 @@ tags:
   - logic
   - propositional_logic
   - classical_logic
-refs: "[[connective]]"
+refs:
+  - "[[connective]]"
+  - "[[propositional_logic]]"
 ---
 
 # 真值表

@@ -1,0 +1,186 @@
+classical_algebraic_topology:
+  title: 经典代数拓扑
+  sections:
+    - homotopy_basics:
+        title: 同伦论基础
+        subsections:
+          - homotopy_of_maps:
+              title: 映射的同伦
+              content: 连续映射之间的同伦定义、同伦作为等价关系、同伦类、相对同伦（保持某子集不动）、直线同伦的例子
+          - homotopy_equivalence:
+              title: 同伦等价与同伦类型
+              content: 同伦等价的定义、同伦逆、同伦等价的空间、同伦不变量的概念、可缩空间、星形集合可缩
+          - deformation_retract:
+              title: 形变收缩
+              content: 收缩、形变收缩、强形变收缩、形变收缩蕴含同伦等价、例子（圆盘到一点、Möbius 带到中心圆）
+          - mapping_cylinder_and_cone:
+              title: 映射柱与映射锥
+              content: 映射柱的构造、映射锥的构造、映射柱给出形变收缩、把任意映射换为同伦等价的嵌入
+    - fundamental_group:
+        title: 基本群
+        subsections:
+          - paths_and_path_homotopy:
+              title: 道路与道路同伦
+              content: 道路与回路的定义、道路同伦（端点固定）、道路连接的运算、连接运算关于道路同伦的相容性
+          - definition_of_fundamental_group:
+              title: 基本群的定义
+              content: 基于一点的回路同伦类、群运算、单位元与逆元、π₁(X, x₀) 的群结构证明
+          - basepoint_dependence:
+              title: 基点的影响
+              content: 道路连通空间中基点变换给出群同构、单连通空间的定义、依赖基点的写法 π₁(X, x₀)
+          - induced_homomorphism:
+              title: 诱导同态
+              content: 连续映射诱导的群同态（不引入函子语言，直接定义）、同伦的映射诱导相同同态、同伦等价空间有同构的基本群
+          - higher_dimensional_loops_commute:
+              title: 高维球面回路的可交换性
+              content: 介绍后续高阶同伦群可交换的现象，作为衔接
+    - fundamental_group_computations:
+        title: 基本群的计算
+        subsections:
+          - circle:
+              title: 圆周的基本群
+              content: 提升引理（针对 ℝ → S¹）、道路提升与同伦提升、π₁(S¹) ≅ ℤ 的证明、卷绕数
+          - product_space:
+              title: 乘积空间的基本群
+              content: π₁(X × Y) ≅ π₁(X) × π₁(Y)
+          - sphere_and_projective_space:
+              title: 球面与射影空间的基本群
+              content: π₁(Sⁿ) 当 n ≥ 2 为平凡群、π₁(ℝPⁿ) ≅ ℤ/2ℤ（n ≥ 2）
+          - applications_of_pi1:
+              title: 基本群的初步应用
+              content: Brouwer 不动点定理（二维）、代数基本定理的拓扑证明、Borsuk-Ulam 定理（二维）
+    - van_kampen_theorem:
+        title: Van Kampen 定理
+        subsections:
+          - free_group_and_presentation:
+              title: 自由群与群的呈示
+              content: 自由群的定义（已在抽象代数补充章节中）、群的生成元与关系呈示、群的自由积、合成积（amalgamated product）
+          - statement_of_van_kampen:
+              title: Van Kampen 定理的叙述
+              content: 开覆盖 {U, V} 满足道路连通与交道路连通条件下、π₁(U ∪ V) 表示为合成积、推广到任意开覆盖的版本
+          - proof_of_van_kampen:
+              title: Van Kampen 定理的证明
+              content: 通过 Lebesgue 数引理切分回路、合成积泛性质的应用
+          - applications_of_van_kampen:
+              title: Van Kampen 定理的应用
+              content: 楔积的基本群、紧致曲面的基本群计算、CW 二维骨架的基本群、结点群初步
+    - covering_space:
+        title: 覆叠空间
+        subsections:
+          - definition_of_covering_map:
+              title: 覆叠映射
+              content: 覆叠映射、纤维、均匀覆盖的开集、覆叠空间的例子（ℝ → S¹、Sⁿ → ℝPⁿ、双层覆盖）
+          - lifting_properties:
+              title: 提升性质
+              content: 道路提升性质、同伦提升性质、一般映射的提升判据（基本群的子群条件）
+          - covering_and_fundamental_group:
+              title: 覆叠与基本群
+              content: 覆叠映射诱导的基本群单射、纤维与陪集集合的双射、覆叠的次数
+          - universal_covering_space:
+              title: 万有覆叠空间
+              content: 万有覆叠空间的定义、存在性条件（半局部单连通）、唯一性
+          - galois_correspondence_of_coverings:
+              title: 覆叠的 Galois 对应
+              content: 等价覆叠的集合、覆叠空间与 π₁(X) 子群之间的双射（在等价意义下）、正则覆叠
+          - deck_transformation_group:
+              title: 甲板变换群
+              content: 甲板变换的定义、甲板变换群与 π₁ 的关系、正则覆叠的甲板群即 π₁(X)/p_*(π₁(X̃))
+    - simplicial_complex:
+        title: 单纯复形
+        subsections:
+          - geometric_simplex:
+              title: 几何单形
+              content: 仿射独立点集、几何 n-单形、面、几何实现
+          - abstract_simplicial_complex:
+              title: 抽象单纯复形
+              content: 抽象单纯复形的定义、子复形、骨架、几何实现 |K| 与多面体
+          - simplicial_map:
+              title: 单纯映射
+              content: 单纯映射的定义、单纯映射诱导的连续映射、单纯映射的复合
+          - barycentric_subdivision:
+              title: 重心细分
+              content: 重心细分的定义、单纯逼近定理、网格变细
+          - polyhedron_examples:
+              title: 多面体的例子
+              content: 球面、环面、Möbius 带、Klein 瓶、紧致曲面的三角剖分
+    - simplicial_homology:
+        title: 单纯同调
+        subsections:
+          - oriented_simplex_and_chain_group:
+              title: 定向单形与链群
+              content: 单形的定向、定向单形的等价类、n-链群 Cₙ(K)（作为自由阿贝尔群）
+          - boundary_operator:
+              title: 边界算子
+              content: 边界算子 ∂ₙ 的定义、∂² = 0 的证明、链复形 (C_*(K), ∂)
+          - simplicial_homology_groups:
+              title: 单纯同调群
+              content: 循环群 Zₙ、边缘群 Bₙ、单纯同调群 Hₙ(K) = Zₙ/Bₙ
+          - reduced_simplicial_homology:
+              title: 约化单纯同调
+              content: 增广同态、约化同调 H̃ₙ(K)、与 Hₙ(K) 的关系
+          - computations_simplicial:
+              title: 单纯同调的计算
+              content: 球面、环面、射影平面、Klein 瓶、Möbius 带、紧致曲面的同调计算
+    - singular_homology:
+        title: 奇异同调
+        subsections:
+          - singular_simplex_and_chain:
+              title: 奇异单形与奇异链
+              content: 标准 n-单形、奇异 n-单形、奇异链群 Sₙ(X)、边界算子、奇异链复形
+          - singular_homology_groups:
+              title: 奇异同调群
+              content: 奇异同调群 Hₙ(X) 的定义、零维同调 H₀(X) 与道路连通分支
+          - functoriality:
+              title: 连续映射诱导的同态
+              content: 连续映射诱导的链映射与同调群同态、复合与恒等映射的相容性（不使用范畴论术语）
+          - homotopy_invariance:
+              title: 同伦不变性
+              content: 同伦的映射诱导相同的同调群同态、链同伦的构造（棱柱算子）、同伦等价空间有同构的同调群
+          - mayer_vietoris_sequence:
+              title: Mayer-Vietoris 序列
+              content: Mayer-Vietoris 长正合列的叙述与证明（针对良好开覆盖）、应用计算
+          - excision_theorem:
+              title: 切除定理
+              content: 切除定理的叙述、重心细分技巧、对的相对同调（X, A）
+          - relative_homology:
+              title: 相对同调
+              content: 相对链复形、相对同调群 Hₙ(X, A)、对的长正合列
+          - equivalence_with_simplicial:
+              title: 单纯同调与奇异同调的等价
+              content: 多面体上单纯同调与奇异同调自然同构、计算单纯复形奇异同调的工具
+    - cw_complex_and_cellular_homology:
+        title: CW 复形与胞腔同调
+        subsections:
+          - definition_of_cw_complex:
+              title: CW 复形
+              content: 胞腔分解、特征映射、CW 拓扑、子复形、CW 复形的例子（球面、射影空间、Grassmann 流形）
+          - cellular_chain_complex:
+              title: 胞腔链复形
+              content: 胞腔链群、连接边界态射的次数公式、胞腔链复形 (C_*^CW, ∂)
+          - cellular_homology:
+              title: 胞腔同调
+              content: 胞腔同调群的定义、与奇异同调的同构、计算优势
+          - applications_cellular:
+              title: 胞腔同调的计算
+              content: ℝPⁿ、ℂPⁿ、有限维射影空间、透镜空间、复合 Grassmann 流形低维情形
+    - applications_of_homology:
+        title: 同调的经典应用
+        subsections:
+          - euler_characteristic:
+              title: 欧拉示性数
+              content: 欧拉示性数的同调定义、χ(X) = Σ (-1)ⁱ rank Hᵢ(X)、欧拉示性数的可加性、与三角剖分计数的一致性
+          - brouwer_fixed_point:
+              title: Brouwer 不动点定理
+              content: 一般维数下不动点定理的同调证明、不存在 Dⁿ → Sⁿ⁻¹ 的收缩
+          - hairy_ball_theorem:
+              title: 毛球定理
+              content: 偶数维球面上不存在处处非零连续切向量场、奇维数球面切向量场的存在性
+          - jordan_brouwer_separation:
+              title: Jordan-Brouwer 分离定理
+              content: 球面的嵌入分离 ℝⁿ⁺¹、Jordan 曲线定理作为推论
+          - invariance_of_domain_and_dimension:
+              title: 区域不变性与维数不变性
+              content: ℝⁿ 与 ℝᵐ 同胚则 n = m、开集的同胚像仍为开集
+          - classification_of_surfaces:
+              title: 紧致曲面的分类
+              content: 三角剖分、标准形式（球面、可定向亏格 g 曲面、不可定向曲面）、用同调群与基本群完成区分

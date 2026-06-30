@@ -1,0 +1,165 @@
+homological_algebra:
+  title: 同调代数
+  sections:
+    - chain_complex:
+        title: 链复形
+        subsections:
+          - definition_of_chain_complex:
+              title: 链复形的定义
+              content: 链复形 (C_*, ∂) 的定义、d² = 0、上链复形、有界链复形、双复形与全复形
+          - chain_map:
+              title: 链映射
+              content: 链映射的定义、链映射的复合、链映射诱导同调群同态、链复形范畴 Ch(R-Mod)
+          - chain_homotopy:
+              title: 链同伦
+              content: 链同伦的定义、链同伦的链映射诱导相同同调、同伦等价的链复形
+          - homology_of_chain_complex:
+              title: 链复形的同调
+              content: 循环、边缘、同调 Hₙ(C_*) = ker ∂ₙ / im ∂ₙ₊₁、上同调 Hⁿ(C^*)、拟同构（quasi-isomorphism）
+          - shift_and_cone:
+              title: 平移与映射锥
+              content: 链复形的平移 C[n]、链映射的映射锥 Cone(f)、映射柱、与短正合列的关系
+    - exact_sequence_and_lemmas:
+        title: 正合列与基本引理
+        subsections:
+          - exact_sequence_of_complexes:
+              title: 链复形的短正合列
+              content: 链复形的短正合列、各次正合性、之字形（zigzag）构造
+          - long_exact_sequence_in_homology:
+              title: 同调的长正合列
+              content: 由链复形短正合列诱导的同调长正合列、连接同态 δ 的构造与自然性
+          - snake_lemma:
+              title: 蛇引理
+              content: 蛇引理的叙述与证明、连接同态、应用
+          - five_lemma_and_nine_lemma:
+              title: 五引理与九引理
+              content: 五引理、短五引理、九引理（3×3 引理）、图追踪法
+          - horseshoe_lemma:
+              title: 马蹄引理
+              content: 短正合列的投射（入射）分解可被对齐为短正合列的分解、为导出函子的长正合列做准备
+    - resolutions:
+        title: 投射分解与入射分解
+        subsections:
+          - projective_resolution:
+              title: 投射分解
+              content: 投射分解的定义、模上投射分解的存在性、自由分解作为特例、最小投射分解（局部情形）
+          - injective_resolution:
+              title: 入射分解
+              content: 入射分解的定义、模上入射分解的存在性（充足入射对象）、可除阿贝尔群作为 ℤ-入射模
+          - flat_resolution:
+              title: 平坦分解
+              content: 平坦分解的定义、与投射分解的关系、为 Tor 的计算做准备
+          - comparison_theorem:
+              title: 比较定理
+              content: 投射分解之间的提升存在且在链同伦意义下唯一、入射分解的对偶版本
+          - resolutions_of_short_exact_sequence:
+              title: 短正合列的分解
+              content: 由马蹄引理给出短正合列的协调分解、为导出函子长正合列服务
+    - derived_functors:
+        title: 导出函子
+        subsections:
+          - definition_of_derived_functor:
+              title: 导出函子的定义
+              content: 左导出函子 LₙF（针对右正合加性函子）、右导出函子 RⁿF（针对左正合加性函子）的构造、与分解选择无关
+          - basic_properties:
+              title: 导出函子的基本性质
+              content: L₀F ≅ F（F 右正合时）、R⁰F ≅ F（F 左正合时）、投射对象上左导出函子高次为零、入射对象上右导出函子高次为零
+          - long_exact_sequence_of_derived_functors:
+              title: 导出函子的长正合列
+              content: 由短正合列诱导的导出函子长正合列、自然性
+          - balanced_bifunctor:
+              title: 双变函子的平衡性
+              content: 双变函子 Hom 与 ⊗ 分别变量求导给出相同结果（balanced）、为 Ext 与 Tor 的良好定义服务
+          - delta_functor:
+              title: δ-函子与泛性质
+              content: δ-函子的定义、上同调 δ-函子、导出函子作为泛 δ-函子、可消（effaceable）函子
+    - ext_functor:
+        title: Ext 函子
+        subsections:
+          - definition_of_ext:
+              title: Ext 的定义
+              content: Extⁿ_R(A, B) 作为 Hom(-, B) 的右导出函子、等价于 Hom(A, -) 的右导出函子（平衡性）
+          - properties_of_ext:
+              title: Ext 的基本性质
+              content: Ext⁰ = Hom、A 投射 ⟺ Extⁿ(A, -) = 0（n ≥ 1）、B 入射 ⟺ Extⁿ(-, B) = 0（n ≥ 1）
+          - long_exact_sequence_of_ext:
+              title: Ext 的长正合列
+              content: 两个变量上由短正合列诱导的长正合列、连接同态
+          - ext_and_extensions:
+              title: Ext¹ 与模扩张
+              content: Ext¹(A, B) 与 0 → B → E → A → 0 类型扩张等价类的双射、Baer 和、零元对应分裂扩张
+          - computations_of_ext:
+              title: Ext 的计算
+              content: Extⁿ_ℤ(ℤ/m, ℤ/n)、有限生成阿贝尔群之间 Ext 的计算、PID 上 Ext 的结构
+    - tor_functor:
+        title: Tor 函子
+        subsections:
+          - definition_of_tor:
+              title: Tor 的定义
+              content: Torₙ^R(A, B) 作为 - ⊗ B 的左导出函子、等价于 A ⊗ - 的左导出函子（平衡性）
+          - properties_of_tor:
+              title: Tor 的基本性质
+              content: Tor₀ = ⊗、A 平坦 ⟺ Torₙ(A, -) = 0（n ≥ 1）、PID 上 Tor 集中在 0 与 1 次
+          - long_exact_sequence_of_tor:
+              title: Tor 的长正合列
+              content: 两个变量上由短正合列诱导的长正合列
+          - symmetry_of_tor:
+              title: Tor 的对称性
+              content: Torₙ(A, B) ≅ Torₙ(B, A) 在交换环上的自然同构
+          - computations_of_tor:
+              title: Tor 的计算
+              content: Torₙ^ℤ(ℤ/m, ℤ/n) ≅ ℤ/gcd(m,n)（n=1）、有限生成阿贝尔群间 Tor 的计算、扭模
+    - group_cohomology:
+        title: 群上同调与下同调
+        subsections:
+          - group_ring_and_modules:
+              title: 群环与 G-模
+              content: 群环 ℤ[G]、G-模即 ℤ[G]-模、不变量 M^G 与协不变量 M_G
+          - definition_of_group_cohomology:
+              title: 群上同调与下同调
+              content: Hⁿ(G, M) := Extⁿ_{ℤ[G]}(ℤ, M)、Hₙ(G, M) := Torₙ^{ℤ[G]}(ℤ, M)
+          - bar_resolution:
+              title: Bar 分解
+              content: 标准 bar 分解、规范上链复形、低次群上同调的显式描述
+          - low_degree_interpretations:
+              title: 低次群上同调的解释
+              content: H⁰ = M^G、H¹ 与导子模主导子、H² 与群扩张、Schur 乘子 H₂(G, ℤ)
+          - inflation_restriction_corestriction:
+              title: 膨胀、限制与上限制
+              content: 膨胀-限制正合列、上限制、转移映射（transfer）
+    - spectral_sequences:
+        title: 谱序列
+        subsections:
+          - filtered_complex:
+              title: 滤过链复形
+              content: 滤过链复形、相伴分次复形、滤过的有界性
+          - spectral_sequence_of_filtered_complex:
+              title: 滤过复形的谱序列
+              content: 谱序列 (Eₙ^{p,q}, d_n) 的构造、收敛性、E_∞ 项
+          - spectral_sequence_of_double_complex:
+              title: 双复形的谱序列
+              content: 双复形的两个滤过、由行/列得到两条谱序列、共同抽象出全复形的同调
+          - grothendieck_spectral_sequence:
+              title: Grothendieck 谱序列
+              content: 复合函子的导出函子谱序列 RᵖG ∘ RqF ⟹ Rⁿ(G∘F)、可接受条件
+          - applications_of_spectral_sequences:
+              title: 谱序列的应用
+              content: Lyndon-Hochschild-Serre 谱序列（群上同调）、Universal Coefficient Theorem 作为退化情形
+    - derived_category_introduction:
+        title: 导出范畴初步
+        subsections:
+          - homotopy_category:
+              title: 链同伦范畴
+              content: 链复形的同伦范畴 K(R-Mod)、链同伦类作为态射
+          - triangulated_structure:
+              title: 三角范畴
+              content: 三角范畴的公理、可分辨三角、映射锥构造三角
+          - derived_category:
+              title: 导出范畴
+              content: 拟同构的局部化、导出范畴 D(R-Mod)、有界导出范畴 D^b、D^+、D^-
+          - derived_functors_categorical:
+              title: 导出函子的范畴化定义
+              content: 在导出范畴中的左/右导出函子 LF、RF、RHom 与 ⊗^L
+          - relation_to_classical_derived_functors:
+              title: 与经典导出函子的关系
+              content: 经典 Ext、Tor 作为 RHom、⊗^L 的同调群

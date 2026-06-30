@@ -1,0 +1,135 @@
+representation_theory:
+  title: 有限群表示论
+  sections:
+    - foundations_of_representation_theory:
+        title: 群表示论基础
+        subsections:
+          - definition_of_group_representation:
+            title: 群表示的定义
+            content: 群表示的定义（明确表示所在域、注释中说明后续内容的线性空间都是有限维的）
+          - example_of_representation:
+            title: 群表示的例子
+            content: 平凡表示、符号表示、置换表示、正则表示、标准表示等
+          - equivalence_of_representations:
+            title: 表示的等价
+            content: 交结算子、等价表示、同构表示
+          - subrepresentation_and_quotient_representation:
+            title: 子表示与商表示
+            content: 不变子空间、子表示的定义、商空间上的诱导表示、简单例子
+          - direct_sum_of_representations:
+            title: 表示的直和
+            content: 外直和表示、矩阵分块形式、由不可约分量拼合表示
+          - tensor_product_of_representations:
+            title: 表示的张量积
+            content: 张量积表示的定义
+          - dual_representation:
+            title: 对偶表示
+            content: 对偶空间上的作用、矩阵形式、与原表示的关系
+          - faithful_representation:
+            title: 核与忠实表示
+            content: 表示的核、忠实表示的定义与例子
+    - reducibility_and_complete_reducibility:
+        title: 可约性与完全可约性
+        subsections:
+          - irreducible_representation:
+              title: 不可约表示
+              content: 不可约表示、不可约表示的例子
+          - completely_reducible_representation:
+              title: 完全可约表示
+              content: 完全可约表示的定义、完全可约的等价刻画
+          - schur_lemma:
+              title: 舒尔引理
+              content: 舒尔引理的陈述与应用、代数闭域上的形式、推论
+          - maschke_theorem:
+              title: 马施克定理
+              content: 马施克定理的陈述与证明、反例
+    - character_theory:
+        title: 特征标理论
+        subsections:
+          - definition_of_character:
+              title: 特征标的定义
+              content: 特征标的定义、特征标作为类函数
+          - properties_of_characters:
+              title: 特征标的性质
+              content: 特征标的性质、直和与张量积下的行为
+          - class_function_space:
+              title: 类函数空间
+              content: 类函数的定义、维数等于共轭类个数、由共轭类指标函数张成
+          - inner_product_of_class_functions:
+              title: 类函数的内积
+              content: 类函数空间上的 Hermite 内积、正交规范基、重数公式
+          - schur_orthogonality_relations:
+              title: 舒尔正交关系
+              content: 第一正交关系（矩阵元正交）、第二正交关系（行列正交）、不可约特征标正交
+          - irreducible_characters_form_basis:
+              title: 不可约特征标构成基
+              content: 不可约特征标构成类函数空间的正交基、不可约特征标的个数等于共轭类的个数
+          - decomposition_into_irreducible:
+              title: 表示的不可约分解
+              content: 利用特征标计算不可约分量重数、正则表示分解、分解唯一性
+          - character_table:
+              title: 特征标表
+              content: 特征标表的组织方式、正交关系在表上的体现、从表中读取群信息
+          - dimension_divides_group_order:
+              title: 不可约表示维数整除群阶
+              content: 代数整除方法、不可约表示维数整除群阶的证明思路
+    - representations_of_specific_finite_groups:
+        title: 典型有限群的表示
+        subsections:
+          - representations_of_cyclic_groups:
+              title: 循环群的表示
+              content: 循环群的不可约表示全部是一维表示、生成元像与单位根的对应
+          - representations_of_symmetric_groups:
+              title: 有限对称群的表示
+              content: 置换表示、平凡表示、符号表示、标准表示以及低阶情形的基本分解
+          - representations_of_dihedral_groups:
+              title: 二面体群的表示
+              content: 二面体群的不可约表示、特征标表
+          - representations_of_quaternion_groups:
+              title: 四元数群的表示
+              content: 四元数群的不可约表示、特征标表
+    - group_algebra:
+        title: 群代数
+        subsections:
+          - foundations_of_group_algebra:
+              title: 群代数的基本概念
+          - representations_as_group_algebra_modules:
+              title: 表示与群代数模
+          - semisimplicity_of_group_algebra:
+              title: 群代数的半单性
+          - regular_representation:
+              title: 正则表示
+          - decomposition_of_regular_representation:
+              title: 正则表示的分解
+          - center_of_group_algebra:
+              title: 群代数的中心
+          - wedderburn_decomposition:
+              title: Wedderburn 分解
+    - induced_and_restricted_representations:
+        title: 诱导表示与限制表示
+        subsections:
+          - restriction_of_representations:
+              title: 限制表示
+          - induced_representations:
+              title: 诱导表示
+          - frobenius_reciprocity:
+              title: Frobenius 互反律
+          - mackey_decomposition_idea:
+              title: Mackey 分解思想
+          - mackey_irreducibility_criterion:
+              title: Mackey 不可约性判据
+    - representation_theory_of_symmetric_groups:
+        title: 对称群的表示
+        subsections:
+          - conjugacy_classes_and_partitions:
+              title: 共轭类与分拆
+          - young_diagrams_and_tableaux:
+              title: Young 图与 Young 表
+          - young_symmetrizers:
+              title: Young 对称化子
+          - specht_modules:
+              title: Specht 模
+          - hook_length_formula:
+              title: 钩长公式
+          - branching_rule:
+              title: 分支规则
