@@ -16,6 +16,30 @@ mathematical_logic:
         - branches_of_mathematical_logic:
           title: 数理逻辑的分支
           content: 证明论、模型论、集合论和递归论的简介，以及它们之间的关系
+    - formal_language:
+      title: 形式语言
+      subsections:
+        - definition_of_formal_language:
+          title: 形式语言的定义
+          content: 字母表、字符串、字符串集合、形式语言的定义、形式语言的运算、描述形式语言的方法（枚举式描述、集合描述、生成式描述）
+        - grammar_and_hierarchy:
+          title: 文法与形式语言层级
+          content: 形式文法、推导、语言、Chomsky 层级（0/1/2/3 型）
+        - unrestricted_grammar:
+          title: 无限制文法
+          content: 0 型文法的定义、递归可枚举语言、与图灵机的等价性
+        - context_sensitive_grammar:
+          title: 上下文有关文法
+          content: 1 型文法的定义、上下文有关语言、与线性有界自动机的等价性
+        - context_free_grammar:
+          title: 上下文无关文法
+          content: CFG 的定义、推导、语法树、二义性
+        - regular_grammar:
+          title: 正则文法
+          content: 3 型文法（右线性/左线性）的定义、正则语言、与有穷自动机和正则表达式的等价性
+        - formal_system:
+          title: 形式系统
+          content: 形式语言、公理集、推理规则、形式证明、形式系统的组成
     - propositional_language:
       title: 命题逻辑语言
       subsections:

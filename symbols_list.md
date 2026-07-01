@@ -95,6 +95,34 @@
 
 二阶谓词逻辑语言：$\mathcal{L}_2$
 
+字母表：$\Sigma$
+
+字符串：$u,v,w$
+
+空字符串：$\varepsilon$
+
+全体有限字符串集合：$\Sigma^*$
+
+长度为 $n$ 的字符串集合：$\Sigma^n$
+
+非终结符集合：$V_N$
+
+终结符集合：$V_T$
+
+产生式集合：$P$
+
+开始符号：$S$
+
+一步推导：$\Rightarrow_G$
+
+有限步推导：$\Rightarrow_G^*$
+
+至少一步推导：$\Rightarrow_G^+$
+
+文法生成的语言：$L(G)$
+
+公理集：$\mathrm{Ax}$
+
 命题变元：$p_0,p_1,p_2,\cdots$ 或 $p,q,r$
 
 公式：$\varphi,\psi,\varphi_0,\varphi_1,\cdots$
