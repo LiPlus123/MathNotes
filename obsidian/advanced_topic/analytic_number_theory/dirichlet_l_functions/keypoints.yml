@@ -1,0 +1,105 @@
+keypoints:
+  # dirichlet_characters.md
+  - id: analytic_number_theory_dirichlet_character_definition
+    title: 模 q 的 Dirichlet 特征
+    file: dirichlet_characters.md
+    type: Definition
+
+  - id: analytic_number_theory_principal_dirichlet_character_definition
+    title: 主特征
+    file: dirichlet_characters.md
+    type: Definition
+
+  - id: analytic_number_theory_conductor_and_primitive_character_definition
+    title: 导子与原特征
+    file: dirichlet_characters.md
+    type: Definition
+
+  - id: analytic_number_theory_dirichlet_character_orthogonality
+    title: Dirichlet 特征的正交关系
+    file: dirichlet_characters.md
+    type: Theorem
+
+  # definition_of_l_functions.md
+  - id: analytic_number_theory_dirichlet_l_function_definition
+    title: Dirichlet L 函数
+    file: definition_of_l_functions.md
+    type: Definition
+
+  - id: analytic_number_theory_dirichlet_l_function_euler_product
+    title: Dirichlet L 函数的 Euler 乘积
+    file: definition_of_l_functions.md
+    type: Theorem
+
+  - id: analytic_number_theory_principal_character_l_function_formula
+    title: 主特征的 L 函数
+    file: definition_of_l_functions.md
+    type: Theorem
+
+  - id: analytic_number_theory_dirichlet_l_function_absolute_convergence
+    title: Dirichlet L 级数的绝对收敛性
+    file: definition_of_l_functions.md
+    type: Theorem
+
+  # analytic_continuation_and_functional_equation.md
+  - id: analytic_number_theory_gauss_sum_definition
+    title: Gauss 和
+    file: analytic_continuation_and_functional_equation.md
+    type: Definition
+
+  - id: analytic_number_theory_dirichlet_l_function_continuation_theorem
+    title: 非主 Dirichlet L 函数的解析延拓
+    file: analytic_continuation_and_functional_equation.md
+    type: Theorem
+
+  - id: analytic_number_theory_completed_dirichlet_l_function_definition
+    title: 完成 Dirichlet L 函数
+    file: analytic_continuation_and_functional_equation.md
+    type: Definition
+
+  - id: analytic_number_theory_dirichlet_l_function_functional_equation
+    title: 原 Dirichlet L 函数的函数方程
+    file: analytic_continuation_and_functional_equation.md
+    type: Theorem
+
+  # non_vanishing_at_s_equals_1.md
+  - id: analytic_number_theory_dirichlet_l_one_nonvanishing_theorem
+    title: 非主特征在 s=1 的非零性
+    file: non_vanishing_at_s_equals_1.md
+    type: Theorem
+
+  - id: analytic_number_theory_complex_character_l_one_nonvanishing
+    title: 复特征的 L(1, chi) 非零性
+    file: non_vanishing_at_s_equals_1.md
+    type: Theorem
+
+  - id: analytic_number_theory_real_character_l_one_nonvanishing
+    title: 实特征的 L(1, chi) 非零性
+    file: non_vanishing_at_s_equals_1.md
+    type: Theorem
+
+  - id: analytic_number_theory_dirichlet_nonvanishing_theorem
+    title: Dirichlet 算术级数素数定理的关键输入
+    file: non_vanishing_at_s_equals_1.md
+    type: Corollary
+
+  # zero_free_region_for_l_functions.md
+  - id: analytic_number_theory_dirichlet_l_nonvanishing_on_one_line
+    title: 单位实部直线上的非零性
+    file: zero_free_region_for_l_functions.md
+    type: Theorem
+
+  - id: analytic_number_theory_dirichlet_l_classical_zero_free_region
+    title: Dirichlet L 函数的经典零点无空隙区
+    file: zero_free_region_for_l_functions.md
+    type: Theorem
+
+  - id: analytic_number_theory_siegel_zero_definition
+    title: Siegel 零点
+    file: zero_free_region_for_l_functions.md
+    type: Definition
+
+  - id: analytic_number_theory_siegel_zero_ineffectivity_theorem
+    title: Siegel 定理与非有效性
+    file: zero_free_region_for_l_functions.md
+    type: Theorem

@@ -1,0 +1,94 @@
+keypoints:
+  # waring_problem.md
+  - id: analytic_number_theory_waring_problem_definition
+    title: Waring 问题
+    file: waring_problem.md
+    type: Definition
+
+  - id: analytic_number_theory_waring_g_and_G_definition
+    title: g(k) 与 G(k)
+    file: waring_problem.md
+    type: Definition
+
+  - id: analytic_number_theory_hilbert_waring_theorem
+    title: Hilbert-Waring 定理
+    file: waring_problem.md
+    type: Theorem
+
+  - id: analytic_number_theory_waring_classical_values
+    title: Waring 问题的经典结果
+    file: waring_problem.md
+    type: Theorem
+
+  - id: analytic_number_theory_waring_circle_method_bound
+    title: 圆法对 G(k) 的上界
+    file: waring_problem.md
+    type: Theorem
+
+  # goldbach_problem.md
+  - id: analytic_number_theory_strong_goldbach_conjecture
+    title: 强 Goldbach 猜想
+    file: goldbach_problem.md
+    type: Definition
+
+  - id: analytic_number_theory_weak_goldbach_theorem
+    title: 弱 Goldbach 定理
+    file: goldbach_problem.md
+    type: Theorem
+
+  - id: analytic_number_theory_vinogradov_three_primes_theorem
+    title: Vinogradov 三素数定理
+    file: goldbach_problem.md
+    type: Theorem
+
+  - id: analytic_number_theory_chen_theorem
+    title: Chen 定理
+    file: goldbach_problem.md
+    type: Theorem
+
+  # hardy_littlewood_circle_method.md
+  - id: analytic_number_theory_weyl_sum_definition
+    title: Weyl 和
+    file: hardy_littlewood_circle_method.md
+    type: Definition
+
+  - id: analytic_number_theory_circle_method_orthogonality_formula
+    title: 圆法的正交积分公式
+    file: hardy_littlewood_circle_method.md
+    type: Theorem
+
+  - id: analytic_number_theory_major_minor_arcs_definition
+    title: 主弧与余弧
+    file: hardy_littlewood_circle_method.md
+    type: Definition
+
+  - id: analytic_number_theory_weyl_inequality_quantitative
+    title: Weyl 不等式
+    file: hardy_littlewood_circle_method.md
+    type: Theorem
+
+  - id: analytic_number_theory_vinogradov_method_concept
+    title: Vinogradov 方法
+    file: hardy_littlewood_circle_method.md
+    type: Theorem
+
+  # partition_function.md
+  - id: analytic_number_theory_partition_function_definition
+    title: 分拆函数
+    file: partition_function.md
+    type: Definition
+
+  - id: analytic_number_theory_partition_generating_function
+    title: 分拆函数的生成函数
+    file: partition_function.md
+    type: Theorem
+
+  - id: analytic_number_theory_euler_pentagonal_number_theorem
+    title: Euler 五边形数定理
+    file: partition_function.md
+    type: Theorem
+
+  - id: analytic_number_theory_hardy_ramanujan_partition_asymptotic
+    title: Hardy-Ramanujan 分拆渐近公式
+    file: partition_function.md
+    type: Theorem

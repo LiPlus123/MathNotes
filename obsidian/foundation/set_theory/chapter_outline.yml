@@ -1,0 +1,87 @@
+set_theory:
+  title: 集合论
+  sections:
+    - naive_set_theory:
+      title: 朴素集合论
+      subsections:
+        - concept_of_set:
+            title: 集合的概念
+            content: 集合的概念、概括公理模式与罗素悖论
+    - zfc_set_theory:
+      title: ZFC 公理集合论
+      subsections:
+        - axiom_of_extensionality_zfc:
+            title: 外延公理
+            content: 外延公理、集合相等的等价条件、子集与真子集的定义、子集判定的等价条件
+        - axiom_of_pairing_zfc:
+            title: 配对公理
+            content: 配对公理、有序对的定义、有序 n-元组的定义
+        - axiom_schema_of_specification_zfc:
+            title: 分类公理模式
+            content: 分类公理模式、空集的定义、交、差、补集的定义、空集的定义
+        - axiom_of_union_zfc:
+            title: 并集公理
+            content: 并集公理、并集的定义、对称差的定义、集合算律
+        - axiom_of_power_set_zfc:
+            title: 幂集公理
+            content: 幂集公理、幂集的定义、笛卡尔积的定义、笛卡尔积的性质
+        - axiom_of_infinity_zfc:
+            title: 无穷公理
+            content: 后继的定义、归纳集的定义、无穷公理、自然数的定义、自然数集是最小的归纳集、自然数的序的定义
+        - axiom_schema_of_replacement_zfc:
+            title: 替代公理模式
+            content: 替代公理模式、自然数加法与乘法的定义、自然数运算的性质
+        - axiom_of_regularity_zfc:
+            title: 正则公理
+            content: 正则公理
+        - axiom_of_choice_zfc:
+            title: 选择公理
+            content: 集族、选择公理
+    - relations_and_functions:
+      title: 关系与函数
+      subsections:
+        - definition_of_binary_relation:
+            title: 二元关系的定义
+            content: n 元关系的定义、二元关系的定义、二元关系的逆、二元关系的复合、恒等关系、二元关系运算的性质
+        - reflexivity_and_irreflexivity:
+            title: 自反性与反自反性
+            content: 自反关系、反自反关系、自反关系与反自反关系的等价条件
+        - symmetry_and_asymmetry:
+            title: 对称性与反对称性
+            content: 对称关系、反对称关系、对称关系与反对称关系的等价条件
+        - transitivity:
+            title: 传递性
+            content: 传递关系、传递关系的等价条件
+        - order_relation:
+            title: 序关系
+            content: 偏序关系、严格偏序关系、全序关系、严格全序关系、上下界、上下确界、极大极小元
+        - equivalence_relation:
+            title: 等价关系
+            content: 等价关系、等价类、商集、集合的划分
+        - definition_of_function:
+            title: 函数的定义
+            content: 函数的定义、函数的原像与像、单射、满射与双射的定义、函数的逆与复合
+        - cardinality_and_cardinal_number:
+            title: 集合的势与基数
+            content: 势的定义、有限集与无限集、可数集与不可数集、有限集的基数
+        - transitive_set_and_ordinal_number:
+            title: 传递集与序数
+            content: 传递集、良序、序数
+    - nbg_set_theory:
+      title: NBG 公理集合论
+      subsections:
+        - axiom_of_extensionality_nbg:
+            title: 外延公理
+            content: 类的外延公理、真类的定义、全类、罗素类、子类
+        - class_existence_theorem:
+            title: 类存在定理
+            content: 属于类公理、交类公理、补类公理、定义域公理、逆类公理、循环置换类公理、转置类公理、直谓公式、类存在元定理、NBG 与 ZFC 的保守扩张关系、MK 集合论简介
+        - set_axioms_nbg:
+            title: 集合公理
+            content: 配对公理、并集公理、幂集公理、无穷公理、替代公理
+        - axiom_of_regularity_nbg:
+            title: 正则公理
+            content: 类的正则公理
+        - axiom_of_global_choice_nbg:
+            title: 全局选择公理
+            content: 全局选择公理

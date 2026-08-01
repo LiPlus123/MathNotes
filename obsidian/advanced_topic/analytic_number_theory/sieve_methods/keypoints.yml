@@ -1,0 +1,74 @@
+keypoints:
+  # sieve_of_eratosthenes_legendre.md
+  - id: analytic_number_theory_sifted_set_definition
+    title: 筛余集
+    file: sieve_of_eratosthenes_legendre.md
+    type: Definition
+
+  - id: analytic_number_theory_eratosthenes_sieve_example
+    title: Eratosthenes 筛
+    file: sieve_of_eratosthenes_legendre.md
+    type: Example
+
+  - id: analytic_number_theory_legendre_sieve_inclusion_exclusion_formula
+    title: Legendre 筛与容斥公式
+    file: sieve_of_eratosthenes_legendre.md
+    type: Theorem
+
+  - id: analytic_number_theory_legendre_sieve_density_estimate
+    title: Legendre 筛的密度主项
+    file: sieve_of_eratosthenes_legendre.md
+    type: Theorem
+
+  # brun_sieve.md
+  - id: analytic_number_theory_brun_combinatorial_sieve_definition
+    title: Brun 组合筛
+    file: brun_sieve.md
+    type: Definition
+
+  - id: analytic_number_theory_brun_upper_bound_twin_primes
+    title: Brun 筛的孪生素数上界
+    file: brun_sieve.md
+    type: Theorem
+
+  - id: analytic_number_theory_brun_theorem_twin_prime_reciprocals
+    title: Brun 定理
+    file: brun_sieve.md
+    type: Theorem
+
+  # selberg_sieve.md
+  - id: analytic_number_theory_selberg_lambda_square_sieve_definition
+    title: Selberg Lambda 平方筛
+    file: selberg_sieve.md
+    type: Definition
+
+  - id: analytic_number_theory_selberg_sieve_quadratic_form
+    title: Selberg 筛的二次型
+    file: selberg_sieve.md
+    type: Theorem
+
+  - id: analytic_number_theory_selberg_upper_bound_sieve_theorem
+    title: Selberg 上界筛
+    file: selberg_sieve.md
+    type: Theorem
+
+  # large_sieve.md
+  - id: analytic_number_theory_large_sieve_inequality
+    title: 大筛不等式
+    file: large_sieve.md
+    type: Theorem
+
+  - id: analytic_number_theory_large_sieve_arithmetic_progressions_corollary
+    title: 算术级数中的大筛
+    file: large_sieve.md
+    type: Corollary
+
+  - id: analytic_number_theory_bombieri_vinogradov_theorem
+    title: Bombieri-Vinogradov 定理
+    file: large_sieve.md
+    type: Theorem
+
+  - id: analytic_number_theory_level_of_distribution_note
+    title: 分布水平
+    file: large_sieve.md
+    type: Definition

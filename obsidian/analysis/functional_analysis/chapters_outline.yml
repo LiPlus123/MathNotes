@@ -1,0 +1,209 @@
+functional_analysis:
+  title: 泛函分析
+  sections:
+    - complete_metric_spaces:
+        title: 完备度量空间
+        subsections:
+          - definition_of_complete_metric_spaces:
+            title: 完备度量空间的定义
+            content: 度量空间、完备度量空间、柯西列、柯西列的收敛性、完备度量空间的例子
+          - baire_category_theorem:
+            title: Baire 纲定理
+            content: 稀疏子集、度量空间中的稀疏子集、第一纲集与第二纲集、Baire 纲定理
+          - banach_fixed_point_theorems:
+            title: Banach 不动点定理
+            content: Banach 不动点定理及其应用
+    - banach_space:
+        title: 巴拿赫空间
+        subsections:
+          - sublinear_functional_and_norm:
+            title: 次线性泛函与范数
+            content: 次线性泛函的定义与例子、半范数的定义与例子、准范数的定义与例子、范数的定义与例子、拟范数的定义和例子
+          - seminorm_and_frechet_space:
+            title: 半范数与弗雷歇空间
+            content: 半范数诱导的拓扑，拓扑可度量、赋半范数线性空间（F* 空间）、弗雷歇空间
+          - examples_of_frechet_spaces:
+            title: 弗雷歇空间的例子
+            content: $C^\infty$ 空间、Schwartz 空间
+          - banach_space_and_frechet_space:
+            title: 巴拿赫空间与弗雷歇空间
+            content: 范数诱导的度量、赋范数线性空间（B* 空间）、巴拿赫空间（B 空间）
+          - examples_of_banach_spaces:
+            title: Banach 空间的例子
+            content: 有限维空间、$\ell^p$ 空间、$L^p$ 空间、$L^\infty$ 空间的无穷范数、$C^k$ 空间
+          - series_in_banach_spaces:
+            title: 巴拿赫空间中的级数
+            content: 巴拿赫空间中的级数、巴拿赫空间级数收敛的柯西准则、巴拿赫空间级数绝对收敛、绝对收敛蕴含收敛
+          - separability_and_reflexivity:
+            title: 可分性与自反性
+            content: 可分空间的定义与例子、$\ell^p$ 与 $L^p$ 的可分性、$L^\infty$ 的不可分性、自反空间的定义、Milman-Pettis 定理（一致凸蕴含自反）、$\ell^p$ 与 $L^p$（$1<p<\infty$）的自反性、自反性与弱紧性的关系（Banach-Alaoglu 定理的推论）、自反空间在 PDE 弱解理论中的重要性
+    - bounded_linear_operators:
+        title: 有界线性算子
+        subsections:
+          - definition_of_bounded_linear_operators:
+            title: 有界线性算子的定义
+            content: 有界线性算子的定义、有界线性算子与连续线性算子、算子范数、算子范数的性质
+          - norm_of_bounded_linear_operators:
+            title: 有界线性算子的范数
+            content: 算子范数的定义、算子范数的等价定义、算子范数的基本不等式、算子范数的次乘性、有界线性算子空间
+          - bounded_linear_operators_space:
+            title: 有界线性算子空间
+            content: 算子范数的满足范数的性质、有界线性算子空间、有界线性算子列依范数收敛、有界线性算子列的强收敛、有界线性算子空间的完备性
+          - examples_of_bounded_linear_operators:
+            title: 有界线性算子的例子（准确定义，明确定义域和值域、算子范数）
+            content: 有限维空间的矩阵、$L^2$ 空间上的乘法算子、$C^1$ 空间上的微分算子、$L^p$ 空间上的积分算子、$L^2$ 空间上的傅里叶变换、$L^1$ 空间上的卷积算子、$L^p$ 空间上的积分核算子、$L^p$ 空间上的平移算子、希尔伯特空间上的投影算子
+          - fundamental_theorems_of_banach_space:
+            title: 巴拿赫空间基本定理
+            content: 开映射定理、逆算子定理、闭图像与闭算子的定义、闭图定理、一致有界性定理
+          - hahn_banach_theorem:
+            title: 哈恩-巴拿赫定理
+            content: 次线性泛函的定义、哈恩-巴拿赫定理
+          - extension_and_norm_preserving_extension_theorem:
+            title: 延拓与保范延拓定理
+            content: 延拓的定义、保范延拓定理、保范延拓的唯一性
+          - hyperplane_separation_theorem:
+            title: 超平面分离定理
+            content: 凸集的定义、超平面的定义、超平面分离定理
+    - conjugate_space:
+        title: 共轭空间
+        subsections:
+          - definition_of_conjugate_space:
+            title: 共轭空间的定义
+            content: 共轭空间的定义、共轭空间的例子、共轭空间的性质
+          - weak_convergence_and_weak_star_convergence:
+            title: 弱收敛与弱*收敛
+            content: 弱收敛的定义、弱收敛的性质、弱*收敛的定义、弱*收敛的性质、弱*收敛与依范数收敛的关系
+          - banach_alaoglu_theorem:
+            title: Banach-Alaoglu 定理与弱*紧性
+            content: Banach-Alaoglu 定理（闭单位球的弱*紧性）、弱*紧性与弱*列紧性、可分空间中的弱*列紧性、弱*收敛子列的抽取、在 PDE 变分问题极小化序列中的应用
+          - reflexive_spaces_and_dual_of_dual:
+            title: 自反空间与二次共轭
+            content: 二次共轭空间 $X^{**}$、典范嵌入 $J:X\hookrightarrow X^{**}$、自反空间的等价刻画、自反空间中共轭算子的性质、自反空间在弱解存在性中的角色
+    - hilbert_space:
+        title: 希尔伯特空间
+        subsections:
+          - definition_of_inner_product:
+            title: 内积的定义
+            content: 共轭双线性函数、共轭双线性函数诱导的二次型、内积的定义、内积与度量张量的关系
+          - definition_of_hilbert_space:
+            title: 希尔伯特空间的定义
+            content: 内积空间、内积空间都是严格凸的 B* 空间、希尔伯特空间的定义、希尔伯特空间都是巴拿赫空间
+          - examples_of_hilbert_spaces:
+            title: 希尔伯特空间的例子
+            content: 有限维空间、$\ell^2$ 空间、$L^2$ 空间
+          - cauchy_schwarz_inequality:
+            title: 柯西-施瓦兹不等式
+            content: 柯西-施瓦兹不等式、柯西-施瓦兹不等式的证明
+          - bessel_inequality_and_parseval_identity:
+            title: 贝塞尔不等式与帕赛瓦尔等式
+            content: 贝塞尔不等式、贝塞尔不等式的证明、Parseval 等式
+          - separable_hilbert_spaces:
+            title: 可分 Hilbert 空间与正交基
+            content: 可分 Hilbert 空间的特征、可数正交基的存在性、Gram-Schmidt 正交化、$\ell^2$ 作为万有可分 Hilbert 空间、Hilbert 空间等距同构于 $\ell^2(\Lambda)$
+    - projection_and_orthogonality:
+        title: 投影与正交
+        subsections:
+          - projection_operator:
+            title: 投影算子
+            content: 一般线性空间的投影算子的定义、投影算子的像空间与核空间、核像分解、投影算子的性质
+          - orthogonal_and_orthogonal_complement:
+            title: 正交与正交补
+            content: 正交的定义、正交补的定义、正交补的性质
+          - best_approximation_theorem:
+            title: 最佳逼近定理
+            content: 最佳逼近定理
+          - orthogonal_projection_theorem:
+            title: 正交投影定理
+            content: 正交投影定理、正交直和分解定理
+          - orthogonal_projection_operator:
+            title: 正交投影算子
+            content: 正交投影算子的定义、希尔伯特空间正交投影算子的有界性
+          - general_fourier_series:
+            title: 广义傅里叶级数
+            content: 广义傅里叶级数与傅里叶系数、希尔伯特空间中广义傅里叶级数一定收敛、完备正交基的定义、完备正交基的等价条件、广义傅里叶级数展开、三角函数系与勒让德多项式函数系
+          - riesz_representation_theorem:
+            title: Riesz 表示定理与 Lax–Milgram 定理
+            content: Riesz 表示定理、Riesz 表示定理的应用
+          - lax_milgram_theorem:
+            title: Lax–Milgram 定理
+            content: Lax–Milgram 定理、Lax–Milgram 定理的应用
+    - unbounded_linear_operators:
+        title: 无界线性算子
+    - conjugate_operator:
+        title: 共轭算子
+        subsections:
+          - conjugate_operator_of_bounded_linear_operator:
+            title: 有界线性算子的共轭算子
+            content: 共轭算子的定义、共轭算子的基本性质、共轭算子的范数
+          - conjugate_operator_of_unbounded_linear_operator:
+            title: 无界线性算子的共轭算子
+            content: 无界算子共轭的定义（通过定义域的配对）、共轭算子的定义域 $\mathcal{D}(A^*)$、共轭算子的闭性（$A^*$ 总是闭算子）、稠定算子的共轭存在性、$(A^*)^*$ 与 $\overline{A}$ 的关系
+          - symmetric_selfadjoint_and_essentially_selfadjoint:
+            title: 对称、自伴与本质自伴
+            content: 对称算子的定义与基本性质、自伴算子的判定准则、本质自伴算子的定义、对称算子的亏指数（deficiency indices）、von Neumann 亏指数理论、自伴延拓的存在性与分类（亏指数相等时存在酉参数化的自伴延拓）、Sturm-Liouville 算子的自伴延拓
+          - normal_operator:
+            title: 正规算子
+            content: 正规算子的定义、正规算子的等价刻画、正规算子的谱性质、正规算子的谱分解（谱测度形式）、正规算子的函数演算、$C^*$-代数视角下的正规算子
+          - unitary_operator:
+            title: 酉算子
+            content: 酉算子的定义（$U^*U=UU^*=I$）、酉算子的等价刻画（等距满射）、酉算子的谱在单位圆周上、Stone 定理（单参数酉群与自伴算子的关系）、酉算子在量子力学时间演化与调和分析中平移算子的角色
+          - self_adjoint_operator:
+            title: 自伴算子
+            content: 自伴算子的定义与等价条件、自伴算子的谱是实的、自伴算子的谱半径等于范数、自伴算子的谱分解（谱测度）、紧自伴算子的谱定理（Hilbert-Schmidt 展开）、自伴算子的函数演算、自伴算子在量子力学中的物理意义
+    - compact_operator_and_fredholm_theory:
+        title: 紧算子与弗雷德霍姆理论
+    - spectral_theory_of_operator:
+        title: 算子谱理论
+    - banach_algebra:
+        title: 巴拿赫代数
+    - operator_semigroups:
+        title: 算子半群
+        subsections:
+          - strongly_continuous_semigroup:
+            title: 强连续半群
+            content: 强连续半群的定义、强连续算子半群的指数有界性、强连续算子半群的例子
+          - infinitesimal_generator:
+            title: 无穷小生成元
+            content: 无穷小生成元的定义、无穷小生成元是稠定闭线性算子
+    - generalized_functions_and_sobolev_space:
+        title: 广义函数与 Sobolev 空间
+        subsections:
+    - nonlinear_functional_analysis:
+        title: 非线性泛函分析
+        subsections:
+          - nonlinear_operator:
+            title: 非线性算子
+            content: 非线性算子的定义、非线性算子的例子、非线性算子的连续性
+          - derivative_of_nonlinear_operator:
+            title: 非线性算子的导数 
+            content: Banach 空间中算子的 Gateaux 微分与 Gateaux 导数、泛函的变分、Fréchet 微分与 Fréchet 导数、算子复合Fréchet 导数的链式法则、Gateaux 可微与 Fréchet 可微的关系
+          - high_order_derivative_of_nonlinear_operator:
+            title: 非线性算子的高阶导数
+            content: 高阶导数与多重线性映射、Taylor 公式在 Banach 空间中的推广
+          - implicit_and_inverse_function_theorems:
+            title: 隐函数定理与反函数定理
+            content: Banach 空间中的隐函数定理、反函数定理、常秩定理、Lyapunov-Schmidt 约化、分歧理论的基本概念（从平凡解分岔）、Nash-Moser 隐函数定理（带光滑性损失的迭代）的动机与 PDE 应用
+          - fixed_point_theorems:
+            title: 非线性不动点定理
+            content: Banach 压缩映射原理回顾、Schauder 不动点定理、Schaefer 不动点定理、Leray-Schauder 不动点定理、Krasnoselskii 不动点定理、不动点定理在半线性 PDE 和积分方程中的应用
+    - variational_methods:
+        title: 变分法
+        subsections:
+          - weak_formulation_of_elliptic_pde:
+            title: 椭圆型 PDE 的弱形式
+            content: 从经典解到弱解的动机、二阶椭圆方程 $-\nabla\cdot(A\nabla u)+cu=f$ 的弱形式、Dirichlet 边值条件的弱形式（$H^1_0$ 空间）、Neumann/Robin 边值条件的弱形式（$H^1$ 空间）、弱形式与强形式的等价性条件
+          - lax_milgram_and_weak_existence:
+            title: Lax-Milgram 定理与弱解的存在唯一性
+            content: 强制性（coercivity）条件的定义与验证、Lax-Milgram 定理回顾、Babuska-Lax-Milgram 定理（一般 Banach 空间情形）、二阶椭圆方程弱解的存在唯一性证明、Nečas 不等式（Babuska-Brezzi 条件的特例）
+          - minimization_and_direct_method:
+            title: 极小化问题与直接法
+            content: 能量泛函 $E(u)=\frac12 a(u,u)-\langle f,u\rangle$、Dirichlet 原理、泛函的弱下半连续性（凸性保证）、强制性与有界极小化序列、直接法的步骤（极小化序列 → 弱紧 → 弱下半连续 → 极小元）、二次泛函的最小值与 Euler-Lagrange 方程
+          - eigenvalue_problems:
+            title: 椭圆算子的特征值问题
+            content: 对称椭圆算子的特征值问题、Rayleigh 商 $R(u)=a(u,u)/\|u\|^2_{L^2}$、极小-极大原理（Courant-Fischer）、特征值的变分刻画、第一特征值的简单性、特征函数的正交性与完备性、Weyl 渐近公式的泛函分析准备
+          - variational_inequalities:
+            title: 变分不等式
+            content: 障碍问题的变分不等式形式、Lions-Stampacchia 定理、变分不等式解的存在唯一性、Signorini 问题（单侧接触问题）、自由边界问题的变分不等式框架、变分不等式与凸分析（次微分）的联系
+          - mountain_pass_and_critical_point_theory:
+            title: 山路引理与临界点理论简介
+            content: 无穷维 Morse 理论的动机、Palais-Smale 条件（(PS) 条件）、山路引理（Mountain Pass Theorem）、鞍点定理、环绕定理（Linking Theorem）、对称山路引理（偶数泛函的无穷多临界点）、在非线性 Schrödinger 方程和半线性椭圆方程中的应用概述

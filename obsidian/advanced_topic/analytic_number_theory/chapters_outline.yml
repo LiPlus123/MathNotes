@@ -1,0 +1,165 @@
+analytic_number_theory:
+  title: 解析数论
+  sections:
+    - arithmetic_functions_and_summation:
+        title: 数论函数与求和
+        subsections:
+            - review_of_arithmetic_functions:
+                title: 数论函数回顾
+                content: 数论函数、积性函数、完全积性函数、Möbius 函数、Euler 函数、除数函数、Liouville 函数、von Mangoldt 函数 Λ(n)、Chebyshev 函数 θ(x) 与 ψ(x)
+            - dirichlet_convolution:
+                title: Dirichlet 卷积
+                content: Dirichlet 卷积的定义、单位元 ε、Möbius 反演公式、数论函数环的结构
+            - averages_of_arithmetic_functions:
+                title: 数论函数的均值
+                content: 平均阶与正规阶、常见数论函数的均值估计（d(n), σ(n), φ(n) 的均值）
+            - abel_summation:
+                title: Abel 求和公式
+                content: Abel 求和公式（部分求和）、Euler-Maclaurin 求和公式、应用于均值估计
+            - big_o_notation:
+                title: 渐近符号与估计
+                content: O、o、Θ、Ω、~ 等符号、渐近展开、误差项估计
+    - dirichlet_series:
+        title: Dirichlet 级数
+        subsections:
+            - definition_and_convergence:
+                title: 定义与收敛性
+                content: Dirichlet 级数的定义、绝对收敛横坐标、条件收敛横坐标、收敛半平面上的解析性
+            - dirichlet_series_and_arithmetic_functions:
+                title: Dirichlet 级数与数论函数
+                content: Dirichlet 级数作为生成函数、Dirichlet 卷积对应的级数乘积、常见数论函数的 Dirichlet 级数
+            - euler_products:
+                title: Euler 乘积
+                content: 积性函数的 Euler 乘积、完全积性函数的 Euler 乘积形式、Euler 乘积的收敛性
+            - perron_formula:
+                title: Perron 公式
+                content: Perron 反演公式、截断的 Perron 公式、求和函数的积分表示
+    - riemann_zeta_function:
+        title: Riemann zeta 函数
+        subsections:
+            - definition_and_euler_product:
+                title: 定义与 Euler 乘积
+                content: ζ(s) 的级数定义（Re s > 1）、Euler 乘积表示、ζ 与素数的联系
+            - analytic_continuation:
+                title: 解析延拓
+                content: 通过积分表示延拓到 Re s > 0、通过函数方程延拓到整个复平面、ζ(s) 在 s=1 的单极点、留数
+            - functional_equation:
+                title: 函数方程
+                content: Riemann 函数方程、θ 函数与函数方程的推导（Poisson 求和公式的应用）、完备 zeta 函数 ξ(s)
+            - trivial_and_nontrivial_zeros:
+                title: 平凡零点与非平凡零点
+                content: 平凡零点（-2, -4, ...）、非平凡零点位于临界带 0 < Re s < 1、零点的对称性
+            - zero_free_region:
+                title: 零点无空隙区
+                content: ζ(s) 在 Re s = 1 上无零点（Hadamard-de la Vallée Poussin 定理）、经典零点无空隙区
+            - riemann_hypothesis:
+                title: Riemann 猜想
+                content: Riemann 猜想的陈述、等价形式、与素数分布的联系、部分结果与数值验证
+    - dirichlet_l_functions:
+        title: Dirichlet L 函数
+        subsections:
+            - dirichlet_characters:
+                title: Dirichlet 特征
+                content: 模 q 的 Dirichlet 特征、主特征、原特征、导子、特征的正交关系（有限阿贝尔群 (Z/qZ)^× 的特征理论）
+            - definition_of_l_functions:
+                title: L 函数的定义
+                content: Dirichlet L 函数 L(s, χ) 的定义、Euler 乘积表示、绝对收敛半平面
+            - analytic_continuation_and_functional_equation:
+                title: 解析延拓与函数方程
+                content: 原特征 L 函数的解析延拓与函数方程、Gauss 和、完备 L 函数
+            - non_vanishing_at_s_equals_1:
+                title: L(1, χ) 非零
+                content: L(1, χ) ≠ 0 对非主特征的证明、复特征与实特征的分别处理
+            - zero_free_region_for_l_functions:
+                title: L 函数的零点无空隙区
+                content: L(s, χ) 在 Re s = 1 上无零点、Siegel 零点问题
+    - prime_number_theorem:
+        title: 素数定理
+        subsections:
+            - chebyshev_functions:
+                title: Chebyshev 函数
+                content: θ(x) = Σ_{p≤x} log p、ψ(x) = Σ_{n≤x} Λ(n)、Chebyshev 估计
+            - equivalent_statements_of_pnt:
+                title: 素数定理的等价形式
+                content: π(x) ~ x/log x、ψ(x) ~ x、θ(x) ~ x 之间的等价性
+            - analytic_proof_of_pnt:
+                title: 素数定理的解析证明
+                content: 基于 ζ(s) 在 Re s = 1 上无零点的证明、Wiener-Ikehara Tauber 定理、Newman 简化证明
+            - error_term:
+                title: 误差项
+                content: 素数定理的经典误差项 O(x exp(-c√log x))、误差项与 ζ 零点无空隙区的联系、Riemann 猜想下的误差项 O(√x log x)
+    - primes_in_arithmetic_progressions:
+        title: 算术级数中的素数
+        subsections:
+            - dirichlet_theorem:
+                title: Dirichlet 定理
+                content: 算术级数中的素数无穷定理（gcd(a,q)=1 时素数 ≡ a (mod q) 无穷多）
+            - proof_via_l_functions:
+                title: 通过 L 函数的证明
+                content: 利用 Dirichlet 特征与 L(1, χ) ≠ 0 的证明
+            - prime_number_theorem_for_arithmetic_progressions:
+                title: 算术级数中的素数定理
+                content: π(x; q, a) ~ π(x)/φ(q)、Siegel-Walfisz 定理
+    - sieve_methods:
+        title: 筛法
+        subsections:
+            - sieve_of_eratosthenes_legendre:
+                title: Eratosthenes-Legendre 筛法
+                content: 经典筛法思想、容斥原理在筛法中的应用
+            - brun_sieve:
+                title: Brun 筛法
+                content: Brun 组合筛法、孪生素数常数、Brun 定理（孪生素数倒数和收敛）
+            - selberg_sieve:
+                title: Selberg 筛法
+                content: Selberg Λ² 筛法、Selberg 上界筛
+            - large_sieve:
+                title: 大筛法
+                content: 大筛法不等式、算术级数中的大筛法、Bombieri-Vinogradov 定理简介
+    - additive_number_theory:
+        title: 加性数论
+        subsections:
+            - waring_problem:
+                title: Waring 问题
+                content: Waring 问题的陈述、g(k) 与 G(k)、经典结果
+            - goldbach_problem:
+                title: Goldbach 猜想
+                content: Goldbach 猜想（强、弱）、Vinogradov 三素数定理、Chen 定理简介
+            - hardy_littlewood_circle_method:
+                title: Hardy-Littlewood 圆法
+                content: 圆法的基本思想、主弧与余弧的划分、指数和估计、Weyl 不等式、Vinogradov 方法
+            - partition_function:
+                title: 分拆函数
+                content: 分拆函数 p(n) 的生成函数、Euler 五边形数定理、Hardy-Ramanujan 渐近公式简介
+    - exponential_sums_and_equidistribution:
+        title: 指数和与均匀分布
+        subsections:
+            - weyl_equidistribution:
+                title: Weyl 均匀分布定理
+                content: 序列的均匀分布定义、Weyl 判别准则、多项式序列的均匀分布
+            - gauss_sums:
+                title: Gauss 和
+                content: 二次 Gauss 和的计算、Gauss 和的模长、Gauss 和与二次互反律
+            - kloosterman_sums:
+                title: Kloosterman 和
+                content: Kloosterman 和的定义、Weil 界（简介）
+            - van_der_corput_method:
+                title: van der Corput 方法
+                content: van der Corput A 过程与 B 过程、指数和估计
+    - selected_topics:
+        title: 选题
+        subsections:
+            - modular_forms_and_l_functions:
+                title: 模形式与 L 函数
+                content: 模形式的定义（衔接复分析）、Hecke L 函数、模形式的函数方程、简介 Langlands 纲领
+            - dedekind_zeta_function:
+                title: Dedekind zeta 函数
+                content: 数域的 Dedekind zeta 函数、类数公式简介（衔接代数数论）
+            - selberg_class:
+                title: Selberg 类
+                content: Selberg 类的定义、公理化的 L 函数理论
+            - twin_prime_and_bounded_gaps:
+                title: 孪生素数与有界间隔
+                content: 孪生素数猜想、Zhang-Maynard-Tao 定理（素数有界间隔）简介
+            - riemann_hypothesis_equivalents:
+                title: Riemann 猜想的等价形式
+                content: 素数分布形式、Mertens 猜想、Robin 判别法、其他等价表述

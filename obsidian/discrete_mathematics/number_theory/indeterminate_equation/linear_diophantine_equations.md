@@ -2,7 +2,7 @@
 
 <!-- linear_diophantine_definition -->
 > [!Definition]
-> **线性丢番图方程 Linear Diophantine Equation**：设 $a_1, a_2, \ldots, a_n, c \in \mathbb{Z}$，不全为零，称方程
+> **线性丢番图方程 Linear Diophantine Equation**：设 $a_1, a_2, \ldots, a_n\in \mathbb{Z}$ 不全为零，$k\ge 2$，$c\in \mathbb{Z}$，称方程
 > $$a_1 x_1 + a_2 x_2 + \cdots + a_n x_n = c$$
 > 为**线性丢番图方程**，其中求整数解 $(x_1, x_2, \ldots, x_n) \in \mathbb{Z}^n$。
 

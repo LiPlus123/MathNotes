@@ -1,0 +1,79 @@
+keypoints:
+  # definition_and_convergence.md
+  - id: analytic_number_theory_dirichlet_series_definition
+    title: Dirichlet 级数定义
+    file: definition_and_convergence.md
+    type: Definition
+
+  - id: analytic_number_theory_dirichlet_series_convergence_abscissa_definition
+    title: 收敛横坐标与绝对收敛横坐标
+    file: definition_and_convergence.md
+    type: Definition
+
+  - id: analytic_number_theory_dirichlet_series_half_plane_convergence
+    title: Dirichlet 级数的收敛半平面
+    file: definition_and_convergence.md
+    type: Theorem
+
+  - id: analytic_number_theory_dirichlet_series_abscissae_relation
+    title: 收敛横坐标之间的关系
+    file: definition_and_convergence.md
+    type: Theorem
+
+  - id: analytic_number_theory_dirichlet_series_analyticity_theorem
+    title: 收敛半平面上的解析性
+    file: definition_and_convergence.md
+    type: Theorem
+
+  # dirichlet_series_and_arithmetic_functions.md
+  - id: analytic_number_theory_arithmetic_function_dirichlet_series_definition
+    title: 数论函数的 Dirichlet 生成函数
+    file: dirichlet_series_and_arithmetic_functions.md
+    type: Definition
+
+  - id: analytic_number_theory_dirichlet_convolution_series_product
+    title: Dirichlet 卷积与级数乘积
+    file: dirichlet_series_and_arithmetic_functions.md
+    type: Theorem
+
+  - id: analytic_number_theory_standard_dirichlet_series_identities
+    title: 常见数论函数的 Dirichlet 级数
+    file: dirichlet_series_and_arithmetic_functions.md
+    type: Theorem
+
+  # euler_products.md
+  - id: analytic_number_theory_euler_product_theorem
+    title: 积性函数的 Euler 乘积
+    file: euler_products.md
+    type: Theorem
+
+  - id: analytic_number_theory_completely_multiplicative_euler_product
+    title: 完全积性函数的 Euler 乘积
+    file: euler_products.md
+    type: Corollary
+
+  - id: analytic_number_theory_euler_product_convergence_criterion
+    title: Euler 乘积的绝对收敛性
+    file: euler_products.md
+    type: Theorem
+
+  - id: analytic_number_theory_riemann_zeta_euler_product_example
+    title: Riemann zeta 函数的 Euler 乘积
+    file: euler_products.md
+    type: Example
+
+  # perron_formula.md
+  - id: analytic_number_theory_perron_inversion_formula
+    title: Perron 反演公式
+    file: perron_formula.md
+    type: Theorem
+
+  - id: analytic_number_theory_truncated_perron_formula
+    title: 截断 Perron 公式
+    file: perron_formula.md
+    type: Theorem
+
+  - id: analytic_number_theory_summatory_function_integral_representation
+    title: 求和函数的积分表示
+    file: perron_formula.md
+    type: Corollary

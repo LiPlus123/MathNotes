@@ -1,0 +1,105 @@
+keypoints:
+  # modular_forms_and_l_functions.md
+  - id: analytic_number_theory_modular_form_definition
+    title: 模形式
+    file: modular_forms_and_l_functions.md
+    type: Definition
+
+  - id: analytic_number_theory_hecke_eigenform_l_function_definition
+    title: Hecke L 函数
+    file: modular_forms_and_l_functions.md
+    type: Definition
+
+  - id: analytic_number_theory_hecke_l_function_euler_product
+    title: Hecke L 函数的 Euler 乘积
+    file: modular_forms_and_l_functions.md
+    type: Theorem
+
+  - id: analytic_number_theory_modular_l_function_functional_equation
+    title: 模形式 L 函数的函数方程
+    file: modular_forms_and_l_functions.md
+    type: Theorem
+
+  # dedekind_zeta_function.md
+  - id: analytic_number_theory_dedekind_zeta_function_definition
+    title: Dedekind zeta 函数
+    file: dedekind_zeta_function.md
+    type: Definition
+
+  - id: analytic_number_theory_dedekind_zeta_euler_product
+    title: Dedekind zeta 函数的 Euler 乘积
+    file: dedekind_zeta_function.md
+    type: Theorem
+
+  - id: analytic_number_theory_dedekind_zeta_continuation_theorem
+    title: Dedekind zeta 函数的解析性质
+    file: dedekind_zeta_function.md
+    type: Theorem
+
+  - id: analytic_number_theory_dirichlet_class_number_formula
+    title: 解析类数公式
+    file: dedekind_zeta_function.md
+    type: Theorem
+
+  # selberg_class.md
+  - id: analytic_number_theory_selberg_class_definition
+    title: Selberg 类
+    file: selberg_class.md
+    type: Definition
+
+  - id: analytic_number_theory_selberg_class_degree_definition
+    title: Selberg 类的次数
+    file: selberg_class.md
+    type: Definition
+
+  - id: analytic_number_theory_selberg_class_examples
+    title: Selberg 类的例子
+    file: selberg_class.md
+    type: Example
+
+  - id: analytic_number_theory_selberg_class_conjectures
+    title: Selberg 类的结构猜想
+    file: selberg_class.md
+    type: Definition
+
+  # twin_prime_and_bounded_gaps.md
+  - id: analytic_number_theory_twin_prime_conjecture
+    title: 孪生素数猜想
+    file: twin_prime_and_bounded_gaps.md
+    type: Definition
+
+  - id: analytic_number_theory_admissible_tuple_definition
+    title: 可容许元组
+    file: twin_prime_and_bounded_gaps.md
+    type: Definition
+
+  - id: analytic_number_theory_zhang_maynard_tao_bounded_gaps_theorem
+    title: Zhang-Maynard-Tao 素数有界间隔定理
+    file: twin_prime_and_bounded_gaps.md
+    type: Theorem
+
+  - id: analytic_number_theory_bounded_gaps_vs_twin_prime_note
+    title: 有界间隔与孪生素数猜想的区别
+    file: twin_prime_and_bounded_gaps.md
+    type: Theorem
+
+  # riemann_hypothesis_equivalents.md
+  - id: analytic_number_theory_rh_prime_distribution_equivalent
+    title: Riemann 猜想的素数分布等价形式
+    file: riemann_hypothesis_equivalents.md
+    type: Theorem
+
+  - id: analytic_number_theory_mertens_conjecture_status
+    title: Mertens 猜想的地位
+    file: riemann_hypothesis_equivalents.md
+    type: Theorem
+
+  - id: analytic_number_theory_robin_criterion_theorem
+    title: Robin 判别法
+    file: riemann_hypothesis_equivalents.md
+    type: Theorem
+
+  - id: analytic_number_theory_rh_lindelof_implication
+    title: Riemann 猜想与 Lindelof 猜想
+    file: riemann_hypothesis_equivalents.md
+    type: Theorem

@@ -1,0 +1,387 @@
+harmonic_analysis:
+  title: 调和分析
+  sections:
+    - fourier_analysis_foundations:
+        title: Fourier 分析基础
+        subsections:
+          - fourier_series_on_the_circle:
+              title: 圆周上的 Fourier 级数
+              content: 三角多项式、Fourier 系数、正交性与 Parseval 恒等式、Dirichlet 核与 Fejer 核、Cesaro 求和、$L^2(\mathbb T)$ 的完备正交系
+          - fourier_series_convergence:
+              title: Fourier 级数的收敛性理论
+              content: 部分和算子 $S_Nf$ 与 Dirichlet 核的 $L^1$ 无界性、Riemann-Lebesgue 引理、逐点收敛的 Dirichlet-Jordan 判别法、Dini-Lipschitz 判别法、局部化原理、Kolmogorov $L^1$ 处处发散反例、Carleson-Hunt 定理（$L^p(\mathbb T)$ 上几乎处处收敛，$p>1$）、Gibbs 现象、Fejér 均值与 Cesàro 可求和性、Poisson 核与 Abel 求和
+          - fourier_transform_on_euclidean_space:
+              title: Euclidean 空间上的 Fourier 变换
+              content: Schwartz 空间与温和分布、反演公式、Plancherel 定理、Hausdorff-Young 不等式、平移、调制、伸缩及其对偶关系
+          - convolution_and_approximation:
+              title: 卷积、逼近恒等式与 Poisson 求和
+              content: Young 不等式、逼近恒等式、热核与 Poisson 核、周期化、Poisson 求和公式、theta 函数的初步
+          - distributions_and_fundamental_solutions:
+              title: 分布与基本解
+              content: 分布的 Fourier 变换、$\delta$ 分布、常系数微分算子的符号、Laplace 算子的基本解、PDE 的频率侧求解
+          - uncertainty_and_time_frequency:
+              title: 不确定性原理与时频分析
+              content: Heisenberg 不确定性原理、Paley-Wiener 定理的基本思想、短时 Fourier 变换、Gabor 系统与局部化的权衡
+          - spherical_harmonics:
+              title: 球面调和函数
+              content: 球面上的 Laplace-Beltrami 算子、球面调和函数的定义与特征值、加法公式与 Funk-Hecke 定理、球面调和展开与 $L^2(\mathbb S^{n-1})$ 的直和分解、球带调和函数、与经典正交多项式（Gegenbauer 多项式、Legendre 多项式）的联系、球面上的 Fourier 乘子与 Sobolev 空间
+    - wavelet_and_multiscale_analysis:
+        title: 小波与多尺度分析
+        subsections:
+          - continuous_wavelet_transform:
+              title: 连续小波变换
+              content: 容许小波、平移和伸缩表示、连续小波变换、重构公式、时频局部化与尺度局部化
+          - multiresolution_analysis:
+              title: 多分辨率分析
+              content: 嵌套近似空间 $V_j$、尺度函数、细节空间 $W_j$、双尺度方程、滤波器组
+          - orthogonal_and_biorthogonal_wavelets:
+              title: 正交与双正交小波
+              content: Haar 小波、Daubechies 小波、紧支集、正则性、消失矩、双正交小波与提升格式
+          - wavelets_and_function_spaces:
+              title: 小波与函数空间
+              content: 小波系数刻画 Sobolev、Besov 与 Triebel-Lizorkin 空间、小波原子分解、稀疏逼近
+          - wavelet_applications:
+              title: 小波应用
+              content: 去噪、压缩、边缘检测、阈值估计、自适应数值方法及其误差控制
+    - maximal_functions_and_interpolation:
+        title: 极大函数与插值定理
+        subsections:
+          - hardy_littlewood_maximal_function:
+              title: Hardy-Littlewood 极大函数
+              content: 中心与非中心极大函数、Vitali 覆盖引理、极大函数的弱 $(1,1)$ 型不等式、强 $(p,p)$ 型不等式（$p > 1$）、Lebesgue 微分定理的强化
+          - dyadic_maximal_function:
+              title: 二进极大函数
+              content: 二进方体、二进极大函数、Calderón-Zygmund 分解、良点集分解
+          - marcinkiewicz_interpolation:
+              title: Marcinkiewicz 插值定理
+              content: 弱 $L^p$ 空间、次线性算子、Marcinkiewicz 插值定理、应用于极大函数
+          - riesz_thorin_interpolation:
+              title: Riesz-Thorin 插值定理
+              content: 复插值方法、Hadamard 三线定理、Riesz-Thorin 定理、应用于 Fourier 变换（Hausdorff-Young）
+          - real_and_complex_interpolation:
+              title: 实插值与复插值
+              content: $K$-方法（Peetre）、$J$-方法、复插值方法（Calderón）、Lions-Peetre 插值理论、Lorentz 空间 $L^{p,q}$
+    - singular_integrals:
+        title: 奇异积分
+        subsections:
+          - hilbert_transform:
+              title: Hilbert 变换
+              content: Hilbert 变换的定义（主值积分）、Fourier 乘子刻画（$\widehat{Hf}(\xi) = -i\operatorname{sgn}(\xi)\hat f(\xi)$）、$L^2$ 有界性、$L^p$ 有界性（$1 < p < \infty$）、弱 $(1,1)$ 型、Cotlar 恒等式
+          - riesz_transforms:
+              title: Riesz 变换
+              content: Riesz 变换 $R_j$ 的定义、Fourier 乘子 $\widehat{R_jf}(\xi) = -i\xi_j/|\xi|\, \hat f(\xi)$、$L^p$ 有界性、与 Laplace 算子的关系（$\partial_i\partial_j = -R_iR_j\Delta$）、旋转不变性
+          - calderon_zygmund_operators:
+              title: Calderón-Zygmund 算子
+              content: 标准核（standard kernel）的定义、Calderón-Zygmund 算子、核估计、$L^p$ 有界性（$1 < p < \infty$）、弱 $(1,1)$ 型、由 Calderón-Zygmund 分解证明
+          - vector_valued_and_operator_valued:
+              title: 向量值与算子值奇异积分
+              content: Hilbert 空间值奇异积分、Banach 空间值的推广、UMD 空间简介
+          - t1_and_tb_theorems:
+              title: $T(1)$ 与 $T(b)$ 定理
+              content: David-Journé $T(1)$ 定理、$T(b)$ 定理、弱有界性、几乎正交（Cotlar-Stein 引理）
+    - muckenhoupt_weights:
+        title: Muckenhoupt $A_p$ 权
+        subsections:
+          - weighted_lebesgue_spaces:
+              title: 加权 Lebesgue 空间与权函数
+              content: 权函数与局部可积性、测度 $w(x)\,dx$、加权空间 $L^p(w)$、加权平均、幂权 $|x|^\alpha$ 的基本例子、尺度不变性
+          - ap_and_a1_definitions:
+              title: $A_p$、$A_1$ 与 $A_\infty$ 的定义
+              content: Muckenhoupt $A_p$ 条件、$A_1$ 的极大函数刻画、$A_\infty$ 的等价刻画、$[w]_{A_p}$ 特征常数、嵌套关系 $A_1\subset A_p\subset A_q\subset A_\infty$
+          - power_weights_and_examples:
+              title: 幂权与典型例子
+              content: $\mathbb R^n$ 上 $|x|^\alpha\in A_p$ 的指数范围、距离函数权、乘积权、非例与边界情形、通过立方体平均计算 $A_p$ 常数
+          - duality_and_self_improvement:
+              title: 对偶性与自改善
+              content: 对偶权 $\sigma=w^{-1/(p-1)}$、$w\in A_p$ 当且仅当 $\sigma\in A_{p'}$、反向 Holder 不等式、Gehring 引理、$A_p$ 的开性、Fujii-Wilson $A_\infty$ 常数
+          - weighted_maximal_inequalities:
+              title: 加权极大函数不等式
+              content: Hardy-Littlewood 极大算子在 $L^p(w)$ 上有界当且仅当 $w\in A_p$、$A_1$ 的弱型端点、Buckley 的定量估计、二进极大函数与稀疏控制
+          - weighted_calderon_zygmund_theory:
+              title: 加权 Calderon-Zygmund 理论
+              content: 奇异积分在 $L^p(w)$ 上的有界性、Coifman-Fefferman 不等式、$A_2$ 定理、Hytönen 表示定理的角色、权特征常数的尖锐依赖
+          - extrapolation_and_vector_valued_estimates:
+              title: 外推与向量值估计
+              content: Rubio de Francia 外推定理、从单个指数推广到全体 $p$、弱型外推、Lorentz 空间外推、向量值不等式、加权平方函数估计
+          - two_weight_and_applications:
+              title: 双权问题与应用
+              content: 双权极大函数问题、Sawyer 测试条件、双权 Hilbert 变换的背景、Bloom BMO 与交换子、退化椭圆方程、加权 Sobolev 不等式
+    - hardy_spaces:
+        title: Hardy 空间
+        subsections:
+          - motivation_and_classical_hardy_spaces:
+              title: Hardy 空间的动机与经典版本
+              content: $L^1$ 端点的失败、单位圆盘上的解析 Hardy 空间 $H^p(\mathbb D)$、边界值、Poisson 积分、内外分解的概览、实 Hardy 空间与复 Hardy 空间的区别
+          - real_hardy_spaces:
+              title: 实 Hardy 空间
+              content: $H^p(\mathbb R^n)$（$0<p\leq1$）的定义、Poisson 极大函数、径向极大函数、非切向极大函数与大极大函数、各种定义的等价性、$p>1$ 时 $H^p=L^p$
+          - atomic_decomposition:
+              title: 原子分解
+              content: $(p,q,s)$-原子、支集、大小条件与消失矩、原子分解定理、原子 Hardy 范数、以原子验证算子有界性的判据、有限原子分解的注意事项
+          - maximal_square_and_area_characterizations:
+              title: 极大函数、平方函数与面积函数刻画
+              content: Lusin 面积函数、Littlewood-Paley $g$ 函数、非切向极大函数、Calderon 再生公式、各刻画之间的等价性、与 Littlewood-Paley 理论的联系
+          - hardy_spaces_and_singular_integrals:
+              title: Hardy 空间上的奇异积分
+              content: Calderon-Zygmund 算子从 $H^1$ 到 $L^1$ 的有界性、$H^p$ 到 $H^p$ 的有界性条件、Riesz 变换刻画、取消条件与端点估计
+          - local_hardy_spaces:
+              title: 局部 Hardy 空间
+              content: Goldberg 局部 Hardy 空间 $h^p$、大尺度与小尺度的区别、局部原子、与非齐次函数空间和椭圆 PDE 的联系
+          - hardy_spaces_on_other_domains:
+              title: 其他背景上的 Hardy 空间
+              content: 齐次型空间上的 Hardy 空间、半群 Hardy 空间、算子 Hardy 空间、边界 Hardy 空间、向量值 Hardy 空间的概览
+    - bmo_spaces:
+        title: BMO 与 VMO 空间
+        subsections:
+          - bmo_space:
+              title: BMO 的定义与基本例子
+              content: 有界均值振荡的定义、立方体与球的等价定义、常数商空间、BMO 范数、$\log|x|\in\mathrm{BMO}$、$L^\infty\subset\mathrm{BMO}$ 且包含严格
+          - john_nirenberg_inequality:
+              title: John--Nirenberg 不等式
+              content: 指数可积性、分布函数估计、不同 $L^q$ 平均振荡范数的等价性、BMO 的端点性质、Calderon-Zygmund 分解在证明中的作用
+          - h1_bmo_duality:
+              title: $H^1$-BMO 对偶
+              content: Fefferman 对偶定理 $(H^1)^*=\mathrm{BMO}$、原子与 BMO 的配对、对偶泛函的构造、Fefferman-Stein 分解、与 Hardy 空间章节的交叉依赖
+          - bmo_interpolation_and_commutators:
+              title: 插值、交换子与端点估计
+              content: BMO 与 $L^p$ 的复插值、Fefferman-Stein 尖锐极大函数、Calderon-Zygmund 算子交换子 $[b,T]$、Coifman-Rochberg-Weiss 定理、PDE 中的端点控制
+          - dyadic_bmo_and_product_bmo:
+              title: 二进 BMO 与乘积 BMO
+              content: 二进 BMO、Haar 系数刻画、多个二进格的比较、双参数空间、Chang-Fefferman 乘积 BMO 的概览
+          - vmo_space:
+              title: VMO 空间
+              content: 消失均值振荡的定义、小尺度、大尺度与远离原点的消失条件、$C_c^\infty$ 在 VMO 中的稠密性、VMO 与紧性、$(\mathrm{VMO})^*=H^1$ 的适当表述
+          - bmo_on_other_settings:
+              title: 其他背景上的 BMO
+              content: 齐次型空间上的 BMO、抛物 BMO、算子 BMO、矩阵值 BMO、Carleson 测度刻画及其与边界值问题的联系
+    - littlewood_paley_theory:
+        title: Littlewood-Paley 理论
+        subsections:
+          - dyadic_decomposition:
+              title: 二进分解
+              content: 频率的二进分解、Littlewood-Paley 投影 $\Delta_j$、单位分解 $\sum_j \Delta_j = I$、频率局部化
+          - littlewood_paley_square_function:
+              title: Littlewood-Paley 平方函数
+              content: 平方函数 $Sf = (\sum_j |\Delta_j f|^2)^{1/2}$、$L^p$ 上的 Littlewood-Paley 不等式（$1 < p < \infty$）、通过 Khintchine 不等式的随机化方法
+          - fourier_multipliers:
+              title: Fourier 乘子
+              content: Fourier 乘子的定义、乘子代数、Mikhlin 乘子定理、Hörmander-Mikhlin 定理、Marcinkiewicz 乘子定理、Bernstein 不等式
+          - besov_and_triebel_lizorkin_spaces:
+              title: Besov 空间与 Triebel-Lizorkin 空间
+              content: 齐次与非齐次 Besov 空间 $B^s_{p,q}$、Triebel-Lizorkin 空间 $F^s_{p,q}$、Sobolev 空间与 Hölder 空间作为特例、嵌入定理
+          - paraproduct:
+              title: 半积
+              content: Bony 半积分解、非线性表达式的频率分解、乘积估计、para-differential 演算简介
+    - multilinear_harmonic_analysis:
+        title: 多线性调和分析
+        subsections:
+          - multilinear_maximal_functions_and_interpolation:
+              title: 多线性极大函数与插值
+              content: 多线性分数次极大函数、多线性 Hölder 型不等式（乘积型与卷积型）、多线性 Marcinkiewicz 插值定理、多线性 Riesz-Thorin 插值、混合范数估计
+          - multilinear_calderon_zygmund_theory:
+              title: 多线性 Calderón-Zygmund 理论
+              content: 多线性 C-Z 核的定义与标准核估计、多线性奇异积分的 $L^{p_1}\times\cdots\times L^{p_m}\to L^p$ 有界性（Grafakos-Torres 理论）、$1/p=\sum 1/p_i$ 的 Hölder 关系、端点估计（弱 $L^1$ 与 Hardy 空间 $H^1$）、多线性 $T(1)$ 定理、稀疏控制与定量加权估计
+          - bilinear_hilbert_transform:
+              title: 双线性 Hilbert 变换
+              content: 双线性 Hilbert 变换的定义与 Calderón 猜想的历史、Lacey-Thiele 定理（$L^p\times L^q\to L^r$ 有界性）、时频分析与组合论证方法、与 Carleson 定理及单参数情形的关系、双线性 Hilbert 变换在色散 PDE 中的初步应用
+          - multilinear_multipliers_and_paraproducts:
+              title: 多线性乘子与半积
+              content: Coifman-Meyer 乘子定理（光滑符号的 $L^p$ 有界性）、多线性半积分解与端点估计、多线性拟微分算子、多线性 Littlewood-Paley 平方函数、乘积型 BMO 与 flag BMO 的端点对应
+          - weighted_multilinear_theory:
+              title: 加权多线性理论
+              content: 多线性 $A_{\vec{P}}$ 权类（乘积权条件）、多向量权 $w\in A_{\vec{P}}$ 与联合条件、加权多线性不等式与尖锐常数、多线性 Rubio de Francia 外推定理、Bloom 权与多线性交换子 $[b,T]_j$ 的加权估计
+          - multilinear_oscillatory_integrals_and_restriction:
+              title: 多线性振荡积分与限制
+              content: 多线性振荡积分算子的非退化相函数条件、$L^2$ 衰减估计与尺度引理、多线性 Fourier 限制理论与扩张估计、双线性 Hilbert 变换对色散 PDE 的应用、Christ-Kiselev 引理与多线性色散估计
+          - applications_to_nonlinear_pde:
+              title: 在非线性 PDE 中的应用
+              content: 非线性 Schrödinger 方程的多线性 Strichartz 估计与 profile 分解、KdV 方程的双线性与三线性估计、波动方程的 null 形式结构与多线性乘子、仿线性化中多线性半积的关键作用、Navier-Stokes 方程的双线性涡度拉伸项分析
+    - oscillatory_integrals:
+        title: 振荡积分
+        subsections:
+          - stationary_phase:
+              title: 稳定相位方法
+              content: 一维稳定相位引理、多维稳定相位方法、非退化临界点、渐近展开
+          - van_der_corput_lemma:
+              title: van der Corput 引理
+              content: van der Corput 引理、一次导数估计、高阶导数估计、应用于振荡积分
+          - oscillatory_integral_operators:
+              title: 振荡积分算子
+              content: 第一型与第二型振荡积分算子、$L^2$ 估计、$L^p$ 估计
+          - fourier_integral_operators_introduction:
+              title: Fourier 积分算子初步
+              content: Fourier 积分算子的定义、辛几何背景、Lagrangian 分布、拟微分算子的推广
+    - restriction_and_extension:
+        title: 限制与扩张问题
+        subsections:
+          - restriction_conjecture:
+              title: Fourier 限制猜想
+              content: Fourier 变换在曲面上的限制、Stein-Tomas 定理、抛物面与球面上的限制、限制猜想的陈述、$L^2$ 限制定理
+          - extension_estimate:
+              title: 扩张估计
+              content: 扩张算子、扩张估计与限制估计的对偶、Strichartz 估计、双线性与多线性限制估计
+          - kakeya_conjecture_introduction:
+              title: Kakeya 猜想初步
+              content: Kakeya 集、Kakeya 极大算子、Kakeya 猜想、Kakeya 与限制猜想的关系、Bourgain 与 Wolff 的进展
+    - abstract_harmonic_analysis:
+        title: 抽象调和分析
+        subsections:
+          - topological_groups:
+              title: 拓扑群
+              content: 拓扑群的定义、局部紧拓扑群、群作用、齐性空间
+          - haar_measure:
+              title: Haar 测度
+              content: 左（右）Haar 测度、Haar 测度的存在与唯一性（Weil 定理）、模函数、幺模群、经典例子（$\mathbb{R}^n$、$\mathbb{T}$、$SO(n)$、$SL_2(\mathbb{R})$、$p$-adic 群）
+          - convolution_on_groups:
+              title: 群上的卷积
+              content: $L^1(G)$ 的卷积代数结构、群 $C^*$-代数 $C^*(G)$、群 von Neumann 代数
+          - representations_of_locally_compact_groups:
+              title: 局部紧群的表示
+              content: 酉表示、不可约表示、Schur 引理（无穷维版本）、诱导表示、正定函数、GNS 构造
+          - pontryagin_duality:
+              title: Pontryagin 对偶
+              content: 局部紧 Abel 群（LCA 群）、对偶群 $\hat G$、LCA 群上的 Fourier 变换、Pontryagin 对偶定理（$\hat{\hat G} \cong G$）、经典 Fourier 分析的统一（$\mathbb{Z}$、$\mathbb{T}$、$\mathbb{R}$、有限 Abel 群）
+          - plancherel_theorem_lca:
+              title: LCA 群上的 Plancherel 定理
+              content: Plancherel 定理（LCA 版）、Bochner 定理（正定函数与测度）、Wiener 代数、Tauberian 定理
+          - peter_weyl_theorem:
+              title: Peter-Weyl 定理
+              content: 紧群的酉表示分解、Peter-Weyl 定理、矩阵元素、$L^2(G)$ 的分解、字符理论
+          - non_commutative_fourier_analysis_introduction:
+              title: 非交换 Fourier 分析初步
+              content: Heisenberg 群、群 Fourier 变换的算子值形式、半单 Lie 群上的调和分析简介、球函数与球变换
+          - direct_integrals_and_plancherel:
+              title: 直积分与一般 Plancherel 理论
+              content: 单位对偶 $\widehat G$、表示的直积分、正则表示、Plancherel 测度、类型 I 群的技术条件、非紧群谱分解的基本图景
+          - induced_representations:
+              title: 诱导表示与 Mackey 理论
+              content: 闭子群上的表示、诱导表示、Frobenius 互反性、紧诱导、Mackey 分解思想、抛物诱导的预备
+          - lie_groups_and_spherical_analysis:
+              title: Lie 群与球分析
+              content: Lie 群与 Lie 代数、Cartan 分解、Iwasawa 分解、极大紧子群、Gelfand 对、球函数、Harish-Chandra 球变换的预备
+    - harmonic_analysis_on_local_fields:
+        title: 局部域与局部表示上的调和分析
+        subsections:
+          - finite_abelian_groups_and_finite_fields:
+              title: 有限 Abel 群与有限域 Fourier 分析
+              content: 有限 Fourier 变换、加法角色与乘法角色、正交关系、Gauss 和、Jacobi 和、有限域上的指数和及其平方根消去现象
+          - additive_harmonic_analysis_on_local_fields:
+              title: 局部域加法群上的 Fourier 分析
+              content: 局部域 $F$、非阿基米德赋值、整数环与剩余域、非平凡加法角色、self-dual Haar 测度、Fourier 反演、Plancherel 与 Poisson 求和
+          - tate_zeta_integrals:
+              title: Tate 局部 zeta 积分
+              content: Bruhat-Schwartz 函数、乘法 Haar 测度、局部 zeta 积分、局部 $L$ 因子、$\epsilon$ 因子、局部函数方程及其 Fourier 分析来源
+          - smooth_representations_of_padic_groups:
+              title: $p$-进群的光滑表示
+              content: 全不连通局部紧群、光滑表示与可容许表示、紧开子群不变向量、紧诱导、Jacquet 模与抛物诱导的动机
+          - hecke_algebras_and_spherical_representations:
+              title: Hecke 代数与球表示
+              content: 紧开双陪集、卷积 Hecke 代数 $\mathcal H(G,K)$、球表示、Satake 同构的基本形式、未分歧表示和 Langlands 对偶群的初步
+          - archimedean_representation_theory:
+              title: Archimedean 局部表示论
+              content: 实 Lie 群上的连续与光滑表示、$(\mathfrak g,K)$-模、主级数表示、离散级数的概念、与 $p$-进局部理论的平行
+    - adelic_and_automorphic_harmonic_analysis:
+        title: 阿代尔与自守调和分析
+        subsections:
+          - global_fields_and_adeles:
+              title: 全局域、赋值与阿代尔
+              content: 数域与函数域、完备化、赋值乘积公式、阿代尔环 $\mathbb A_K$、idele 群、受限直积、对角嵌入 $K\hookrightarrow\mathbb A_K$
+          - adelic_poisson_summation:
+              title: 阿代尔 Poisson 求和与 Tate 论文
+              content: $\mathbb A_K/K$ 的紧性、Bruhat-Schwartz 空间、阿代尔 Fourier 变换、Poisson 求和、Tate zeta 积分、全局函数方程
+          - automorphic_forms_and_representations:
+              title: 自守形式与自守表示
+              content: 商空间 $G(K)\backslash G(\mathbb A_K)$、中心特征、尖点形式、平方可积自守形式、右正则表示、局部-整体分解
+          - hecke_operators_and_l_functions:
+              title: Hecke 算子与自守 $L$ 函数
+              content: Hecke 对应与双陪集卷积、Satake 参数、Euler 乘积、标准 $L$ 函数、Whittaker 模型与 Fourier-Whittaker 展开
+          - eisenstein_series_and_continuous_spectrum:
+              title: Eisenstein 级数与连续谱
+              content: 抛物子群、Eisenstein 级数、常数项、互换算子、残数、自守谱的离散部分与连续部分
+          - trace_formulas:
+              title: 迹公式的入门
+              content: 核函数、谱侧与几何侧、Selberg 迹公式的模型、Arthur--Selberg 迹公式的目的、轨道积分、稳定化的动机
+    - geometric_harmonic_analysis:
+        title: 通向代数几何的几何化调和分析
+        subsections:
+          - exponential_sums_and_geometry:
+              title: 指数和的几何来源
+              content: 有限域上的加法角色、指数和、Gauss 和、Kloosterman 和、代数簇上的点计数、从相消估计到几何解释
+          - etale_cohomology_and_trace_formula:
+              title: etale 上同调与 Grothendieck--Lefschetz 迹公式
+              content: Frobenius 元、etale 上同调的角色、点计数作为 Frobenius 的交替迹、Weil 猜想的分析含义、权与平方根消去
+          - sheaf_function_dictionary:
+              title: 层-函数对应
+              content: constructible sheaves、Frobenius 迹函数、拉回、推前与卷积、几何对象如何产生有限域上的函数与核
+          - fourier_deligne_transform:
+              title: Fourier--Deligne 变换
+              content: 加法角色层、积分核的几何化、Fourier--Deligne 变换、与经典有限 Fourier 变换的对应、局部 Fourier 变换的动机
+          - geometric_satake_and_langlands_orientation:
+              title: 几何 Satake 与朗兰兹导向
+              content: affine Grassmannian、卷积范畴、几何 Satake 等价、Langlands 对偶群、从自守调和分析到几何朗兰兹的概览
+    - harmonic_analysis_in_pde:
+        title: 调和分析在偏微分方程中的应用
+        subsections:
+          - elliptic_regularity:
+              title: 椭圆正则性
+              content: 常系数椭圆算子的 $L^p$ 估计（Calderón-Zygmund）、变系数椭圆算子的 $L^p$ 估计、Schauder 估计与奇异积分、位势理论与边界正则性、Wiener 判别法
+          - layer_potentials_and_boundary_value_problems:
+              title: 层位势与边值问题
+              content: 单层位势与双层位势的 $L^p$ 有界性、跳跃关系与边界积分方程、非切向极大函数估计、Lipschitz 域上的 $L^p$ Dirichlet 问题与 Neumann 问题、层位势的 Calderón-Zygmund 核刻画
+          - parabolic_equations:
+              title: 抛物型方程
+              content: 热核算子与 Gauss 核的 $L^p$ 正则化、抛物 Calderón-Zygmund 理论、极大正则性（maximal regularity）、抛物 Littlewood-Paley 理论、Nash-Moser 迭代与 De Giorgi 估计
+          - dispersive_equations_and_strichartz:
+              title: 色散方程与 Strichartz 估计
+              content: 自由 Schrödinger 方程与波动方程的基本解、色散估计（$L^1\to L^\infty$ 衰减）、Strichartz 估计的完整推导（Keel-Tao 定理）、局部光滑化效应、KdV 方程与 Benjamin-Ono 方程的调和分析方法
+          - paradifferential_calculus:
+              title: 仿微分演算与非线性 PDE
+              content: Bony 仿线性化方法、仿乘积与仿微分算子、拟线性双曲型方程的能量估计、非线性 Schrödinger 方程与非线性波动方程的局部适定性、半积分解在非线性项频域分析中的作用
+          - navier_stokes_and_euler:
+              title: Navier-Stokes 方程与 Euler 方程
+              content: Littlewood-Paley 分解在不可压缩流体方程中的应用、Kato 的温和解方法、Besov 空间中的适定性理论、涡度方程与 Biot-Savart 律、能量恒等式与 Onsager 猜想的调和分析视角
+          - carleman_estimates_and_unique_continuation:
+              title: Carleman 估计与唯一延拓性
+              content: 加权 $L^2$ 估计、Carleman 不等式、椭圆算子的唯一延拓性、不确定原理与唯一延拓的联系
+          - maximal_smoothing_and_local_smoothing:
+              title: 极大光滑化与局部光滑化
+              content: 色散方程的局部光滑化效应、极大函数在 PDE 中的应用、Kato 光滑化与 Kato-Ponce 交换子估计
+          - boundary_value_problems_on_non_smooth_domains:
+              title: 非光滑区域上的边值问题
+              content: Lipschitz 域与 chord-arc 域、层位势在非光滑域上的有界性、$A_p$ 权与椭圆边值问题的联系、Fefferman-Kenig-Pipher 理论概览
+          - spectral_theory_of_differential_operators:
+              title: 微分算子的谱理论
+              content: 自伴椭圆算子的谱分解、Weyl 渐近公式、谱函数与谱投影的 $L^p$ 估计、Bochner-Riesz 平均、Fourier 积分算子与特征函数估计
+          - stochastic_pde_and_harmonic_analysis:
+              title: 随机 PDE 与调和分析
+              content: Wiener 混沌与 Malliavin 分析、Meyer 不等式、随机热方程与随机波动方程的适定性、正则性结构理论中的调和分析工具
+    - harmonic_analysis_in_number_theory:
+        title: 调和分析在数论中的应用
+        subsections:
+          - circle_method:
+              title: Hardy-Littlewood 圆法
+              content: 圆法的 Fourier 分析基础（计数函数的积分表示）、主弧与余弧的划分、Weyl 和估计与 van der Corput 方法、Vinogradov 中值定理、Waring 问题与 Goldbach 三素数定理的调和分析本质
+          - exponential_sums_and_character_sums:
+              title: 指数和与特征和
+              content: 完整指数和（Gauss 和、Kloosterman 和、Jacobi 和）的调和分析估计、平方根消去现象、Weil 界与 Riemann 假设在有限域上的类比、多重 Kloosterman 和与谱理论
+          - modular_forms_and_spectral_theory_of_automorphic_forms:
+              title: 模形式与自守形式的谱理论
+              content: $\theta$ 函数的模性与 Poisson 求和、Eisenstein 级数的 Fourier 展开、Hecke 算子的调和分析解释（双陪集卷积）、Maass 形式与双曲 Laplace 算子的谱分解、谱方法与自守形式的 $L^2$ 理论
+          - automorphic_l_functions_and_analytic_properties:
+              title: 自守 $L$ 函数的解析性质
+              content: 自守 $L$ 函数的函数方程与解析延拓（Tate 方法）、凸性界与子凸性界问题、$L$ 函数的矩估计与随机矩阵理论、Rankin-Selberg 积分与 Langlands-Shahidi 方法、低零点与 $L$ 函数的中心值
+          - equidistribution_and_spectral_methods:
+              title: 均匀分布与谱方法
+              content: Weyl 判别准则的调和分析解释、Linnik 的均匀分布问题、Lubotzky-Phillips-Sarnak 定理（Hecke 算子的谱间隙与 expander 图）、量子遍历性（Quantum Ergodicity）与 Shnirelman 定理
+          - exponential_sums_over_varieties:
+              title: 代数簇上的指数和
+              content: 有限域上代数簇的指数和、Grothendieck-Lefschetz 迹公式与指数和估计、étale 上同调与 Fourier-Deligne 变换、Katz-Laumon 理论、指数和的权重与混合性
+          - additive_combinatorics_and_harmonic_analysis:
+              title: 加性组合与调和分析
+              content: 有限 Fourier 变换在加性组合中的应用、Gowers 范数与高阶 Fourier 分析、Roth 定理与 Szemerédi 定理的调和分析证明、Bourgain 的加性组合方法、Freiman 定理与 Fourier 分析
+          - applications_of_decoupling_in_number_theory:
+              title: 解耦理论在数论中的应用
+              content: Vinogradov 中值定理的 Bourgain-Demeter-Guth 证明、解耦作为指数和估计的连续类比、Weyl 和的 $L^p$ 估计与解耦、有理点计数与解耦不等式
+          - analytic_number_theory_on_gl_n:
+              title: $\mathrm{GL}(n)$ 上的解析数论
+              content: 高阶 Rankin-Selberg $L$ 函数、Langlands 函子性与解析数论、自守表示上的 Voronoi 求和公式、高阶 Kloosterman 和与谱理论、素数定理的自守形式推广

@@ -1,0 +1,147 @@
+measure_theory_and_real_analysis:
+  title: 测度论与实分析
+  sections:
+    - preliminaries:
+        title: 预备知识
+        subsections:
+            - motivation:
+                title: 从 Riemann 积分到 Lebesgue 积分
+                content: Riemann 积分的局限、Lebesgue 积分的动机、测度的直观意义
+            - set_operations:
+                title: 集合运算与极限
+                content: 集合的交并补运算、上极限集与下极限集、集族的类型（π 系、λ 系、代数、σ 代数）
+            - extended_real_numbers:
+                title: 广义实数系
+                content: 广义实数 [-∞,+∞]、算术约定、上确界与下确界
+    - measure_and_measurable_sets:
+        title: 测度与可测集
+        subsections:
+            - algebras_and_sigma_algebras:
+                title: 代数与 σ 代数
+                content: 代数、σ 代数的定义与性质、生成的 σ 代数、Borel σ 代数、乘积 σ 代数
+            - measurable_spaces:
+                title: 可测空间
+                content: 可测空间的定义、Borel 空间、可测空间之间的映射
+            - measures:
+                title: 测度
+                content: 测度的定义与基本性质（单调性、次可加性、连续性）、概率测度、σ 有限测度、完备测度
+            - outer_measures_and_caratheodory:
+                title: 外测度与 Carathéodory 扩张
+                content: 外测度的定义、Carathéodory 可测集、外测度诱导的测度、Carathéodory 扩张定理
+            - lebesgue_measure:
+                title: Lebesgue 测度
+                content: Lebesgue 外测度、Lebesgue 可测集、Lebesgue 测度的性质、平移不变性、Borel 集与 Lebesgue 可测集的关系、不可测集（Vitali 集）
+            - lebesgue_stieltjes_measure:
+                title: Lebesgue-Stieltjes 测度
+                content: 有界变差函数、单调函数诱导的测度、Lebesgue-Stieltjes 测度与分布函数
+    - measurable_functions:
+        title: 可测函数
+        subsections:
+            - definition_of_measurable_functions:
+                title: 可测函数的定义
+                content: 可测函数的等价定义、可测函数的运算封闭性
+            - simple_functions:
+                title: 简单函数
+                content: 简单函数的定义、可测函数用简单函数逼近（简单函数逼近定理）
+            - convergence_of_measurable_functions:
+                title: 可测函数的收敛
+                content: 几乎处处收敛、依测度收敛、一致收敛、Egoroff 定理、Lusin 定理、Riesz 定理
+    - lebesgue_integral:
+        title: Lebesgue 积分
+        subsections:
+            - integral_of_simple_functions:
+                title: 简单函数的积分
+                content: 非负简单函数的积分定义与线性性
+            - integral_of_nonnegative_functions:
+                title: 非负可测函数的积分
+                content: 非负可测函数积分的定义、单调收敛定理、Fatou 引理
+            - integral_of_general_functions:
+                title: 一般可测函数的积分
+                content: 可积函数的定义、积分的线性性与单调性、控制收敛定理
+            - convergence_theorems:
+                title: 收敛定理综述
+                content: 单调收敛定理、Fatou 引理、控制收敛定理、有界收敛定理、Vitali 收敛定理
+            - comparison_with_riemann:
+                title: 与 Riemann 积分的比较
+                content: Riemann 可积函数是 Lebesgue 可积的、Riemann 可积的充要条件、广义 Riemann 积分与 Lebesgue 积分的差异
+    - product_measure_and_fubini:
+        title: 乘积测度与 Fubini 定理
+        subsections:
+            - product_measures:
+                title: 乘积测度
+                content: 乘积可测空间、乘积测度的构造（Carathéodory 扩张）、σ 有限性的作用
+            - fubini_tonelli_theorem:
+                title: Fubini-Tonelli 定理
+                content: Tonelli 定理（非负情形）、Fubini 定理（可积情形）、累次积分与二重积分的关系
+            - convolution:
+                title: 卷积
+                content: 卷积的定义、Young 不等式、卷积的可微性
+    - signed_and_complex_measures:
+        title: 带号测度与复测度
+        subsections:
+            - signed_measures:
+                title: 带号测度
+                content: 带号测度的定义、Hahn 分解定理、Jordan 分解定理
+            - complex_measures:
+                title: 复测度
+                content: 复测度的定义、全变差测度
+            - radon_nikodym_theorem:
+                title: Radon-Nikodym 定理
+                content: 测度的绝对连续与奇异、Radon-Nikodym 导数、Lebesgue 分解定理
+    - differentiation_theory:
+        title: 微分理论
+        subsections:
+            - maximal_functions:
+                title: 极大函数
+                content: Hardy-Littlewood 极大函数、Vitali 覆盖引理、极大不等式
+            - lebesgue_differentiation_theorem:
+                title: Lebesgue 微分定理
+                content: 局部可积函数的 Lebesgue 点、Lebesgue 微分定理、Lebesgue 集
+            - functions_of_bounded_variation:
+                title: 有界变差函数
+                content: 有界变差函数的定义、Jordan 分解、有界变差函数几乎处处可微
+            - absolutely_continuous_functions:
+                title: 绝对连续函数
+                content: 绝对连续函数的定义、微积分基本定理、绝对连续与不定积分的关系
+    - lp_spaces:
+        title: L^p 空间
+        subsections:
+            - definition_of_lp_spaces:
+                title: L^p 空间的定义
+                content: L^p 空间的定义（1 ≤ p ≤ ∞）、几乎处处相等的等价类、L^p 范数
+            - basic_inequalities:
+                title: 基本不等式
+                content: Young 不等式、Hölder 不等式、Minkowski 不等式、Jensen 不等式
+            - completeness_of_lp:
+                title: L^p 空间的完备性
+                content: Riesz-Fischer 定理、L^p 空间是 Banach 空间、L^2 空间是 Hilbert 空间
+            - density_and_separability:
+                title: 稠密性与可分性
+                content: 简单函数、连续函数、光滑函数在 L^p 中的稠密性、L^p 空间的可分性（1 ≤ p < ∞）
+            - duality_of_lp:
+                title: L^p 空间的对偶
+                content: L^p 与 L^q 的对偶（1/p+1/q=1）、Riesz 表示定理、L^∞ 的对偶
+            - convergence_in_lp:
+                title: L^p 收敛
+                content: L^p 收敛与依测度收敛、几乎处处收敛的关系、一致可积性
+    - abstract_integration_and_representation:
+        title: 抽象积分与表示定理
+        subsections:
+            - riesz_markov_representation:
+                title: Riesz-Markov 表示定理
+                content: 局部紧 Hausdorff 空间上的正线性泛函、Riesz-Markov 表示定理、Radon 测度
+            - regular_measures:
+                title: 正则测度
+                content: 内正则、外正则测度、Radon 测度
+            - measures_on_locally_compact_spaces:
+                title: 局部紧空间上的测度
+                content: 局部紧 Hausdorff 空间的基本性质、支集紧的连续函数空间
+    - hausdorff_measure_intro:
+        title: Hausdorff 测度简介
+        subsections:
+            - hausdorff_measure:
+                title: Hausdorff 测度
+                content: Hausdorff 测度的定义、Hausdorff 维数
+            - fractal_geometry_intro:
+                title: 分形几何初步
+                content: 自相似集、Cantor 集、Hausdorff 维数的计算

@@ -3,11 +3,161 @@
 
 求积号：$\prod_{i=1}^{n} a_i$
 
+## 测度论与实分析
+
+广义实数系：$\overline{\mathbb{R}}=[-\infty,+\infty]$
+
+非负广义实数：$[0,+\infty]$
+
+集合的补（相对于全集）：$A^c$
+
+集合列的上极限：$\displaystyle\limsup_{n\to\infty} A_n=\bigcap_{n=1}^{\infty}\bigcup_{k=n}^{\infty}A_k$
+
+集合列的下极限：$\displaystyle\liminf_{n\to\infty} A_n=\bigcup_{n=1}^{\infty}\bigcap_{k=n}^{\infty}A_k$
+
+广义实数列的上极限：$\displaystyle\limsup_{n\to\infty}x_n=\inf_{n\geq1}\sup_{k\geq n}x_k$
+
+广义实数列的下极限：$\displaystyle\liminf_{n\to\infty}x_n=\sup_{n\geq1}\inf_{k\geq n}x_k$
+
+示性函数：$\mathbf{1}_A$
+
+Riemann 积分：$\displaystyle\int_a^b f(x)\,dx$
+
+可测空间：$(X,\mathcal{A})$
+
+由集族 $\mathcal{E}$ 生成的 $\sigma$ 代数：$\sigma(\mathcal{E})$
+
+Borel $\sigma$ 代数：$\mathcal{B}(X)$
+
+乘积 $\sigma$ 代数：$\mathcal{A}\otimes\mathcal{B}$
+
+测度：$\mu:\mathcal{A}\to[0,+\infty]$
+
+外测度：$\mu^*:\mathcal{P}(X)\to[0,+\infty]$
+
+Lebesgue 外测度：$m^*$
+
+Lebesgue 测度：$m$
+
+Lebesgue $\sigma$ 代数：$\mathcal{L}$
+
+Lebesgue-Stieltjes 测度：$\mu_F$
+
+分布函数：$F_\mu(x)=\mu(( -\infty,x])$
+
+全变差：$V_a^b(F)$
+
+广义实值可测函数：$f:X\to\overline{\mathbb{R}}$
+
+函数的正部与负部：$f^+=\max\{f,0\}$，$f^-=\max\{-f,0\}$
+
+简单函数：$s=\displaystyle\sum_{i=1}^{n}a_i\mathbf{1}_{E_i}$
+
+几乎处处收敛：$f_n\to f\ \text{a.e.}$
+
+依测度收敛：$f_n\xrightarrow{\mu}f$
+
+一致收敛：$f_n\rightrightarrows f$
+
+Lebesgue 积分：$\displaystyle\int_Xf\,d\mu$
+
+函数在可测集上的积分：$\displaystyle\int_Af\,d\mu$
+
+可积函数空间：$L^1(\mu)$
+
+一致可积函数族：$\mathcal{F}\subseteq L^1(\mu)$
+
+乘积测度：$\mu\otimes\nu$
+
+集合的截面：$E_x=\{y\in Y:(x,y)\in E\}$，$E^y=\{x\in X:(x,y)\in E\}$
+
+函数的截面：$f_x(y)=f(x,y)$，$f^y(x)=f(x,y)$
+
+卷积：$(f*g)(x)=\displaystyle\int_{\mathbb{R}^n}f(y)g(x-y)\,dy$
+
+$L^p$ 范数：$\|f\|_p$
+
+平移算子：$\tau_af(x)=f(x-a)$
+
+磨光核的缩放：$\rho_\varepsilon(x)=\varepsilon^{-n}\rho(x/\varepsilon)$
+
+带号测度：$\nu:\mathcal{A}\to[-\infty,+\infty]$
+
+带号测度的 Jordan 分解：$\nu=\nu^+-\nu^-$
+
+带号测度的全变差：$|\nu|=\nu^++\nu^-$
+
+复测度：$\lambda:\mathcal{A}\to\mathbb{C}$
+
+复测度的全变差：$|\lambda|$
+
+测度的绝对连续：$\nu\ll\mu$
+
+测度的互相奇异：$\nu\perp\mu$
+
+Radon-Nikodym 导数：$\dfrac{d\nu}{d\mu}$
+
+Lebesgue 分解：$\nu=\nu_{\mathrm{ac}}+\nu_{\mathrm{s}}$
+
+Hardy-Littlewood 极大函数：$\displaystyle Mf(x)=\sup_{r>0}\frac{1}{m(B(x,r))}\int_{B(x,r)}|f(y)|\,dy$
+
+Lebesgue 点集：$L_f$
+
+有界变差函数空间：$BV([a,b])$
+
+变差函数：$V_F(x)=V_a^x(F)$
+
+绝对连续函数空间：$AC([a,b])$
+
+$L^p$ 空间：$L^p(\mu)$
+
+$L^p$ 范数：$\displaystyle\|f\|_p=\left(\int_X|f|^p\,d\mu\right)^{1/p}$
+
+$L^\infty$ 范数：$\displaystyle\|f\|_\infty=\operatorname*{ess\,sup}_{x\in X}|f(x)|$
+
+共轭指数：$\dfrac{1}{p}+\dfrac{1}{q}=1$
+
+$L^p$ 对偶泛函：$T_f(g)=\displaystyle\int_Xg\overline{f}\,d\mu$
+
+$L^2$ 内积：$\langle f,g\rangle_{L^2}=\displaystyle\int_Xf\overline{g}\,d\mu$
+
+$L^p$ 收敛：$f_n\to f\ \text{in }L^p$
+
+紧支撑连续函数空间：$C_c(X)$
+
+在无穷远处消失的连续函数空间：$C_0(X)$
+
+函数的支集：$\operatorname{supp}f=\overline{\{x\in X:f(x)\ne0\}}$
+
+正线性泛函：$\Lambda:C_c(X)\to\mathbb{C}$
+
+Radon 测度：$\mu$
+
+集合的直径：$\operatorname{diam}E$
+
+$s$ 维 Hausdorff 测度：$\mathcal{H}^s$
+
+Hausdorff 维数：$\dim_HE$
+
+相似维数：$\displaystyle\sum_{i=1}^{N}r_i^s=1$
+
+三分 Cantor 集：$C=\displaystyle\bigcap_{k=0}^{\infty}C_k$
+
 ## 集合论
 
 集合：大写字母表示 $A,B,C,\cdots$
 
+属于：$x \in A$
+
+不属于：$x \notin A$
+
+子集：$A \subseteq B$
+
+真子集：$A \subsetneq B$
+
 自然数集：$\mathbb{N}$
+
+自然数集（von Neumann 实现）：$\omega$
 
 整数集：$\mathbb{Z}$
 
@@ -29,6 +179,8 @@
 
 集合的交：$A \cap B$
 
+集合的幂集：$\mathcal{P}(A)$
+
 集合的笛卡尔积：$A \times B$
 
 集合的基数（元素个数）：$|A|$
@@ -41,7 +193,71 @@
 
 集合的补（全集中）：$\bar{A}$
 
+集合的对称差：$A \triangle B$
+
 集合族的交：$\bigcap_{i \in S} A_i$
+
+有序对：$(a,b)$
+
+有序 $n$ 元组：$(a_1,a_2,\ldots,a_n)$
+
+后继：$x^+$
+
+自然数上的小于：$m < n$
+
+自然数上的小于等于：$m \leq n$
+
+关系：$R, S, T$
+
+$n$ 元关系：$R \subseteq A_1 \times A_2 \times \cdots \times A_n$
+
+二元关系：$R \subseteq A \times B$
+
+逆关系：$R^{-1}$
+
+关系的复合：$S \circ R$
+
+恒等关系：$\mathrm{id}_A$
+
+等价关系：$\sim$
+
+等价类：$[a]$
+
+商集：$A/{\sim}$
+
+像集：$\mathrm{Im}(f)$
+
+原像：$f^{-1}(Y)$
+
+函数：$f: A \to B$
+
+单射、满射、双射：$f: A \to B$
+
+等势：$A \approx B$
+
+良序：$(A, \leq)$
+
+上确界：$\sup B$
+
+下确界：$\inf B$
+
+序数：$\alpha, \beta, \gamma$
+
+类：大写花体字母表示 $\mathcal{A}, \mathcal{B}, \mathcal{C}, \cdots$
+
+全类：$V$
+
+罗素类：$R = \{x \mid x \notin x\}$
+
+子类：$\mathcal{A} \subseteq \mathcal{B}$
+
+类关系的定义域：$\mathrm{dom}(R)$
+
+类关系的逆：$R^{-1}$
+
+补类：$\mathcal{A}^c = V \setminus \mathcal{A}$
+
+类函数：$F$
 
 上取整：$\lceil x \rceil$
 
@@ -183,11 +399,37 @@ $p$ 进赋值（$p$ 在 $n$ 中的指数）：$v_p(n)$
 
 莫比乌斯函数：$\mu(n)$
 
+Liouville 函数：$\lambda(n)$
+
 不同素因子个数函数：$\omega(n)$
 
 素因子个数函数（计重数）：$\Omega(n)$
 
 冯·曼戈尔特函数：$\Lambda(n)$
+
+Chebyshev 第一函数：$\theta(x)=\displaystyle\sum_{p\leq x}\log p$
+
+Chebyshev 第二函数：$\psi(x)=\displaystyle\sum_{n\leq x}\Lambda(n)$
+
+素数计数函数：$\pi(x)=\#\{p\text{ 为素数}:p\leq x\}$
+
+算术级数中的素数计数函数：$\pi(x;q,a)=\#\{p\leq x:p\equiv a\pmod q\}$
+
+算术级数中的 Chebyshev 函数：$\psi(x;q,a)=\displaystyle\sum_{\substack{n\leq x\\n\equiv a\pmod q}}\Lambda(n)$
+
+筛余集：$S(\mathcal{A},\mathcal{P},z)=\#\{n\in\mathcal{A}:\gcd(n,P(z))=1\}$，其中 $P(z)=\displaystyle\prod_{\substack{p<z\\p\in\mathcal{P}}}p$
+
+孪生素数常数：$C_2=\displaystyle\prod_{p>2}\frac{p(p-2)}{(p-1)^2}$
+
+Waring 问题的最大表示数：$g(k)$ 与 $G(k)$
+
+圆法中的指数函数：$e(\alpha)=e^{2\pi i\alpha}$
+
+Weyl 和：$S_k(\alpha;N)=\displaystyle\sum_{1\leq n\leq N}e(\alpha n^k)$
+
+二次 Gauss 和：$G(a;p)=\displaystyle\sum_{x\bmod p}e\left(\dfrac{ax^2}{p}\right)$
+
+Kloosterman 和：$S(a,b;q)=\displaystyle\sum_{\substack{x\bmod q\\\gcd(x,q)=1}}e\left(\dfrac{ax+b\overline{x}}{q}\right)$
 
 单位函数（Dirichlet 单位元）：$\varepsilon(n)$
 
@@ -196,6 +438,38 @@ $p$ 进赋值（$p$ 在 $n$ 中的指数）：$v_p(n)$
 恒等函数：$\mathrm{id}(n)$
 
 狄利克雷卷积：$(f * g)(n) = \sum_{d \mid n} f(d)\, g(n/d)$
+
+渐近大 $O$ 记号：$f(x)=O(g(x))$
+
+渐近小 $o$ 记号：$f(x)=o(g(x))$
+
+渐近同阶记号：$f(x)\asymp g(x)$
+
+渐近等价记号：$f(x)\sim g(x)$
+
+渐近下界记号：$f(x)=\Omega(g(x))$
+
+Bernoulli 数：$B_k$
+
+Dirichlet 级数：$F(s)=\displaystyle\sum_{n=1}^{\infty}\frac{a_n}{n^s}$
+
+复变量的实部与虚部：$s=\sigma+it$，其中 $\sigma=\operatorname{Re}(s)$，$t=\operatorname{Im}(s)$
+
+绝对收敛横坐标：$\sigma_a$
+
+收敛横坐标：$\sigma_c$
+
+模 $q$ 的 Dirichlet 特征：$\chi\pmod q$
+
+模 $q$ 的主特征：$\chi_0$
+
+Dirichlet $L$ 函数：$L(s,\chi)=\displaystyle\sum_{n=1}^{\infty}\frac{\chi(n)}{n^s}$
+
+Dirichlet 特征的导子：$\operatorname{cond}(\chi)$
+
+Gauss 和：$\tau(\chi)=\displaystyle\sum_{a=1}^{q}\chi(a)e^{2\pi ia/q}$
+
+完成 Dirichlet $L$ 函数：$\Lambda(s,\chi)=\left(\dfrac{q}{\pi}\right)^{(s+a)/2}\Gamma\left(\dfrac{s+a}{2}\right)L(s,\chi)$
 
 元素 $a$ 模 $m$ 的阶：$\mathrm{ord}_m(a)$
 
@@ -413,6 +687,198 @@ $n$ 次本原单位根：$\zeta_n = e^{2\pi i/n}$
 
 复数的复共轭：$\bar{z}$（$z = a + bi$ 时 $\bar{z} = a - bi$）
 
+## 复分析
+
+广义复平面：$\widehat{\mathbb{C}} = \mathbb{C} \cup \{\infty\}$
+
+无穷远点：$\infty$
+
+球极投影：$\sigma$
+
+Riemann 球面：$S^2 \cong \widehat{\mathbb{C}}$
+
+无穷远处的邻域：$U_R(\infty) = \{\infty\} \cup \{z \in \mathbb{C} : |z| > R\}$
+
+无穷远处坐标：$\zeta = 1/z$
+
+复平面中的曲线：$\gamma:[a,b]\to\mathbb{C}$
+
+曲线长度：$L(\gamma)=\int_a^b|\gamma'(t)|\,dt$
+
+复线积分：$\displaystyle\int_\gamma f(z)\,dz$
+
+原函数：$F'(z)=f(z)$
+
+Cauchy 积分公式中的卷绕数：$n(\gamma,a)$
+
+复导数：$f'(z)$
+
+实偏导数：$u_x,u_y,v_x,v_y$
+
+Cauchy-Riemann 方程：$u_x=v_y$，$u_y=-v_x$
+
+Wirtinger 微分算子：$\dfrac{\partial}{\partial z}=\dfrac12\left(\dfrac{\partial}{\partial x}-i\dfrac{\partial}{\partial y}\right)$，$\dfrac{\partial}{\partial\bar z}=\dfrac12\left(\dfrac{\partial}{\partial x}+i\dfrac{\partial}{\partial y}\right)$
+
+Laplace 算子：$\Delta=\dfrac{\partial^2}{\partial x^2}+\dfrac{\partial^2}{\partial y^2}$
+
+调和函数：$u:D\to\mathbb R$，满足 $\Delta u=0$
+
+共轭调和函数：$v$，使 $u+iv$ 全纯
+
+单位圆盘的 Poisson 核：$P_r(\theta)=\dfrac{1-r^2}{1-2r\cos\theta+r^2}$
+
+Poisson 积分：$P[\varphi](re^{i\theta})=\dfrac1{2\pi}\int_0^{2\pi}P_r(\theta-t)\varphi(e^{it})\,dt$
+
+次调和函数：$u$，满足 $\Delta u\ge0$（$C^2$ 情形）
+
+超调和函数：$v$，满足 $\Delta v\le0$（$C^2$ 情形）
+
+Perron 类：$\mathcal S_\varphi$
+
+Perron 上包络：$U(z)=\sup_{u\in\mathcal S_\varphi}u(z)$
+
+Dirichlet 边界数据：$\varphi:\partial D\to\mathbb R$
+
+椭圆函数：$f(z+\omega_1)=f(z+\omega_2)=f(z)$
+
+复平面中的格：$\Lambda=\mathbb Z\omega_1+\mathbb Z\omega_2$
+
+基本平行四边形：$\mathcal P=\{s\omega_1+t\omega_2:0\le s,t<1\}$
+
+格商复环面：$\mathbb C/\Lambda$
+
+Weierstrass $\wp$ 函数：$\wp(z;\Lambda)$
+
+Weierstrass 不变量：$g_2=60\sum_{\omega\in\Lambda\setminus\{0\}}\omega^{-4}$，$g_3=140\sum_{\omega\in\Lambda\setminus\{0\}}\omega^{-6}$
+
+Weierstrass 判别式：$\Delta_\Lambda=g_2^3-27g_3^2$
+
+模群：$\operatorname{SL}_2(\mathbb Z)$ 与 $\operatorname{PSL}_2(\mathbb Z)$
+
+上半平面：$\mathbb H=\{\tau\in\mathbb C:\operatorname{Im}\tau>0\}$
+
+模形式的 Fourier 参数：$q=e^{2\pi i\tau}$
+
+模形式：$f\left(\dfrac{a\tau+b}{c\tau+d}\right)=(c\tau+d)^k f(\tau)$
+
+Eisenstein 级数：$G_k(\tau)=\displaystyle\sum_{(m,n)\ne(0,0)}(m+n\tau)^{-k}$
+
+约数幂和：$\sigma_r(n)=\displaystyle\sum_{d\mid n}d^r$
+
+函数的 Jacobian 矩阵：$DF(z)$
+
+共形映射：$f:D\to E$
+
+Möbius 变换：$T(z)=\dfrac{az+b}{cz+d}$，其中 $ad-bc\ne0$
+
+交比：$[z_1,z_2;z_3,z_4]=\dfrac{(z_1-z_3)(z_2-z_4)}{(z_1-z_4)(z_2-z_3)}$
+
+单位圆盘：$\mathbb D=\{z\in\mathbb C:|z|<1\}$
+
+上半平面：$\mathbb H=\{z\in\mathbb C:\operatorname{Im}z>0\}$
+
+单位圆盘自同构：$\varphi_{a,\theta}(z)=e^{i\theta}\dfrac{z-a}{1-\bar a z}$
+
+Poincaré 线元：$ds_{\mathbb D}=\dfrac{2|dz|}{1-|z|^2}$
+
+单位圆盘的 Poincaré 距离：$d_{\mathbb D}$
+
+函数正规族：$\mathcal F$
+
+Riemann 映射：$f:D\xrightarrow{\sim}\mathbb D$
+
+Schwarz-Christoffel 顶点原像：$x_k\in\mathbb R$
+
+多边形内角参数：$\alpha_k$，内角为 $\alpha_k\pi$
+
+复幂级数：$\displaystyle\sum_{n=0}^{\infty}a_n(z-z_0)^n$
+
+收敛半径：$R$
+
+Taylor 系数：$c_n=\dfrac{f^{(n)}(a)}{n!}$
+
+圆环：$A(a;r,R)=\{z\in\mathbb{C}:r<|z-a|<R\}$
+
+Laurent 级数：$\displaystyle\sum_{n=-\infty}^{\infty}c_n(z-a)^n$
+
+内闭一致收敛：$\displaystyle\sup_{z\in K}|f_n(z)-f(z)|\to0$（任意紧集 $K\subseteq D$）
+
+零点或极点的阶：$\operatorname{ord}_a(f)$
+
+孤立奇点：$a$
+
+留数：$\operatorname{Res}(f,a)$
+
+亚纯函数：$f:D\to\widehat{\mathbb{C}}$
+
+对数导数：$f'(z)/f(z)$
+
+Rouché 定理中的函数族：$f_t=f+tg$（$0\le t\le1$）
+
+Jordan 引理中的上半平面半圆弧：$C_R^+$
+
+解析延拓：$F$ 是 $f$ 的解析延拓
+
+解析元素：$(f,D)$
+
+沿曲线的解析延拓路径：$\gamma:[0,1]\to\mathbb{C}$
+
+Riemann 面的投影：$\pi:X\to D$
+
+分支点：$b$
+
+单值性定理中的单值延拓：$f_\gamma$
+
+Schwarz 反射：$F(z)=\overline{f(\bar z)}$
+
+无穷乘积：$\displaystyle\prod_{n=1}^{\infty}u_n$
+
+Weierstrass 初等因子：$E_p(w)=(1-w)\exp\left(w+\dfrac{w^2}{2}+\cdots+\dfrac{w^p}{p}\right)$
+
+整函数最大模函数：$M(r,f)=\max_{|z|=r}|f(z)|$
+
+整函数的增长阶：$\rho=\displaystyle\limsup_{r\to\infty}\dfrac{\log\log M(r,f)}{\log r}$
+
+有限阶整函数的型：$\sigma=\displaystyle\limsup_{r\to\infty}\dfrac{\log M(r,f)}{r^\rho}$
+
+零点的收敛指数：$\lambda=\displaystyle\inf\left\{s>0:\sum_n|a_n|^{-s}<\infty\right\}$
+
+Weierstrass 乘积的亏格：$p$
+
+Gamma 函数：$\Gamma(z)$
+
+Beta 函数：$B(x,y)$
+
+Euler-Mascheroni 常数：$\gamma$
+
+Gamma 函数的极点：$0,-1,-2,\ldots$
+
+Gamma 函数的 Weierstrass 乘积：$\displaystyle\frac1{\Gamma(z)}=ze^{\gamma z}\prod_{n=1}^{\infty}\left(1+\frac zn\right)e^{-z/n}$
+
+Riemann zeta 函数：$\zeta(s)$
+
+Dedekind zeta 函数：$\zeta_K(s)=\displaystyle\sum_{\mathfrak a\ne0}N\mathfrak a^{-s}$
+
+数域的类数：$h_K$
+
+数域的调节子：$R_K$
+
+数域的判别式：$d_K$
+
+Jacobi theta 函数：$\vartheta(t)=\displaystyle\sum_{n\in\mathbb{Z}}e^{-\pi n^2t}$（$t>0$）
+
+完成 Riemann zeta 函数：$\xi(s)=\dfrac12s(s-1)\pi^{-s/2}\Gamma(s/2)\zeta(s)$
+
+临界带：$0<\operatorname{Re}(s)<1$
+
+临界线：$\operatorname{Re}(s)=\dfrac12$
+
+zeta 函数的完成形式：$\xi(s)=\dfrac12s(s-1)\pi^{-s/2}\Gamma\left(\dfrac{s}{2}\right)\zeta(s)$
+
+zeta 函数的 Euler 乘积：$\displaystyle\zeta(s)=\prod_{p\ \mathrm{prime}}(1-p^{-s})^{-1}$
+
+Bernoulli 数：$B_n$
+
 ## 线性代数
 
 ### 线性空间
@@ -441,6 +907,34 @@ $n$ 次本原单位根：$\zeta_n = e^{2\pi i/n}$
 
 范数：$\|x\|$
 
+半范数：$p(x)$
+
+准范数：$q(x)$
+
+拟范数：$g(x)$
+
+$p$-范数：$\|x\|_p$
+
+赋范线性空间：$(X,\|\cdot\|)$
+
+半范数族诱导的度量：$\displaystyle d(x,y)=\sum_{n=1}^{\infty}2^{-n}\frac{p_n(x-y)}{1+p_n(x-y)}$
+
+光滑函数空间：$C^\infty(\Omega)$
+
+序列空间：$\ell^p$
+
+连续对偶空间与二次对偶空间：$X^*$，$X^{**}$
+
+典范嵌入：$J:X\to X^{**}$
+
+弱收敛：$x_n\rightharpoonup x$
+
+弱*收敛：$f_n\overset{*}{\rightharpoonup}f$
+
+共轭空间的闭单位球：$B_{X^*}=\{f\in X^*:\|f\|\leq1\}$
+
+闭单位球：$B_X=\{x\in X:\|x\|\leq1\}$
+
 $1$-范数：$\|x\|_1$
 
 $2$-范数（Euclid 范数）：$\|x\|_2$
@@ -450,6 +944,14 @@ $2$-范数（Euclid 范数）：$\|x\|_2$
 范数诱导距离：$d(x,y)=\|x-y\|$
 
 内积：$\langle x,y\rangle$
+
+共轭双线性函数诱导的二次型：$Q_b(x)=b(x,x)$
+
+内积诱导范数：$\|x\|=\sqrt{\langle x,x\rangle}$
+
+标准正交系：$(e_n)_{n\geq1}$，满足 $\langle e_m,e_n\rangle=\delta_{mn}$
+
+无限维平方可和空间：$\ell^2(\Lambda)$
 
 正交：$x \perp y$
 
@@ -462,6 +964,10 @@ $2$-范数（Euclid 范数）：$\|x\|_2$
 傅里叶系数（相对于标准正交组）：$c_i=\langle x,e_i\rangle$
 
 复数的实部：$\operatorname{Re}(z)$
+
+复数的虚部：$\operatorname{Im}(z)$
+
+复变函数的实部与虚部：$f(z)=u(z)+iv(z)$，其中 $u,v:D\to\mathbb{R}$
 
 ### 线性算子
 
@@ -484,6 +990,16 @@ $2$-范数（Euclid 范数）：$\|x\|_2$
 恒等算子：$\mathrm{Id}_V$
 
 线性映射的复合：$S \circ T$
+
+有界线性算子空间：$\mathcal{L}(X,Y)$，$\mathcal{L}(X)=\mathcal{L}(X,X)$
+
+算子范数：$\displaystyle \|T\|=\sup_{\|x\|\leq1}\|Tx\|$
+
+有界线性泛函的延拓：$F|_M=f$
+
+算子图像：$\Gamma(T)=\{(x,Tx):x\in\mathcal{D}(T)\}$
+
+仿射超平面：$H=\{x\in X:f(x)=\alpha\}$
 
 对偶空间：$V^*$
 
@@ -1748,3 +2264,487 @@ Lyndon-Hochschild-Serre 谱序列：$E_2^{p,q}=H^p(Q,H^q(N,M))\Longrightarrow H^
 左导出函子（范畴化）：$LF$
 
 右导出函子（范畴化）：$RF$
+
+## 数学分析
+
+### 傅里叶分析
+
+圆周群：$\mathbb{T}=\mathbb{R}/(2\pi\mathbb{Z})$
+
+第 $n$ 个复指数函数：$e_n(x)=e^{inx}$
+
+Kronecker 符号：$\delta_{mn}$
+
+Fourier 系数（$2\pi$-周期）：$\widehat f(n)=\dfrac{1}{2\pi}\int_{-\pi}^{\pi}f(x)e^{-inx}\,dx$
+
+Fourier 变换（欧氏空间）：$\widehat f(\xi)=\displaystyle\int_{\mathbb{R}^n}f(x)e^{-2\pi i x\cdot\xi}\,dx$
+
+Fourier 反变换：$\mathcal{F}^{-1}f(x)=\displaystyle\int_{\mathbb{R}^n}f(\xi)e^{2\pi i x\cdot\xi}\,d\xi$
+
+Dirichlet 核：$D_N(x)=\displaystyle\sum_{n=-N}^{N}e^{inx}$
+
+Fejér 核：$F_N(x)=\dfrac{1}{N+1}\displaystyle\sum_{k=0}^{N}D_k(x)$
+
+Poisson 核：$P_r(x)=\dfrac{1-r^2}{1-2r\cos x+r^2}$
+
+次数至多为 $N$ 的三角多项式空间：$\mathcal{T}_N$
+
+Jacobi $\vartheta$ 函数：$\vartheta(t)=\displaystyle\sum_{n\in\mathbb{Z}}e^{-\pi n^2t}$
+
+Schwartz 空间：$\mathcal{S}(\mathbb{R}^n)$
+
+缓增分布空间：$\mathcal{S}'(\mathbb{R}^n)$
+
+Dirac 分布：$\delta_0$
+
+主值分布：$\operatorname{p.v.}\dfrac{1}{x}$
+
+离散 Fourier 变换的单位根：$\omega_N=e^{-2\pi i/N}$
+
+离散 Fourier 变换：$\widehat{x}(k)=\displaystyle\sum_{j=0}^{N-1}x_j\omega_N^{jk}$
+
+有限阿贝尔群的特征：$\chi:G\to\mathbb{T}$
+
+有限阿贝尔群上的 Fourier 变换：$\widehat f(\chi)=\displaystyle\sum_{x\in G}f(x)\overline{\chi(x)}$
+
+同步函数：$\operatorname{sinc}(t)=\dfrac{\sin(\pi t)}{\pi t}$
+
+圆周上的归一化 Haar 测度：$dt$，满足 $\int_{\mathbb{T}}1\,dt=1$
+
+圆周卷积：$(f*g)(t)=\int_{\mathbb{T}}f(t-s)g(s)\,ds$
+
+短时 Fourier 变换：$V_gf(x,\xi)=\displaystyle\int_{\mathbb{R}^n}f(t)\overline{g(t-x)}e^{-2\pi i\xi\cdot t}\,dt$
+
+Gabor 系统：$\mathcal{G}(g,a,b)=\{e^{2\pi i bm\cdot t}g(t-an):m,n\in\mathbb{Z}^n\}$
+
+单位球面：$\mathbb{S}^{n-1}=\{x\in\mathbb{R}^n:|x|=1\}$
+
+球面面积测度：$d\sigma$
+
+Laplace-Beltrami 算子：$\Delta_{\mathbb{S}^{n-1}}$
+
+次数 $\ell$ 的球面调和函数空间：$\mathcal{H}_\ell$
+
+到 $\mathcal{H}_\ell$ 的正交投影：$\Pi_\ell$
+
+Gegenbauer 多项式：$C_\ell^\lambda$
+
+连续小波的平移伸缩：$\psi_{a,b}(x)=|a|^{-1/2}\psi((x-b)/a)$
+
+连续小波变换：$W_\psi f(a,b)=\langle f,\psi_{a,b}\rangle_{L^2}$
+
+小波容许常数：$C_\psi=\displaystyle\int_{\mathbb{R}}\frac{|\widehat\psi(\xi)|^2}{|\xi|}\,d\xi$
+
+多分辨率近似空间：$V_j$
+
+多分辨率细节空间：$W_j=V_{j+1}\ominus V_j$
+
+尺度函数：$\phi$
+
+尺度函数的平移伸缩：$\phi_{j,k}(x)=2^{j/2}\phi(2^jx-k)$
+
+小波的平移伸缩：$\psi_{j,k}(x)=2^{j/2}\psi(2^jx-k)$
+
+低通与高通滤波器系数：$(h_k)_{k\in\mathbb{Z}}$，$(g_k)_{k\in\mathbb{Z}}$
+
+小波系数：$c_{j,k}=\langle f,\psi_{j,k}\rangle$
+
+软阈值算子：$\eta_\lambda(c)=\operatorname{sgn}(c)(|c|-\lambda)_+$
+
+中心 Hardy-Littlewood 极大函数：$M_cf(x)=\displaystyle\sup_{r>0}\frac{1}{m(B(x,r))}\int_{B(x,r)}|f(y)|\,dy$
+
+非中心 Hardy-Littlewood 极大函数：$Mf(x)=\displaystyle\sup_{B\ni x}\frac{1}{m(B)}\int_B|f(y)|\,dy$
+
+二进方体：$Q_{j,k}=2^{-j}(k+[0,1)^n)$
+
+二进极大函数：$M_{\mathcal{D}}f(x)=\displaystyle\sup_{Q\in\mathcal{D},\,x\in Q}\frac{1}{|Q|}\int_Q|f(y)|\,dy$
+
+弱 $L^p$ 空间：$L^{p,\infty}$
+
+Lorentz 空间：$L^{p,q}$
+
+Peetre $K$ 泛函：$K(t,f;X_0,X_1)=\displaystyle\inf_{f=f_0+f_1}(\|f_0\|_{X_0}+t\|f_1\|_{X_1})$
+
+Peetre $J$ 泛函：$J(t,u;X_0,X_1)=\max\{\|u\|_{X_0},t\|u\|_{X_1}\}$
+
+实插值空间：$(X_0,X_1)_{\theta,q}$
+
+Calderón 复插值空间：$[X_0,X_1]_\theta$
+
+Hilbert 变换：$Hf(x)=\dfrac{1}{\pi}\operatorname{p.v.}\displaystyle\int_{\mathbb{R}}\dfrac{f(y)}{x-y}\,dy$
+
+符号函数：$\operatorname{sgn}(\xi)$
+
+第 $j$ 个 Riesz 变换：$R_j$，满足 $\widehat{R_jf}(\xi)=-i\dfrac{\xi_j}{|\xi|}\widehat f(\xi)$
+
+Calderón-Zygmund 核：$K(x,y)$（$x\ne y$）
+
+Calderón-Zygmund 算子：$T$
+
+截断奇异积分：$T_\varepsilon f(x)=\displaystyle\int_{|x-y|>\varepsilon}K(x,y)f(y)\,dy$
+
+算子 $T$ 的伴随：$T^*$
+
+有界线性算子空间：$\mathcal{L}(X)$
+
+Banach 空间 $X$ 值的 Lebesgue 空间：$L^p(\mathbb{R}^n;X)$
+
+UMD 空间：$X$
+
+适应函数：$b_Q$
+
+权测度：$dw(x)=w(x)\,dx$
+
+权在集合 $E$ 上的质量：$w(E)=\displaystyle\int_Ew(x)\,dx$
+
+加权 Lebesgue 空间：$L^p(w)=L^p(\mathbb{R}^n,w(x)\,dx)$
+
+加权平均：$\langle f\rangle_{Q,w}=\dfrac{1}{w(Q)}\displaystyle\int_Qf(x)w(x)\,dx$
+
+$A_p$ 特征常数：$[w]_{A_p}$
+
+对偶权：$\sigma=w^{-1/(p-1)}=w^{1-p'}$
+
+Fujii-Wilson $A_\infty$ 常数：$[w]_{A_\infty}^{\mathrm{FW}}=\displaystyle\sup_Q\dfrac{1}{w(Q)}\int_QM(w\mathbf{1}_Q)(x)\,dx$
+
+加权尖锐极大函数：$M^\#f$
+
+交换子：$[b,T]f=bTf-T(bf)$
+
+Bloom 权：$\nu=(\mu/\lambda)^{1/p}$
+
+Bloom BMO 半范数：$\|b\|_{\operatorname{BMO}_\nu}=\displaystyle\sup_Q\dfrac{1}{\nu(Q)}\int_Q|b(x)-\langle b\rangle_Q|\,dx$
+
+单位圆盘上的解析 Hardy 空间：$H^p(\mathbb{D})$
+
+实 Hardy 空间：$H^p(\mathbb{R}^n)$
+
+Poisson 径向极大函数：$\mathcal{M}_Pf(x)=\displaystyle\sup_{y>0}|P_y*f(x)|$
+
+非切向 Poisson 极大函数：$\mathcal{N}_{P,a}f(x)=\displaystyle\sup_{y>0,\,|z-x|<ay}|P_y*f(z)|$
+
+大极大函数：$\mathcal{M}_Nf(x)=\displaystyle\sup_{\varphi\in\mathcal{F}_N}\sup_{t>0}|\varphi_t*f(x)|$
+
+$(p,q,s)$-原子：$a$
+
+原子 Hardy 空间：$H^p_{\mathrm{at}}(\mathbb{R}^n)$
+
+Lusin 面积函数：$A_af(x)=\left(\displaystyle\int_0^{+\infty}\int_{|y-x|<at}|t\nabla(P_t*f)(y)|^2\,\dfrac{dy\,dt}{t^{n+1}}\right)^{1/2}$
+
+Littlewood-Paley $g$ 函数：$g(f)(x)=\left(\displaystyle\int_0^{+\infty}|t\partial_t(P_t*f)(x)|^2\,\dfrac{dt}{t}\right)^{1/2}$
+
+Goldberg 局部 Hardy 空间：$h^p(\mathbb{R}^n)$
+
+局部 Poisson 极大函数：$\mathcal{M}^{\mathrm{loc}}_Pf(x)=\displaystyle\sup_{0<t\leq1}|P_t*f(x)|$
+
+算子 Hardy 空间：$H^p_L$
+
+有界均值振荡空间：$\operatorname{BMO}(\mathbb{R}^n)$
+
+BMO 半范数：$\|f\|_{\operatorname{BMO}}=\displaystyle\sup_Q\dfrac1{|Q|}\int_Q|f-\langle f\rangle_Q|\,dx$
+
+BMO 的 $L^q$ 平均振荡半范数：$\|f\|_{\operatorname{BMO},q}=\displaystyle\sup_Q\left(\dfrac1{|Q|}\int_Q|f-\langle f\rangle_Q|^q\,dx\right)^{1/q}$
+
+Fefferman-Stein 尖锐极大函数：$M^\#f(x)=\displaystyle\sup_{Q\ni x}\dfrac1{|Q|}\int_Q|f(y)-\langle f\rangle_Q|\,dy$
+
+二进 BMO 空间：$\operatorname{BMO}_{\mathcal{D}}$
+
+消失均值振荡空间：$\operatorname{VMO}(\mathbb{R}^n)$
+
+Carleson 测度：$\mu$，满足 $\displaystyle\sup_Q\dfrac{\mu(Q\times(0,\ell(Q)))}{|Q|}<+\infty$
+
+算子 BMO 空间：$\operatorname{BMO}_L$
+
+Littlewood-Paley 低频投影：$\Delta_{-1}$，满足 $\widehat{\Delta_{-1}f}(\xi)=\chi(\xi)\widehat f(\xi)$
+
+Littlewood-Paley 二进投影：$\Delta_j$（$j\geq0$），满足 $\widehat{\Delta_jf}(\xi)=\varphi(2^{-j}\xi)\widehat f(\xi)$
+
+齐次 Littlewood-Paley 投影：$\dot\Delta_j$
+
+Littlewood-Paley 平方函数：$Sf=\left(|\Delta_{-1}f|^2+\displaystyle\sum_{j=0}^{+\infty}|\Delta_jf|^2\right)^{1/2}$
+
+非齐次 Besov 空间：$B^s_{p,q}(\mathbb{R}^n)$
+
+非齐次 Triebel-Lizorkin 空间：$F^s_{p,q}(\mathbb{R}^n)$
+
+齐次 Besov 与 Triebel-Lizorkin 空间：$\dot B^s_{p,q}$，$\dot F^s_{p,q}$
+
+低频截断：$S_jf=\Delta_{-1}f+\displaystyle\sum_{k=0}^{j-1}\Delta_kf$
+
+Bony 半积：$T_fg=\displaystyle\sum_{j\geq-1}(S_{j-1}f)\Delta_jg$
+
+Bony 共振项：$R(f,g)=\displaystyle\sum_{j,k\geq-1,\,|j-k|\leq1}\Delta_jf\,\Delta_kg$
+
+多线性分数次极大函数：$\mathcal{M}_\alpha(\vec f)(x)=\displaystyle\sup_{Q\ni x}|Q|^{\alpha/n}\prod_{i=1}^m\dfrac1{|Q|}\int_Q|f_i(y)|\,dy$
+
+多线性指数向量：$\vec P=(p_1,\ldots,p_m)$，其中 $\dfrac1p=\displaystyle\sum_{i=1}^m\dfrac1{p_i}$
+
+多线性输出权：$\nu_{\vec w}=\displaystyle\prod_{i=1}^mw_i^{p/p_i}$
+
+多线性 Muckenhoupt 权类：$A_{\vec P}$
+
+双线性 Hilbert 变换：$\operatorname{BHT}(f,g)(x)=\operatorname{p.v.}\dfrac1\pi\displaystyle\int_{\mathbb{R}}f(x-t)g(x+t)\dfrac{dt}{t}$
+
+多线性 Fourier 乘子：$T_m(f_1,\ldots,f_m)$
+
+多线性半积：$\Pi(f_1,\ldots,f_m)=\displaystyle\sum_{j\geq-1}\left(\prod_{i=1}^{m-1}S_{j-1}f_i\right)\Delta_jf_m$
+
+多线性振荡积分算子：$T_\lambda(f_1,\ldots,f_m)$
+
+曲面扩张算子：$\mathcal{E}_ig_i(x)=\displaystyle\int_{S_i}e^{2\pi i x\cdot\xi}g_i(\xi)\,d\sigma_i(\xi)$
+
+Bourgain 空间：$X^{s,b}$
+
+波动方程的二次 null 形式：$Q_0(u,v)$，$Q_{\alpha\beta}(u,v)$
+
+涡度：$\omega=\nabla\times u$
+
+振荡相位函数：$\phi$，振荡参数：$\lambda\geq1$
+
+相位函数的 Hessian 矩阵：$\phi''(x)$，其签名：$\operatorname{sgn}\phi''(x)$
+
+第一类振荡积分算子：$T_\lambda f(x)=\displaystyle\int e^{i\lambda\Phi(x,y)}a(x,y)f(y)\,dy$
+
+第二类振荡积分算子：$Af(x)=\displaystyle\int e^{i\Psi(x,\xi)}a(x,\xi)\widehat f(\xi)\,d\xi$
+
+Fourier 积分算子：$Af(x)=\displaystyle\int\!\int e^{i\varphi(x,y,\theta)}a(x,y,\theta)f(y)\,dy\,d\theta$
+
+相位函数的临界集：$C_\varphi=\{(x,y,\theta):\partial_\theta\varphi(x,y,\theta)=0\}$
+
+典范关系：$C\subset T^*X\setminus0\times T^*Y\setminus0$
+
+Lagrangian 子流形：$\Lambda\subset T^*X\setminus0$
+
+拟微分算子：$\operatorname{Op}(a)$
+
+Fourier 限制算子：$R_Sf=\widehat f\big|_S$
+
+曲面扩张算子：$\mathcal{E}_Sg(x)=\displaystyle\int_Se^{2\pi i x\cdot\xi}g(\xi)\,d\sigma(\xi)$
+
+抛物面：$\mathbb{P}^{n-1}=\{(\xi,|\xi|^2):\xi\in\mathbb{R}^{n-1}\}$
+
+Kakeya 极大算子：$\mathcal{K}_\delta f(\omega)=\displaystyle\sup_{T\parallel\omega}\dfrac1{|T|}\int_T|f(x)|\,dx$
+
+Kakeya 管：$T$，长度为 $1$、横截半径为 $\delta$
+
+局部紧群：$G$，单位元：$e$
+
+左 Haar 测度：$dx$，模函数：$\Delta_G:G\to\mathbb{R}_{>0}$
+
+左正则表示：$(\lambda_G(g)u)(x)=u(g^{-1}x)$
+
+群卷积：$(f*g)(x)=\displaystyle\int_Gf(y)g(y^{-1}x)\,dy$
+
+全群与约化群 $C^*$-代数：$C^*(G)$，$C_r^*(G)$
+
+群 von Neumann 代数：$\operatorname{VN}(G)=\{\lambda_G(g):g\in G\}''$
+
+酉表示：$\pi:G\to\mathcal{U}(\mathcal{H})$
+
+单位对偶：$\widehat G$
+
+局部紧 Abel 群 Fourier 变换：$\widehat f(\gamma)=\displaystyle\int_Gf(x)\overline{\gamma(x)}\,dx$
+
+湮没子：$H^\perp=\{\gamma\in\widehat G:\gamma(h)=1\ \text{对所有 }h\in H\}$
+
+紧群的算子值 Fourier 系数：$\widehat f(\pi)=\displaystyle\int_Gf(g)\pi(g)^*\,dg$
+
+紧群表示的维数：$d_\pi=\dim V_\pi$
+
+Hilbert 空间直积分：$\displaystyle\int_X^\oplus\mathcal{H}_x\,d\mu(x)$
+
+Plancherel 测度：$\mu_{\mathrm{Pl}}$
+
+紧诱导：$\operatorname{c\!\text{-}Ind}_H^G\sigma$
+
+Lie 群的 Lie 代数：$\mathfrak{g}=T_eG$
+
+Iwasawa 分解：$G=KAN$
+
+Harish-Chandra 球函数：$\varphi_\lambda$
+
+球变换：$\widetilde f(\lambda)=\displaystyle\int_Gf(g)\varphi_{-\lambda}(g)\,dg$
+
+非阿基米德局部域：$F$，赋值：$v:F^\times\to\mathbb{Z}$，一致化元：$\varpi$
+
+局部域的整数环、极大理想与剩余域：$\mathcal{O}_F$，$\mathfrak p_F$，$k_F=\mathcal{O}_F/\mathfrak p_F$
+
+局部域的归一化绝对值：$|x|_F=q^{-v(x)}$，其中 $q=|k_F|$
+
+局部域的非平凡加法角色：$\psi:F\to\mathbb{C}^\times$
+
+非阿基米德 Bruhat-Schwartz 空间：$\mathcal{S}(F)$
+
+局部 Fourier 变换：$\widehat f(y)=\displaystyle\int_Ff(x)\psi(-xy)\,dx$
+
+局部域的乘法 Haar 测度：$d^\times x=c_F\dfrac{dx}{|x|_F}$
+
+Tate 局部 zeta 积分：$Z(\Phi,\chi,s)=\displaystyle\int_{F^\times}\Phi(x)\chi(x)|x|_F^s\,d^\times x$
+
+局部因子、epsilon 因子和 gamma 因子：$L(s,\chi)$，$\epsilon(s,\chi,\psi)$，$\gamma(s,\chi,\psi)$
+
+Jacquet 模：$V_N=V/\langle\pi(n)v-v:n\in N,\ v\in V\rangle$
+
+球 Hecke 代数：$\mathcal{H}(G,K)=C_c(K\backslash G/K)$
+
+Satake 参数：对偶群 $\widehat G$ 中的半单共轭类
+
+Harish-Chandra 模：可容许有限生成 $(\mathfrak g,K)$-模
+
+全局域：$K$，其位置：$v$，完备化：$K_v$
+
+阿代尔环：$\mathbb{A}_K=\displaystyle\prod_v'K_v$
+
+idele 群与 idele 类群：$\mathbb{A}_K^\times$，$K^\times\backslash\mathbb{A}_K^\times$
+
+阿代尔 Bruhat-Schwartz 空间：$\mathcal{S}(\mathbb{A}_K)$
+
+阿代尔 Fourier 变换：$\widehat\Phi(y)=\displaystyle\int_{\mathbb{A}_K}\Phi(x)\psi(-xy)\,dx$
+
+Tate 全局 zeta 积分：$Z(\Phi,\chi,s)=\displaystyle\int_{K^\times\backslash\mathbb{A}_K^\times}\Phi(x)\chi(x)|x|_{\mathbb{A}}^s\,d^\times x$
+
+自守商空间：$G(K)\backslash G(\mathbb{A}_K)$
+
+自守表示的中心特征：$\omega:Z_G(K)\backslash Z_G(\mathbb{A}_K)\to\mathbb{C}^\times$
+
+Whittaker 函数：$W_f(g)=\displaystyle\int_{N(K)\backslash N(\mathbb{A}_K)}f(ng)\overline{\psi_N(n)}\,dn$
+
+Eisenstein 级数：$E(g,f_s)=\displaystyle\sum_{\gamma\in P(K)\backslash G(K)}f_s(\gamma g)$
+
+标准互换算子：$M(w,s)$
+
+迹公式核函数：$K_f(x,y)=\displaystyle\sum_{\gamma\in G(K)}f(x^{-1}\gamma y)$
+
+轨道积分：$O_\gamma(f)=\displaystyle\int_{G_\gamma(\mathbb{A}_K)\backslash G(\mathbb{A}_K)}f(x^{-1}\gamma x)\,dx$
+
+几何 Frobenius 元：$\operatorname{Frob}_q$
+
+紧支撑 $\ell$-进 etale 上同调：$H_c^i(X_{\overline{\mathbb{F}}_q},\overline{\mathbb{Q}}_\ell)$
+
+Artin--Schreier 层：$\mathcal{L}_\psi$
+
+构造性复形 $\mathcal{F}$ 的 Frobenius 迹函数：$t_{\mathcal{F}}$
+
+Fourier--Deligne 变换：$\operatorname{Four}_\psi$
+
+仿射 Grassmannian：$\operatorname{Gr}_G=G(\mathcal{K})/G(\mathcal{O})$
+
+Gauss 热核：$G_t(x)=(4\pi t)^{-n/2}\exp\left(-\dfrac{|x|^2}{4t}\right)$
+
+Leray 投影：$\mathbb{P}$
+
+非切向极大函数：$N_*u$
+
+谱投影：$\Pi_\lambda$
+
+Bochner--Riesz 平均：$S_R^\delta$
+
+柱状 Wiener 过程：$W_t$
+
+Weyl 和：$S_P(\alpha;N)=\displaystyle\sum_{1\leq n\leq N}e^{2\pi i\alpha P(n)}$
+
+多项式加法方程的表示数：$R_s(m;N)$
+
+Gauss 和：$\tau(\chi,\psi)$
+
+Jacobi 和：$J(\chi_1,\chi_2)$
+
+Kloosterman 和：$\operatorname{Kl}_2(a;p)$
+
+加性能量：$E(A)$
+
+Gowers 一致性范数：$\|f\|_{U^k}$
+
+$k$ 维矩曲线：$\Gamma_k=\{(t,t^2,\ldots,t^k):0\leq t\leq1\}$
+
+自守 Rankin--Selberg $L$ 函数：$L(s,\pi\times\pi')$
+
+Dedekind 分割：$D\subsetneq\mathbb{Q}$
+
+有理数 $r$ 对应的主 Dedekind 分割：$D_r=\{q\in\mathbb{Q}:q<r\}$
+
+Dedekind 分割构造的实数系：$\mathbb{R}_D$
+
+全体有理数 Cauchy 序列的集合：$\mathcal{C}(\mathbb{Q})$
+
+Cauchy 序列构造的实数系：$\mathbb{R}_C=\mathcal{C}(\mathbb{Q})/{\sim}$
+
+函数在 $a$ 处的左极限与右极限：$f(a-)$，$f(a+)$
+
+函数在点 $a$ 处的导数：$f'(a)$
+
+函数在点 $a$ 处的左导数与右导数：$f'_-(a)$，$f'_+(a)$
+
+函数的微分：$\mathrm{d}f=f'(a)\,\mathrm{d}x$
+
+函数的 $n$ 阶导数：$f^{(n)}$
+
+$k$ 次连续可微函数类：$C^k(I)$
+
+光滑函数类：$C^\infty(I)$
+
+不定积分：$\displaystyle\int f(x)\,\mathrm{d}x$
+
+闭区间 $[a,b]$ 的分划：$P:\ a=x_0<x_1<\cdots<x_n=b$
+
+分划的网长：$\|P\|=\max_{1\leq i\leq n}(x_i-x_{i-1})$
+
+Riemann 和：$S(f;P,\xi)=\displaystyle\sum_{i=1}^nf(\xi_i)(x_i-x_{i-1})$
+
+Darboux 上和与下和：$U(f,P)$，$L(f,P)$
+
+数项级数或函数项级数的第 $n$ 个部分和：$s_n=\displaystyle\sum_{k=1}^n a_k$，$S_n(x)=\displaystyle\sum_{k=1}^n f_k(x)$
+
+级数的第 $n$ 个余项：$R_n=\displaystyle\sum_{k=n+1}^{\infty}a_k$，$R_n(x)=\displaystyle\sum_{k=n+1}^{\infty}f_k(x)$
+
+函数 $f:\mathbb{R}^n\to\mathbb{R}^m$ 在 $a$ 处的 Jacobi 矩阵：$J_f(a)=\left(\dfrac{\partial f_i}{\partial x_j}(a)\right)$
+
+实值函数的梯度：$\nabla f(a)=\left(\dfrac{\partial f}{\partial x_1}(a),\ldots,\dfrac{\partial f}{\partial x_n}(a)\right)$
+
+实值函数的 Hessian 矩阵：$H_f(a)=\left(\dfrac{\partial^2f}{\partial x_i\partial x_j}(a)\right)$
+
+多重指标：$\alpha=(\alpha_1,\ldots,\alpha_n)$，$|\alpha|=\displaystyle\sum_{i=1}^n\alpha_i$，$\alpha!=\alpha_1!\cdots\alpha_n!$，$h^\alpha=h_1^{\alpha_1}\cdots h_n^{\alpha_n}$，$D^\alpha f=\dfrac{\partial^{|\alpha|}f}{\partial x_1^{\alpha_1}\cdots\partial x_n^{\alpha_n}}$
+
+$n$ 维闭矩形：$Q=\displaystyle\prod_{i=1}^n[a_i,b_i]$，体积：$\operatorname{vol}(Q)=\displaystyle\prod_{i=1}^n(b_i-a_i)$
+
+多元 Riemann 积分：$\displaystyle\int_Q f(x)\,\mathrm{d}x$ 或 $\displaystyle\int_Ef(x)\,\mathrm{d}x$
+
+变换 $T$ 的 Jacobi 行列式：$J_T(u)=\det\left(\dfrac{\partial T_i}{\partial u_j}(u)\right)$
+
+平面极坐标：$x=r\cos\theta$，$y=r\sin\theta$，面积元：$\mathrm{d}x\,\mathrm{d}y=r\,\mathrm{d}r\,\mathrm{d}\theta$
+
+柱坐标：$x=r\cos\theta$，$y=r\sin\theta$，$z=z$，体积元：$\mathrm{d}x\,\mathrm{d}y\,\mathrm{d}z=r\,\mathrm{d}r\,\mathrm{d}\theta\,\mathrm{d}z$
+
+球坐标：$x=r\sin\varphi\cos\theta$，$y=r\sin\varphi\sin\theta$，$z=r\cos\varphi$，体积元：$\mathrm{d}x\,\mathrm{d}y\,\mathrm{d}z=r^2\sin\varphi\,\mathrm{d}r\,\mathrm{d}\varphi\,\mathrm{d}\theta$
+
+正则约束集合 $M=\{x:g(x)=0\}$ 在 $a$ 处的切空间：$T_aM=\ker Dg(a)$
+
+等式约束与不等式约束的 Lagrange/KKT 乘子：$\lambda_i\in\mathbb{R}$，$\mu_j\geq0$
+
+参数曲线：$\gamma:[a,b]\to\mathbb{R}^n$；切向量：$\gamma'(t)$；单位切向量：$T(t)=\dfrac{\gamma'(t)}{\|\gamma'(t)\|}$
+
+曲线的弧长：$L(\gamma)=\displaystyle\int_a^b\|\gamma'(t)\|\,\mathrm{d}t$
+
+第一型曲线积分：$\displaystyle\int_\gamma f\,\mathrm{d}s=\int_a^bf(\gamma(t))\|\gamma'(t)\|\,\mathrm{d}t$
+
+第二型曲线积分：$\displaystyle\int_\gamma F\cdot\mathrm{d}r=\int_a^bF(\gamma(t))\cdot\gamma'(t)\,\mathrm{d}t$
+
+平面向量场 $F=(P,Q)$ 的标量旋度：$\operatorname{curl}F=\dfrac{\partial Q}{\partial x}-\dfrac{\partial P}{\partial y}$
+
+参数曲面：$r:D\subseteq\mathbb{R}^2\to\mathbb{R}^3$；单位法向量：$n=\dfrac{r_u\times r_v}{\|r_u\times r_v\|}$；面积元素：$\mathrm{d}S=\|r_u\times r_v\|\,\mathrm{d}u\,\mathrm{d}v$
+
+第一型曲面积分：$\displaystyle\iint_Sf\,\mathrm{d}S$；定向面积元：$\mathrm{d}\mathbf{S}=n\,\mathrm{d}S$；第二型曲面积分（通量）：$\displaystyle\iint_SF\cdot\mathrm{d}\mathbf{S}$
+
+三维 del 算子：$\nabla=\left(\dfrac{\partial}{\partial x},\dfrac{\partial}{\partial y},\dfrac{\partial}{\partial z}\right)$
+
+三维向量场 $F=(P,Q,R)$ 的散度：$\operatorname{div}F=\nabla\cdot F=P_x+Q_y+R_z$
+
+三维向量场的旋度：$\operatorname{curl}F=\nabla\times F$
+
+Laplace 算子：$\Delta f=\nabla\cdot\nabla f=f_{xx}+f_{yy}+f_{zz}$
+
+外法向方向的法向导数：$\dfrac{\partial f}{\partial n}=\nabla f\cdot n$
+
+标量势与向量位势：$F=\nabla\phi$，$F=\operatorname{curl}A$
+
+Helmholtz 分解：$F=F_{\mathrm{irr}}+F_{\mathrm{sol}}=-\nabla\Phi+\operatorname{curl}A$

@@ -1,0 +1,79 @@
+keypoints:
+  # weyl_equidistribution.md
+  - id: analytic_number_theory_uniform_distribution_definition
+    title: 均匀分布
+    file: weyl_equidistribution.md
+    type: Definition
+
+  - id: analytic_number_theory_weyl_criterion_theorem
+    title: Weyl 判别准则
+    file: weyl_equidistribution.md
+    type: Theorem
+
+  - id: analytic_number_theory_weyl_polynomial_equidistribution_theorem
+    title: 多项式序列的均匀分布
+    file: weyl_equidistribution.md
+    type: Theorem
+
+  - id: analytic_number_theory_kronecker_equidistribution_example
+    title: 无理旋转的均匀分布
+    file: weyl_equidistribution.md
+    type: Example
+
+  # gauss_sums.md
+  - id: analytic_number_theory_quadratic_gauss_sum_definition
+    title: 二次 Gauss 和
+    file: gauss_sums.md
+    type: Definition
+
+  - id: analytic_number_theory_quadratic_gauss_sum_evaluation
+    title: 二次 Gauss 和的计算
+    file: gauss_sums.md
+    type: Theorem
+
+  - id: analytic_number_theory_quadratic_gauss_sum_magnitude
+    title: 二次 Gauss 和的模
+    file: gauss_sums.md
+    type: Corollary
+
+  - id: analytic_number_theory_gauss_sum_quadratic_reciprocity_connection
+    title: Gauss 和与二次互反律
+    file: gauss_sums.md
+    type: Theorem
+
+  # kloosterman_sums.md
+  - id: analytic_number_theory_kloosterman_sum_definition
+    title: Kloosterman 和
+    file: kloosterman_sums.md
+    type: Definition
+
+  - id: analytic_number_theory_kloosterman_weil_bound
+    title: Kloosterman 和的 Weil 界
+    file: kloosterman_sums.md
+    type: Theorem
+
+  - id: analytic_number_theory_kloosterman_sum_symmetries
+    title: Kloosterman 和的基本对称性
+    file: kloosterman_sums.md
+    type: Theorem
+
+  # van_der_corput_method.md
+  - id: analytic_number_theory_van_der_corput_differencing_inequality
+    title: van der Corput 差分不等式
+    file: van_der_corput_method.md
+    type: Theorem
+
+  - id: analytic_number_theory_van_der_corput_A_process
+    title: van der Corput A 过程
+    file: van_der_corput_method.md
+    type: Theorem
+
+  - id: analytic_number_theory_van_der_corput_B_process
+    title: van der Corput B 过程
+    file: van_der_corput_method.md
+    type: Theorem
+
+  - id: analytic_number_theory_van_der_corput_exponent_pairs_note
+    title: 指数对与 A/B 过程
+    file: van_der_corput_method.md
+    type: Theorem

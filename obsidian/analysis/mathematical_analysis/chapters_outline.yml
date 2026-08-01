@@ -1,0 +1,233 @@
+mathematical_analysis:
+  title: 数学分析
+  sections:
+    - real_number_system:
+        title: 实数系
+        subsections:
+          - construction_of_real_numbers:
+              title: 实数的构造
+              content: 有理数的不完备性、Dedekind 分割构造实数、Cauchy 序列构造实数、两种构造的等价性、实数的公理化定义（完备有序域）
+          - order_and_completeness:
+              title: 序与完备性
+              content: 实数的序结构、上确界与下确界、确界存在定理（最小上界性质）、Archimedean 性质、有数在实数中的稠密性、无理数的稠密性
+          - extended_real_line:
+              title: 广义实数系
+              content: 广义实数的定义、序与运算的扩展、广义实数上的拓扑
+    - limits_and_continuity:
+        title: 极限与连续
+        subsections:
+          - limits_of_functions:
+              title: 函数的极限
+              content: 函数极限的定义、Heine 归结原则（序列极限刻画）、单侧极限、无穷远处的极限、极限的四则运算、复合函数的极限
+          - continuous_functions:
+              title: 连续函数
+              content: 连续的定义、连续与拓扑连续的一致性、间断点的分类（第一类、第二类）、连续函数的四则运算、复合函数的连续性、初等函数的连续性
+          - properties_on_intervals:
+              title: 闭区间上连续函数的性质
+              content: 连续必有界定理、最值定理（Weierstrass 定理）、介值定理（Bolzano 定理）、零点存在定理、反函数连续性定理、一致连续性定理
+    - differentiation_of_one_variable:
+        title: 一元函数的微分
+        subsections:
+          - derivative_and_differential:
+              title: 导数与微分
+              content: 导数的定义、左导数与右导数、可导与连续的关系、微分的定义、初等函数的导数
+          - rules_of_differentiation:
+              title: 求导法则
+              content: 函数导数的线性性质、乘积法则、复合函数求导的链式法则、商法则、反函数求导法则
+          - mean_value_theorems:
+              title: 微分中值定理
+              content: Fermat 引理、Rolle 定理、Lagrange 中值定理、Cauchy 中值定理、Darboux 定理（导数的介值性）
+          - higher_order_derivatives:
+              title: 高阶导数
+              content: 高阶导数的定义、Leibniz 公式、$C^k$ 函数类、光滑函数类 $C^\infty$
+          - lhopital_rule:
+              title: 洛必达法则
+              content: 洛必达法则的陈述、适用条件、证明思路、常见的应用
+          - monotonicity:
+              title: 函数的单调性
+              content: 单调函数的定义、单调性判定、单调函数的性质
+          - extremum_and_stationary_point:
+              title: 极值与驻点
+              content: 极值的定义、最值的定义、驻点的定义
+          - convexity:
+              title: 函数的凸性
+              content: 凸（凹）函数的定义、严格凸（凹）函数、Jensen 不等式、凸函数的性质、凸函数的判定
+          - asymptote:
+              title: 函数的渐近线
+              content: 渐近线的定义、渐近线的分类
+          - inverse_function_theorem:
+              title: 反函数定理
+              content: 反函数存在的条件、一元函数反函数定理
+          - antiderivative_and_indefinite_integral:
+              title: 原函数与不定积分
+              content: 原函数的定义、原函数存在定理、不定积分的定义、不定积分的性质、分部积分、还原积分
+    - riemann_integration:
+        title: Riemann 积分
+        subsections:
+          - definition_of_riemann_integral:
+              title: Riemann 积分的定义
+              content: 闭区间的分划定义、黎曼和的定义、黎曼积分的极限定义、黎曼上积分与黎曼下积分、Riemann 可积的等价定义、等价性证明的思路、Darboux 判据
+          - condition_for_riemann_integrability:
+              title: Riemann 可积的条件
+              content: 黎曼可积的必要条件（有界函数）、黎曼可积的充分条件（连续函数、有限间断点的函数、单调函数）
+          - properties_of_riemann_integral:
+              title: Riemann 积分的性质
+              content: 线性性、有限可加性、区间可加性、单调性、绝对值不等式、可积函数的相乘依然可积
+          - integration_mean_value_theorems:
+              title: 积分中值定理
+              content: 第一积分中值定理及其推论、第二积分中值定理及其推论
+          - fundamental_theorem_of_calculus:
+              title: 微积分基本定理
+              content: 变限积分与原函数存在性、Newton-Leibniz 公式、分部积分公式、换元积分公式
+          - improper_integrals:
+              title: 反常积分
+              content: 无穷区间反常积分、瑕积分、反常积分的收敛与发散、比较判别法、Dirichlet 判别法、Abel 判别法、绝对收敛与条件收敛
+    - infinite_series:
+        title: 无穷级数
+        subsections:
+          - series_of_numbers:
+            title: 数项级数
+            content: 数项级数的定义、收敛数项级数的极限、数项级数收敛的柯西准则 Cauchy 收敛准则、数项级数收敛的必要条件、绝对收敛与条件收敛、级数的四则运算
+          - convergence_of_series_of_numbers:
+              title: 数项级数的收敛判别
+              content: 正项数项级数收敛的判别法、一般数项级数收敛性的判别法
+          - sequence_of_functions:
+              title: 函数列
+              content: 函数列的定义、函数列的逐点收敛与一致收敛、函数列一致收敛的柯西准则、函数列一致收敛的性质
+          - series_of_functions:
+              title: 函数项级数
+              content: 函数项级数的定义、函数项级数的逐点收敛与一致收敛、函数项级数一致收敛的柯西准则、余项、函数项级数一致收敛的性质
+          - convergence_of_series_of_functions:
+              title: 函数项级数的收敛判别
+              content: Weierstrass M-判别法、Dirichlet 判别法、Abel 判别法
+          - power_series:
+              title: 幂级数
+              content: 幂级数的收敛半径、Cauchy-Hadamard 公式、Abel 定理、幂级数的一致收敛、幂级数的分析性质（连续、可导、可积）
+          - taylor_series:
+              title: Taylor 级数
+              content: Taylor 级数与 Taylor 级数展开、Taylor 级数的收敛性、泰勒级数展开的唯一性、泰勒级数展开的条件、Taylor 级数的余项估计、初等函数的泰勒级数展开
+          - trigonometric_series:
+              title: 三角级数
+              content: 三角级数的定义、三角级数收敛的充分条件、三角函数列的正交性
+          - fourier_series:
+              title: Fourier 级数初步
+              content: Fourier 级数与 Fourier 级数展开、Fourier 系数、傅里叶级数的唯一性、傅里叶级数收敛的条件
+    - limits_and_continuity_2:
+        title: 多元函数的极限与连续
+        subsections:
+          - euclidean_space_topology:
+              title: 欧氏空间的拓扑
+              content: $\mathbb{R}^n$ 的度量结构、开集与闭集、紧集（Heine-Borel）、连通集、序列收敛
+          - limits_of_multivariable_functions:
+              title: 多元函数的极限
+              content: 多元函数极限的定义、累次极限与重极限、Heine 归结原则（序列极限刻画）、无穷远处的极限、极限的四则运算、复合函数的极限
+          - continuity_of_multivariable_functions:
+              title: 多元函数的连续
+              content: 多元函数连续的定义、闭集紧集上连续函数的性质、一致连续性定理
+          - properties_of_bounded_closed_sets:
+              title: 有界闭域上连续函数的性质
+              content: 有界闭集的定义、Heine-Borel 定理、多元连续函数在有界闭集上的性质
+    - multivariable_differentiation:
+        title: 多元函数的微分
+        subsections:
+          - partial_and_directional_derivatives:
+              title: 偏导数与方向导数
+              content: 偏导数的定义、方向导数的定义、偏导数与方向导数的关系、偏导数存在但不连续的例子
+          - total_differentiability:
+              title: 全微分
+              content: 可微的定义（Fréchet 可微）、可微与偏导存在、可微与连续的关系、Jacobi 矩阵、梯度、切平面
+          - chain_rule_and_higher_derivatives:
+              title: 链式法则与高阶偏导数
+              content: 多元复合函数的链式法则、高阶偏导数、混合偏导数相等定理（Clairaut-Schwarz 定理）、$C^k$ 类函数
+          - taylor_formula_multivariable:
+              title: 多元 Taylor 公式
+              content: 多元 Taylor 公式、Hessian 矩阵、多元函数的极值、二阶充分条件
+    - multivariable_integration:
+        title: 多元函数的积分
+        subsections:
+          - multiple_integrals:
+              title: 重积分
+              content: 矩形上的 Riemann 积分、Jordan 可测集、一般区域上的重积分、可积性判别、重积分的性质
+          - fubini_theorem:
+              title: Fubini 定理
+              content: 累次积分、Fubini 定理（Riemann 版本）、积分次序交换
+          - change_of_variables:
+              title: 变量替换
+              content: Jacobi 行列式、变量替换公式、极坐标、柱坐标、球坐标
+    - differentiation_of_vector_valued_functions:
+        title: 向量值函数的微分
+        subsections:
+          - definition_vector_valued_functions:
+              title: 向量值函数的定义
+              content: 向量值函数的定义、分量函数、数量场与向量场的定义、常见向量场的例子（位置场、速度场、力场）
+          - limits_and_continuity_vector_valued_functions:
+              title: 向量值函数的极限与连续
+              content: 向量值函数的极限（分量刻画）、向量值函数的连续性、闭集紧集上连续向量函数的性质、一致连续性
+          - derivative_of_vector_valued_functions:
+              title: 向量值函数的导数
+              content: 全导数（Fréchet 导数）的定义、Jacobi 矩阵、分量函数偏导数的关系、方向导数、链式法则的一般形式（矩阵乘积）
+          - inverse_function_theorem_vector:
+              title: 向量值反函数定理
+              content: 局部微分同胚、Banach 不动点定理的应用、向量值反函数定理、Jacobi 行列式非零的意义
+          - implicit_function_theorem:
+              title: 隐函数定理
+              content: 向量值隐函数定理、局部求解方程组、隐函数定理与反函数定理的等价性、秩定理（浸入定理、淹没定理）
+          - constrained_extrema:
+              title: 条件极值
+              content: 约束曲面的切空间、Lagrange 乘数法、有效约束、不等式约束（Karush-Kuhn-Tucker 条件简介）
+    - curve_and_surface_integration:
+        title: 曲线曲面积分
+        subsections:
+          - parametrized_curves:
+              title: 参数曲线
+              content: 参数曲线的定义、光滑曲线、可求长曲线、弧长参数化、切向量、曲线的定向
+          - line_integrals_first_kind:
+              title: 第一型曲线积分
+              content: 对弧长的曲线积分（数量场沿曲线的积分）、定义与计算、与参数化的无关性、几何与物理意义（质量、质心）
+          - line_integrals_second_kind:
+              title: 第二型曲线积分
+              content: 对坐标的曲线积分（向量场沿曲线的积分）、功、环量、定向依赖性、两类曲线积分的关系
+          - greens_theorem:
+              title: Green 定理
+              content: 平面区域的定向、Green 定理（第二型曲线积分与二重积分的关系）、平面向量场的旋度、通过 Green 定理计算面积
+          - parametrized_surfaces:
+              title: 参数曲面
+              content: 参数曲面的定义、光滑曲面、切平面、单位法向量、曲面的定向（可定向与不可定向）、面积元素
+          - surface_integrals_first_kind:
+              title: 第一型曲面积分
+              content: 对面积的曲面积分（数量场在曲面上的积分）、定义与计算、几何与物理意义（质量、质心）
+          - surface_integrals_second_kind:
+              title: 第二型曲面积分
+              content: 对坐标的曲面积分（向量场通量）、定义与计算、定向依赖性、两类曲面积分的关系
+    - introduction_of_field_theory:
+        title: 场论初步
+        subsections:
+          - gradient_divergence_curl:
+              title: 梯度、散度与旋度
+              content: del 算子、数量场的梯度、向量场的散度、向量场的旋度、laplace 算子
+          - derivative_rules_and_identities:
+              title: 求导法则与向量微分恒等式
+          - gauss_divergence_theorem:
+              title: Gauss 散度定理
+              content: Gauss 散度定理（体积分与曲面通量的关系）、散度的物理意义（源与汇）、Green 恒等式（第一、第二 Green 公式）
+          - stokes_theorem_classical:
+              title: 经典 Stokes 定理
+              content: 空间曲面的定向、经典 Stokes 定理（曲面通量与边界环量的关系）、旋度的物理意义、Green 定理作为特例
+          - rotational_and_irrotational_vector_fields:
+              title: 有旋场与无旋场
+              content: 有旋与无旋场的定义、保守场与势函数、保守场与无旋长的关系
+          - divergence_and_divergence_free_fields:
+              title: 有源与无源场
+              content: 有源与无源场的定义、向量场无源的充要条件
+          - irrotational_divergence_free_field:
+              title: 无旋无源场
+              content: 无旋无源场的定义、无旋无源场的性质
+          - conservative_fields_and_potential:
+              title: 保守场与位势
+              content: 保守向量场的定义、位势函数、路径无关性、单连通区域上无旋场即保守场、位势的存在性判据
+          - solenoidal_fields_and_vector_potential:
+              title: 无散场与向量位势
+              content: 无散向量场的定义、向量位势、Helmholtz 分解（向量场分解为无旋部分与无散部分）
+          - helmholtz_decomposition:
+              title: Helmholtz 分解
+              content: 向量场的 Helmholtz 分解定理、对应无旋场和无源场的求解、分解唯一的条件

@@ -1,0 +1,53 @@
+keypoints:
+  # dirichlet_theorem.md
+  - id: analytic_number_theory_primes_in_arithmetic_progression_counting_definition
+    title: 算术级数中的素数计数函数
+    file: dirichlet_theorem.md
+    type: Definition
+
+  - id: analytic_number_theory_dirichlet_theorem_on_primes_in_ap
+    title: Dirichlet 算术级数素数定理
+    file: dirichlet_theorem.md
+    type: Theorem
+
+  - id: analytic_number_theory_coprimality_necessity_for_dirichlet_theorem
+    title: 互素条件的必要性
+    file: dirichlet_theorem.md
+    type: Theorem
+
+  # proof_via_l_functions.md
+  - id: analytic_number_theory_residue_class_character_expansion
+    title: 同余类示性函数的特征展开
+    file: proof_via_l_functions.md
+    type: Theorem
+
+  - id: analytic_number_theory_ap_von_mangoldt_l_series_identity
+    title: 同余类 von Mangoldt 和的 L 级数分解
+    file: proof_via_l_functions.md
+    type: Theorem
+
+  - id: analytic_number_theory_dirichlet_theorem_l_function_proof
+    title: Dirichlet 定理的 L 函数证明
+    file: proof_via_l_functions.md
+    type: Theorem
+
+  # prime_number_theorem_for_arithmetic_progressions.md
+  - id: analytic_number_theory_prime_number_theorem_for_arithmetic_progressions
+    title: 算术级数中的素数定理
+    file: prime_number_theorem_for_arithmetic_progressions.md
+    type: Theorem
+
+  - id: analytic_number_theory_ap_pnt_equidistribution_corollary
+    title: 既约剩余类中的渐近均分
+    file: prime_number_theorem_for_arithmetic_progressions.md
+    type: Corollary
+
+  - id: analytic_number_theory_siegel_walfisz_theorem
+    title: Siegel-Walfisz 定理
+    file: prime_number_theorem_for_arithmetic_progressions.md
+    type: Theorem
+
+  - id: analytic_number_theory_siegel_walfisz_pi_form_corollary
+    title: Siegel-Walfisz 定理的素数计数形式
+    file: prime_number_theorem_for_arithmetic_progressions.md
+    type: Corollary

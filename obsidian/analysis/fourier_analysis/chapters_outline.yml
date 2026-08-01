@@ -1,0 +1,108 @@
+fourier_analysis:
+  title: 傅里叶分析
+  sections:
+    - fourier_series:
+        title: 傅里叶级数
+        subsections:
+            - trigonometric_series:
+                title: 三角级数
+                content: 三角级数的定义、周期函数的正交系（三角函数系的正交性）
+            - fourier_coefficients:
+                title: 傅里叶系数
+                content: 傅里叶系数的定义、复形式的傅里叶级数、Bessel 不等式
+            - convergence_of_fourier_series:
+                title: 傅里叶级数的收敛性
+                content: 点态收敛（Dirichlet 定理）、Riemann-Lebesgue 引理、Dirichlet 核与 Fejér 核、局部化定理
+            - cesaro_and_abel_summation:
+                title: Cesàro 求和与 Abel 求和
+                content: Cesàro 平均、Fejér 定理、Abel 求和法、Poisson 核
+            - l2_theory_of_fourier_series:
+                title: 傅里叶级数的 L² 理论
+                content: 三角函数系的完备性、Parseval 恒等式、Riesz-Fischer 定理、平均收敛
+            - uniform_convergence:
+                title: 一致收敛
+                content: 一致收敛的判定条件、光滑函数傅里叶级数的一致收敛、Gibbs 现象
+            - divergence_phenomena:
+                title: 发散现象
+                content: 连续函数傅里叶级数点态发散的例子、Kolmogorov 例子简介
+    - fourier_transform:
+        title: 傅里叶变换
+        subsections:
+            - definition_and_basic_properties:
+                title: 定义与基本性质
+                content: L¹ 函数的傅里叶变换、线性性、平移、缩放、调制、共轭对称性、Riemann-Lebesgue 引理
+            - inversion_formula:
+                title: 反演公式
+                content: 傅里叶反演公式、Fourier 变换与 Fourier 反变换的对偶性
+            - fourier_transform_on_l2:
+                title: L² 上的傅里叶变换
+                content: Plancherel 定理、Parseval 恒等式、L² 傅里叶变换作为酉算子
+            - convolution_and_fourier_transform:
+                title: 卷积与傅里叶变换
+                content: 卷积定理、卷积的傅里叶变换、逼近单位（approximation of identity）
+            - schwartz_space:
+                title: Schwartz 空间
+                content: Schwartz 空间的定义、Schwartz 空间上的傅里叶变换、Fourier 变换在 Schwartz 空间上的自同构性
+            - tempered_distributions:
+                title: 缓增分布
+                content: 缓增分布的定义、缓增分布的傅里叶变换、Dirac δ 函数、主值分布
+            - poisson_summation_formula:
+                title: Poisson 求和公式
+                content: Poisson 求和公式、应用于函数值的求和、Jacobi θ 函数（为解析数论中函数方程做准备）
+            - uncertainty_principle:
+                title: 不确定性原理
+                content: Heisenberg 不确定性原理、Hardy 不确定性原理
+    - discrete_fourier_analysis:
+        title: 离散傅里叶分析
+        subsections:
+            - discrete_fourier_transform:
+                title: 离散傅里叶变换
+                content: 离散傅里叶变换的定义、逆变换、性质
+            - fast_fourier_transform:
+                title: 快速傅里叶变换
+                content: Cooley-Tukey 算法、FFT 的应用
+            - fourier_analysis_on_finite_groups:
+                title: 有限群上的傅里叶分析
+                content: 有限阿贝尔群上的特征、Fourier 变换、Plancherel 定理（为 Dirichlet 特征做准备）
+    - fourier_analysis_on_groups:
+        title: 群上的傅里叶分析
+        subsections:
+            - characters_of_abelian_groups:
+                title: 阿贝尔群的特征
+                content: 局部紧阿贝尔群的连续特征、对偶群、Pontryagin 对偶
+            - fourier_transform_on_lca_groups:
+                title: 局部紧阿贝尔群上的傅里叶变换
+                content: Haar 测度、群上的 Fourier 变换、Plancherel 定理
+            - fourier_analysis_on_torus:
+                title: 环面上的傅里叶分析
+                content: T = R/Z 上的 Fourier 级数、高维环面上的 Fourier 分析
+    - applications:
+        title: 应用
+        subsections:
+            - heat_equation:
+                title: 热传导方程
+                content: 圆环上的热传导方程、半直线与全直线上的热传导方程、Gauss 核
+            - wave_equation:
+                title: 波动方程
+                content: d'Alembert 公式、Fourier 方法求解波动方程
+            - laplace_equation_on_disk:
+                title: 圆盘上的 Laplace 方程
+                content: 圆盘上的 Dirichlet 问题、Poisson 核
+            - sampling_theorem:
+                title: 采样定理
+                content: Shannon 采样定理、带限函数
+    - selected_topics:
+        title: 选题
+        subsections:
+            - hilbert_transform:
+                title: Hilbert 变换
+                content: Hilbert 变换的定义、L² 有界性、L^p 有界性
+            - littlewood_paley_theory_intro:
+                title: Littlewood-Paley 理论简介
+                content: 二进分解、Littlewood-Paley 平方函数
+            - hardy_spaces_intro:
+                title: Hardy 空间简介
+                content: H^p 空间、原子分解、BMO 空间
+            - fourier_analysis_and_number_theory:
+                title: 傅里叶分析与数论的联系
+                content: 三角和估计、Weyl 均匀分布定理、圆法（circle method）初步、θ 函数与 Poisson 求和公式在解析数论中的应用
