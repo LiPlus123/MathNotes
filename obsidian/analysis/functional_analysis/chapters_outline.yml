@@ -129,31 +129,44 @@ functional_analysis:
             content: Lax–Milgram 定理、Lax–Milgram 定理的应用
     - unbounded_linear_operators:
         title: 无界线性算子
-    - conjugate_operator:
-        title: 共轭算子
+        subsections:
+          - def_unbounded_linear_operators:
+            title: 无界线性算子的定义
+            content: 无界线性算子的定义、无界线性算子与有界线性算子的区别
+          - closed_operator:
+            title: 闭算子
+            content: 算子的图、闭算子的定义、无界闭算子的定义、无界闭算子的例子、图模、闭算子的等价条件、可闭化线性算子、可闭化线性算子的等价条件、闭算子的性质
+          - dense_operator:
+            title: 稠定算子
+            content: 稠定算子的定义、稠定算子的基本性质、稠定算子的例子
+    - conjugate_operator_and_adjoint_operator:
+        title: 共轭算子与伴随算子
         subsections:
           - conjugate_operator_of_bounded_linear_operator:
             title: 有界线性算子的共轭算子
-            content: 共轭算子的定义、共轭算子的基本性质、共轭算子的范数
-          - conjugate_operator_of_unbounded_linear_operator:
-            title: 无界线性算子的共轭算子
-            content: 无界算子共轭的定义（通过定义域的配对）、共轭算子的定义域 $\mathcal{D}(A^*)$、共轭算子的闭性（$A^*$ 总是闭算子）、稠定算子的共轭存在性、$(A^*)^*$ 与 $\overline{A}$ 的关系
-          - symmetric_selfadjoint_and_essentially_selfadjoint:
-            title: 对称、自伴与本质自伴
-            content: 对称算子的定义与基本性质、自伴算子的判定准则、本质自伴算子的定义、对称算子的亏指数（deficiency indices）、von Neumann 亏指数理论、自伴延拓的存在性与分类（亏指数相等时存在酉参数化的自伴延拓）、Sturm-Liouville 算子的自伴延拓
+            content: 有界线性算子的共轭算子的定义、有限维空间中线性算子的共轭算子、共轭算子的基本性质、共轭算子的范数、有界线性算子的伴随算子范数的性质
+          - conjugate_operator_of_dense_linear_operator:
+            title: 稠定线性算子的共轭算子
           - normal_operator:
             title: 正规算子
-            content: 正规算子的定义、正规算子的等价刻画、正规算子的谱性质、正规算子的谱分解（谱测度形式）、正规算子的函数演算、$C^*$-代数视角下的正规算子
           - unitary_operator:
             title: 酉算子
-            content: 酉算子的定义（$U^*U=UU^*=I$）、酉算子的等价刻画（等距满射）、酉算子的谱在单位圆周上、Stone 定理（单参数酉群与自伴算子的关系）、酉算子在量子力学时间演化与调和分析中平移算子的角色
+          - symmetric_operator:
+            title: 对称算子
           - self_adjoint_operator:
             title: 自伴算子
-            content: 自伴算子的定义与等价条件、自伴算子的谱是实的、自伴算子的谱半径等于范数、自伴算子的谱分解（谱测度）、紧自伴算子的谱定理（Hilbert-Schmidt 展开）、自伴算子的函数演算、自伴算子在量子力学中的物理意义
+          - essentially_self_adjoint_operator:
+            title: 本质自伴算子
+    - spectral_theory_of_bounded_operator:
+        title: 有界线性算子的谱理论
+        subsections:
+          - regular_point_and_spectrum:
+            title: 正则点与谱点
+            content: 正则点的定义、谱的定义、谱的分类、与有限维空间中特征值的关系
+    - spectral_theory_of_normal_operator:
+        title: 正规算子的谱理论
     - compact_operator_and_fredholm_theory:
         title: 紧算子与弗雷德霍姆理论
-    - spectral_theory_of_operator:
-        title: 算子谱理论
     - banach_algebra:
         title: 巴拿赫代数
     - operator_semigroups:
